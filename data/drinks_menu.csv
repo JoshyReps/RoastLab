@@ -1,0 +1,15 @@
+drink_name,sweetness,caffeine,category,desc
+Signature Cold Brew,1.5,9.2,Cold Coffee,"Steeped for 20h, bold, chocolate notes, zero sugar"
+Nitro Draft Coffee,2.0,9.5,Cold Coffee,"Velvety head, creamy texture without dairy"
+Double Espresso,1.0,9.8,Hot Espresso,"Rich crema, intense caramelized body"
+Artisanal Americano,1.8,8.0,Hot Espresso,Hot water pulled over double espresso shots
+Flat White,3.5,7.5,Milk Coffee,Microfoam milk with double ristretto
+Cortado,2.8,8.2,Milk Coffee,Equal parts espresso and warm steamed milk
+Caffe Latte,4.5,6.5,Milk Coffee,Smooth steamed milk with rich espresso base
+Spanish Latte,7.8,6.8,Sweet Coffee,Espresso infused with sweetened condensed milk
+Caramel Macchiato,8.5,6.0,Sweet Coffee,Vanilla-infused milk marked with espresso & caramel drizzle
+Mocha Truffle,7.5,7.0,Sweet Coffee,Artisan dark cacao melted with espresso and whole milk
+Vanilla Bean Frappe,9.2,4.0,Blended,"Blended ice, real Madagascar vanilla, whipped cream"
+Brown Sugar Oat Latte,6.8,5.8,Plant-based,Rolled oat milk with spiced brown sugar reduction
+Matcha Espresso Fusion,5.5,6.2,Specialty,Ceremonial grade Uji matcha layered with single-origin espresso
+Decaf Honey Cinnamon Cappuccino,5.0,1.2,Low Caffeine,Swiss water decaf with wild honey and Ceylon cinnamon

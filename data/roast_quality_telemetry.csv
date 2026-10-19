@@ -1,0 +1,351 @@
+charge_temp_c,drop_temp_c,roast_time_min,first_crack_time_min,avg_ror_c_per_min,sca_cupping_score,quality_tier
+199.4,216.6,11.93,9.6,8.17,86.85,Specialty Grade
+213.8,224.7,9.29,7.09,8.17,78.0,Underdeveloped / Reprocess
+208.3,220.1,10.85,8.82,7.26,83.49,Premium Commercial
+205.0,208.7,9.74,7.75,12.15,79.42,Underdeveloped / Reprocess
+193.9,206.6,9.35,7.66,11.65,78.0,Underdeveloped / Reprocess
+193.9,219.8,14.44,10.72,10.32,78.0,Underdeveloped / Reprocess
+191.5,205.6,10.77,8.53,12.91,78.0,Underdeveloped / Reprocess
+211.7,218.5,13.45,10.07,12.64,78.0,Underdeveloped / Reprocess
+205.0,226.6,10.4,7.88,11.1,78.0,Underdeveloped / Reprocess
+207.7,218.2,12.75,9.88,13.08,79.53,Underdeveloped / Reprocess
+190.5,213.9,13.18,10.61,8.44,83.63,Premium Commercial
+214.2,219.8,12.28,10.04,7.78,84.49,Specialty Grade
+210.8,215.5,11.59,9.18,8.89,89.11,Presidential Specialty
+195.3,217.5,11.27,8.45,7.4,86.29,Specialty Grade
+194.5,226.7,10.92,8.2,10.72,78.0,Underdeveloped / Reprocess
+194.6,213.9,14.11,11.13,13.56,78.0,Underdeveloped / Reprocess
+197.6,227.1,13.57,9.89,7.28,78.0,Underdeveloped / Reprocess
+203.1,225.8,14.31,10.21,7.85,78.0,Underdeveloped / Reprocess
+200.8,209.5,9.68,7.19,10.17,82.04,Premium Commercial
+197.3,206.6,13.02,9.56,13.54,78.0,Underdeveloped / Reprocess
+205.3,207.3,14.16,10.42,9.21,78.0,Underdeveloped / Reprocess
+193.5,205.4,10.0,7.28,10.55,79.54,Underdeveloped / Reprocess
+197.3,207.2,9.37,6.6,7.29,78.0,Underdeveloped / Reprocess
+199.2,220.7,13.08,9.18,8.04,80.5,Premium Commercial
+201.4,206.6,12.16,9.95,13.91,78.0,Underdeveloped / Reprocess
+209.6,212.3,13.63,10.24,13.76,78.0,Underdeveloped / Reprocess
+195.0,224.4,9.77,7.29,7.03,78.0,Underdeveloped / Reprocess
+202.9,205.5,13.37,10.45,13.66,78.0,Underdeveloped / Reprocess
+204.8,223.7,10.11,7.34,11.47,78.0,Underdeveloped / Reprocess
+191.2,211.5,9.9,8.06,13.08,79.01,Underdeveloped / Reprocess
+205.2,207.7,9.9,7.87,10.18,82.08,Premium Commercial
+194.3,221.0,13.48,9.58,10.61,78.07,Underdeveloped / Reprocess
+191.6,219.5,12.66,9.5,10.42,83.96,Premium Commercial
+213.7,225.2,11.88,9.57,11.67,78.0,Underdeveloped / Reprocess
+214.1,221.9,10.97,8.93,7.98,83.95,Premium Commercial
+210.2,223.5,13.82,10.45,7.21,78.0,Underdeveloped / Reprocess
+197.6,211.5,11.16,8.63,9.16,88.02,Presidential Specialty
+192.4,209.1,13.49,9.71,11.93,78.14,Underdeveloped / Reprocess
+207.1,222.3,11.42,9.35,8.41,82.88,Premium Commercial
+201.0,223.6,11.07,8.06,11.71,78.92,Underdeveloped / Reprocess
+193.1,227.8,11.54,9.39,13.79,78.0,Underdeveloped / Reprocess
+202.4,214.5,10.66,8.29,7.66,86.28,Specialty Grade
+190.9,213.6,13.11,10.13,11.71,82.07,Premium Commercial
+212.7,222.9,11.76,8.96,10.11,83.28,Premium Commercial
+196.5,212.8,10.28,7.48,13.08,81.13,Premium Commercial
+206.6,226.4,13.95,10.06,8.24,78.0,Underdeveloped / Reprocess
+197.8,224.7,11.11,8.07,11.85,78.0,Underdeveloped / Reprocess
+203.0,214.9,11.99,8.66,12.87,83.36,Premium Commercial
+203.7,222.3,13.99,11.1,13.61,78.0,Underdeveloped / Reprocess
+194.6,222.4,12.43,9.23,11.78,80.02,Premium Commercial
+214.2,207.4,9.64,6.82,10.48,80.48,Premium Commercial
+209.4,225.8,14.17,11.57,11.32,78.0,Underdeveloped / Reprocess
+213.5,216.6,12.45,10.04,13.08,82.45,Premium Commercial
+212.4,224.0,10.84,8.8,10.99,80.15,Premium Commercial
+204.9,212.4,9.77,8.0,7.21,82.33,Premium Commercial
+213.0,225.6,13.37,9.64,13.52,78.0,Underdeveloped / Reprocess
+192.2,214.0,12.41,9.28,11.83,84.71,Specialty Grade
+194.9,205.2,11.93,9.44,11.74,80.41,Premium Commercial
+191.1,225.8,13.92,10.9,8.51,78.0,Underdeveloped / Reprocess
+198.1,207.1,13.34,9.58,11.61,78.12,Underdeveloped / Reprocess
+199.7,212.3,9.83,7.85,9.76,85.11,Specialty Grade
+196.8,226.9,10.71,7.79,11.56,78.0,Underdeveloped / Reprocess
+210.7,226.9,10.37,7.54,7.75,78.0,Underdeveloped / Reprocess
+198.9,218.2,13.09,10.01,11.6,82.12,Premium Commercial
+197.0,219.5,9.18,7.08,14.0,78.0,Underdeveloped / Reprocess
+203.6,215.3,12.13,9.34,7.34,86.04,Specialty Grade
+193.5,211.7,13.19,9.38,13.84,78.0,Underdeveloped / Reprocess
+210.1,212.6,13.82,11.13,9.85,80.5,Premium Commercial
+191.9,220.5,10.88,7.96,13.1,79.58,Underdeveloped / Reprocess
+214.7,222.3,13.52,9.67,12.48,78.0,Underdeveloped / Reprocess
+209.3,223.2,9.61,7.75,10.97,78.0,Underdeveloped / Reprocess
+195.0,223.2,13.66,11.12,12.17,78.0,Underdeveloped / Reprocess
+190.1,207.1,9.7,7.79,13.15,78.0,Underdeveloped / Reprocess
+210.4,216.4,11.19,8.92,9.83,89.16,Presidential Specialty
+207.7,206.3,13.39,10.42,9.29,79.62,Underdeveloped / Reprocess
+208.2,217.6,9.82,7.53,11.67,81.81,Premium Commercial
+209.3,215.2,10.26,7.29,12.65,82.52,Premium Commercial
+191.9,225.4,12.97,9.72,12.34,78.0,Underdeveloped / Reprocess
+199.0,213.1,12.96,9.65,12.58,81.31,Premium Commercial
+192.9,207.7,12.53,9.16,10.05,84.31,Specialty Grade
+211.6,208.3,12.82,10.08,12.72,79.86,Underdeveloped / Reprocess
+205.6,222.5,11.98,9.1,7.84,82.15,Premium Commercial
+198.3,219.2,10.38,7.37,10.81,84.33,Specialty Grade
+191.6,207.3,10.9,7.92,7.04,82.17,Premium Commercial
+197.8,206.9,10.0,7.82,9.27,81.55,Premium Commercial
+198.1,221.1,14.0,9.93,9.57,78.0,Underdeveloped / Reprocess
+208.2,206.7,12.21,9.79,9.77,84.47,Specialty Grade
+205.9,223.9,11.2,8.51,11.87,78.57,Underdeveloped / Reprocess
+212.2,221.2,11.54,8.74,9.72,85.2,Specialty Grade
+201.8,206.9,14.21,10.96,10.14,78.0,Underdeveloped / Reprocess
+193.0,207.0,9.84,7.86,8.66,80.68,Premium Commercial
+207.8,227.7,12.22,9.07,9.61,78.0,Underdeveloped / Reprocess
+209.0,213.6,11.78,9.21,8.59,89.06,Presidential Specialty
+204.0,213.5,12.36,9.49,7.51,86.88,Specialty Grade
+209.3,223.7,9.1,6.66,11.22,78.0,Underdeveloped / Reprocess
+202.3,226.8,13.8,11.11,11.68,78.0,Underdeveloped / Reprocess
+203.1,227.7,14.13,11.24,11.34,78.0,Underdeveloped / Reprocess
+200.7,222.3,12.11,9.43,10.24,82.07,Premium Commercial
+190.6,213.7,12.83,10.29,9.66,86.11,Specialty Grade
+192.7,206.9,14.07,11.32,13.04,78.0,Underdeveloped / Reprocess
+190.8,222.9,12.89,10.12,10.63,79.21,Underdeveloped / Reprocess
+205.9,217.8,9.84,7.88,10.35,83.88,Premium Commercial
+197.9,214.8,12.17,9.54,7.18,85.7,Specialty Grade
+202.7,225.8,12.34,9.64,9.39,78.0,Underdeveloped / Reprocess
+212.7,207.6,11.33,8.77,9.66,86.19,Specialty Grade
+196.2,216.3,13.05,10.31,9.79,84.44,Specialty Grade
+200.3,205.3,14.14,10.17,11.06,78.0,Underdeveloped / Reprocess
+208.9,215.8,14.09,11.35,10.74,78.64,Underdeveloped / Reprocess
+195.7,206.3,11.48,9.24,11.26,83.23,Premium Commercial
+191.9,207.7,9.62,6.77,12.35,78.0,Underdeveloped / Reprocess
+197.2,207.7,14.42,11.52,12.69,78.0,Underdeveloped / Reprocess
+194.0,219.9,13.61,9.74,12.03,78.0,Underdeveloped / Reprocess
+213.2,222.2,9.69,7.17,13.69,78.0,Underdeveloped / Reprocess
+210.2,218.4,14.06,11.1,7.13,78.0,Underdeveloped / Reprocess
+205.8,227.1,13.78,9.92,8.37,78.0,Underdeveloped / Reprocess
+211.8,213.6,11.85,9.46,7.05,86.7,Specialty Grade
+210.1,211.6,12.25,9.8,11.53,86.05,Specialty Grade
+194.7,225.0,11.19,8.52,13.29,78.0,Underdeveloped / Reprocess
+212.3,210.1,9.3,6.52,8.7,80.85,Premium Commercial
+203.5,227.2,10.84,7.96,13.49,78.0,Underdeveloped / Reprocess
+210.2,205.3,13.42,10.38,7.42,78.0,Underdeveloped / Reprocess
+212.4,227.3,9.03,7.38,13.54,78.0,Underdeveloped / Reprocess
+198.0,206.0,10.83,8.41,9.46,83.36,Premium Commercial
+192.8,225.5,11.19,8.18,7.71,78.0,Underdeveloped / Reprocess
+195.7,217.1,11.96,9.28,10.4,87.93,Specialty Grade
+200.7,227.8,14.06,10.75,8.8,78.0,Underdeveloped / Reprocess
+210.5,206.7,10.9,8.65,8.99,84.69,Specialty Grade
+211.5,217.7,10.91,7.78,9.15,88.2,Presidential Specialty
+190.2,227.3,13.06,10.33,12.62,78.0,Underdeveloped / Reprocess
+202.8,217.0,11.49,8.79,10.77,87.06,Specialty Grade
+200.4,219.5,10.24,8.35,9.18,83.64,Premium Commercial
+195.6,221.0,11.49,8.51,11.27,83.88,Premium Commercial
+193.0,215.5,9.77,7.58,12.01,80.98,Premium Commercial
+198.4,219.4,9.97,8.09,8.91,83.79,Premium Commercial
+213.6,218.4,11.74,8.36,9.89,87.75,Specialty Grade
+198.1,225.7,11.3,9.18,7.85,78.0,Underdeveloped / Reprocess
+203.0,206.0,14.03,10.98,8.27,78.0,Underdeveloped / Reprocess
+207.6,211.5,10.99,7.78,11.77,86.87,Specialty Grade
+199.1,226.9,12.19,8.98,8.27,78.0,Underdeveloped / Reprocess
+214.3,225.5,12.48,9.79,10.68,78.0,Underdeveloped / Reprocess
+214.1,215.5,9.07,6.5,11.96,78.31,Underdeveloped / Reprocess
+196.3,219.3,12.65,9.74,7.75,83.44,Premium Commercial
+202.4,211.4,9.98,7.4,10.97,84.4,Specialty Grade
+197.5,209.3,14.29,11.06,8.8,78.0,Underdeveloped / Reprocess
+197.1,215.7,9.82,6.93,13.74,78.0,Underdeveloped / Reprocess
+190.9,213.1,11.28,9.08,10.38,88.06,Presidential Specialty
+205.2,218.4,9.47,7.73,12.64,78.0,Underdeveloped / Reprocess
+202.6,206.8,14.48,11.82,10.85,78.0,Underdeveloped / Reprocess
+191.3,227.4,11.76,9.29,7.3,78.0,Underdeveloped / Reprocess
+197.0,227.7,12.27,8.78,11.43,78.0,Underdeveloped / Reprocess
+212.7,221.1,9.37,7.41,13.66,78.0,Underdeveloped / Reprocess
+196.0,217.3,13.12,9.23,11.21,83.15,Premium Commercial
+193.6,212.1,10.15,7.14,12.73,80.58,Premium Commercial
+202.2,223.7,13.94,10.3,13.19,78.0,Underdeveloped / Reprocess
+214.6,220.7,10.13,7.68,8.6,82.65,Premium Commercial
+196.1,208.7,10.05,7.96,8.48,82.31,Premium Commercial
+206.8,226.0,9.2,7.2,11.28,78.0,Underdeveloped / Reprocess
+209.0,223.9,11.6,8.74,9.88,81.46,Premium Commercial
+195.9,226.8,12.11,8.87,12.88,78.0,Underdeveloped / Reprocess
+208.2,221.7,9.36,7.67,13.3,78.0,Underdeveloped / Reprocess
+199.2,219.1,13.27,9.96,9.47,81.84,Premium Commercial
+205.8,214.6,11.49,8.67,8.66,89.59,Presidential Specialty
+205.8,226.5,11.88,8.55,12.46,78.0,Underdeveloped / Reprocess
+203.4,224.9,11.42,9.09,8.92,79.68,Underdeveloped / Reprocess
+192.3,206.0,11.2,8.78,12.76,78.56,Underdeveloped / Reprocess
+210.9,205.6,12.08,8.77,9.97,82.97,Premium Commercial
+198.0,213.7,9.85,7.0,11.67,82.57,Premium Commercial
+194.7,223.6,10.0,7.82,7.67,78.0,Underdeveloped / Reprocess
+191.0,227.7,13.74,10.7,11.37,78.0,Underdeveloped / Reprocess
+204.8,208.5,14.2,10.41,10.16,78.0,Underdeveloped / Reprocess
+206.9,218.7,11.05,9.0,11.11,85.97,Specialty Grade
+190.4,213.8,10.49,7.53,8.18,85.8,Specialty Grade
+202.8,227.3,12.54,9.43,12.16,78.0,Underdeveloped / Reprocess
+195.7,224.4,11.25,9.15,13.04,78.0,Underdeveloped / Reprocess
+206.1,224.3,9.14,6.86,8.52,78.0,Underdeveloped / Reprocess
+194.4,215.8,9.86,7.66,7.67,82.87,Premium Commercial
+207.3,214.5,12.94,9.67,7.17,83.62,Premium Commercial
+199.7,211.3,12.62,9.25,11.49,84.15,Specialty Grade
+213.4,206.3,9.15,7.48,11.25,78.0,Underdeveloped / Reprocess
+193.4,224.9,10.22,7.66,10.83,78.0,Underdeveloped / Reprocess
+198.5,223.7,10.27,8.29,8.62,78.38,Underdeveloped / Reprocess
+192.8,228.0,12.7,9.24,9.74,78.0,Underdeveloped / Reprocess
+213.1,227.9,9.11,6.61,11.16,78.0,Underdeveloped / Reprocess
+211.9,217.8,9.57,6.74,10.48,83.07,Premium Commercial
+196.4,222.7,13.4,10.43,13.91,78.0,Underdeveloped / Reprocess
+206.5,226.7,9.98,7.43,7.96,78.0,Underdeveloped / Reprocess
+210.4,224.5,12.59,10.12,11.87,78.0,Underdeveloped / Reprocess
+203.9,210.7,10.31,7.8,9.83,86.31,Specialty Grade
+203.2,215.4,9.55,7.79,10.0,82.83,Premium Commercial
+196.0,208.0,10.34,7.47,12.02,81.11,Premium Commercial
+192.3,226.9,12.97,10.43,11.85,78.0,Underdeveloped / Reprocess
+212.4,218.9,13.71,10.87,13.94,78.0,Underdeveloped / Reprocess
+212.5,210.3,13.57,10.75,7.9,80.91,Premium Commercial
+205.8,220.4,11.18,8.96,7.73,84.33,Specialty Grade
+198.5,219.2,12.67,10.03,12.07,81.4,Premium Commercial
+198.7,213.2,10.13,7.85,11.05,84.7,Specialty Grade
+208.1,207.6,10.61,7.6,8.92,84.73,Specialty Grade
+212.4,220.4,13.93,9.81,7.56,78.0,Underdeveloped / Reprocess
+212.2,217.0,9.07,7.35,7.6,78.75,Underdeveloped / Reprocess
+209.5,222.8,9.47,7.33,13.26,78.0,Underdeveloped / Reprocess
+206.1,217.0,10.14,8.07,8.34,85.76,Specialty Grade
+192.1,224.6,9.15,6.93,9.26,78.0,Underdeveloped / Reprocess
+194.0,217.7,10.0,7.14,8.59,83.84,Premium Commercial
+212.5,217.9,12.21,8.73,9.48,87.39,Specialty Grade
+205.2,225.2,11.32,8.85,7.49,78.0,Underdeveloped / Reprocess
+190.2,214.3,13.91,10.46,10.63,79.53,Underdeveloped / Reprocess
+192.5,208.1,13.5,9.77,7.47,78.26,Underdeveloped / Reprocess
+206.6,205.7,10.88,8.26,12.6,78.76,Underdeveloped / Reprocess
+190.1,222.4,10.43,7.38,8.64,80.86,Premium Commercial
+194.0,219.3,11.09,8.54,10.78,85.67,Specialty Grade
+203.7,221.2,12.25,8.97,13.16,78.0,Underdeveloped / Reprocess
+207.3,209.9,10.47,8.33,11.56,84.35,Specialty Grade
+206.3,208.1,12.43,9.17,10.73,84.86,Specialty Grade
+195.6,205.3,11.25,8.49,9.27,82.22,Premium Commercial
+207.8,213.1,12.04,8.44,9.33,88.98,Presidential Specialty
+195.9,218.6,11.4,8.08,11.69,84.49,Specialty Grade
+198.1,214.0,10.62,7.93,13.96,78.96,Underdeveloped / Reprocess
+208.7,215.1,14.22,10.77,11.63,78.0,Underdeveloped / Reprocess
+206.2,225.8,13.2,10.19,10.9,78.0,Underdeveloped / Reprocess
+211.2,213.0,9.77,7.18,12.11,82.33,Premium Commercial
+206.4,216.8,13.78,10.79,10.26,80.4,Premium Commercial
+204.2,223.0,11.68,9.38,7.42,80.42,Premium Commercial
+192.3,214.1,13.92,11.05,10.94,78.97,Underdeveloped / Reprocess
+199.2,219.3,13.4,9.44,13.7,78.0,Underdeveloped / Reprocess
+196.6,224.8,11.34,8.59,8.23,78.32,Underdeveloped / Reprocess
+196.1,226.8,9.12,6.5,11.83,78.0,Underdeveloped / Reprocess
+214.3,208.4,10.48,7.64,8.41,85.24,Specialty Grade
+199.8,226.3,11.98,9.8,10.75,78.0,Underdeveloped / Reprocess
+212.3,216.3,12.48,8.95,7.68,86.3,Specialty Grade
+205.8,210.9,10.42,7.92,10.15,86.46,Specialty Grade
+209.9,215.6,9.77,7.56,12.29,80.99,Premium Commercial
+202.6,227.5,13.59,10.66,9.43,78.0,Underdeveloped / Reprocess
+204.4,216.3,14.41,11.06,11.65,78.0,Underdeveloped / Reprocess
+202.3,212.6,11.89,8.34,12.57,83.46,Premium Commercial
+194.9,219.6,9.94,7.35,13.49,78.0,Underdeveloped / Reprocess
+208.1,210.5,10.5,8.0,8.64,86.91,Specialty Grade
+197.0,206.7,9.1,6.5,9.8,78.0,Underdeveloped / Reprocess
+190.6,208.0,14.03,10.41,8.07,78.0,Underdeveloped / Reprocess
+206.1,207.9,9.65,6.79,13.95,78.0,Underdeveloped / Reprocess
+194.4,208.5,12.17,8.63,13.49,79.18,Underdeveloped / Reprocess
+213.5,208.2,10.51,7.86,10.78,84.77,Specialty Grade
+213.8,219.7,12.05,8.63,12.89,81.17,Premium Commercial
+212.9,209.2,12.58,9.66,10.65,85.37,Specialty Grade
+199.3,213.0,13.56,10.62,11.37,81.4,Premium Commercial
+190.4,225.6,10.14,8.07,7.62,78.0,Underdeveloped / Reprocess
+213.2,215.9,9.06,6.56,12.29,78.0,Underdeveloped / Reprocess
+200.7,220.4,9.75,7.02,7.89,79.9,Underdeveloped / Reprocess
+214.2,209.0,13.95,9.94,12.78,78.0,Underdeveloped / Reprocess
+214.1,209.4,13.81,10.72,12.47,78.0,Underdeveloped / Reprocess
+211.3,205.9,12.29,9.64,11.96,81.29,Premium Commercial
+197.4,208.9,12.3,8.66,7.25,83.65,Premium Commercial
+199.6,211.4,12.66,10.28,9.12,86.28,Specialty Grade
+211.3,209.1,9.96,7.04,8.84,83.79,Premium Commercial
+197.9,207.0,14.03,10.73,9.52,78.0,Underdeveloped / Reprocess
+194.2,207.8,11.3,8.87,7.61,84.26,Specialty Grade
+203.9,215.6,11.11,8.94,13.56,81.32,Premium Commercial
+213.4,209.7,11.85,9.31,10.88,87.12,Specialty Grade
+207.4,213.4,9.26,7.37,9.14,82.86,Premium Commercial
+204.3,216.6,9.91,7.34,9.78,84.98,Specialty Grade
+192.4,220.9,13.06,10.42,10.13,80.75,Premium Commercial
+205.4,205.9,9.46,6.71,11.2,78.0,Underdeveloped / Reprocess
+214.8,223.4,12.32,9.94,10.61,81.53,Premium Commercial
+193.5,219.4,10.35,7.92,13.44,78.0,Underdeveloped / Reprocess
+203.0,206.9,11.14,8.89,10.48,83.97,Premium Commercial
+211.9,225.1,10.59,7.99,13.95,78.0,Underdeveloped / Reprocess
+208.5,226.2,10.96,8.52,12.96,78.0,Underdeveloped / Reprocess
+207.4,206.4,12.95,9.89,8.46,81.75,Premium Commercial
+207.6,211.4,10.63,8.38,13.51,80.83,Premium Commercial
+199.0,223.5,12.12,8.6,7.81,79.66,Underdeveloped / Reprocess
+197.3,222.2,11.62,8.22,12.72,79.23,Underdeveloped / Reprocess
+210.2,209.2,12.65,9.23,9.66,85.73,Specialty Grade
+210.3,209.8,14.15,10.18,13.15,78.0,Underdeveloped / Reprocess
+211.7,213.5,13.03,10.48,13.08,80.47,Premium Commercial
+212.8,216.1,10.18,7.4,12.64,81.93,Premium Commercial
+202.8,219.2,9.17,7.49,12.53,78.0,Underdeveloped / Reprocess
+202.5,213.5,10.44,7.73,9.13,87.73,Specialty Grade
+210.0,215.6,12.27,8.86,7.57,86.59,Specialty Grade
+206.2,222.2,9.28,7.38,9.82,78.0,Underdeveloped / Reprocess
+207.5,205.8,11.73,9.14,8.21,82.9,Premium Commercial
+209.9,210.8,12.28,9.33,11.86,85.39,Specialty Grade
+212.3,221.4,10.84,8.31,9.42,85.29,Specialty Grade
+198.4,225.6,13.24,10.41,13.83,78.0,Underdeveloped / Reprocess
+199.4,216.8,9.59,6.97,11.49,81.09,Premium Commercial
+192.3,217.2,9.41,7.71,12.76,78.0,Underdeveloped / Reprocess
+204.5,207.5,13.01,10.62,7.93,81.27,Premium Commercial
+190.9,215.3,11.73,9.12,13.03,82.87,Premium Commercial
+201.6,217.3,12.79,9.26,13.46,78.33,Underdeveloped / Reprocess
+203.6,210.6,11.39,8.9,10.41,88.0,Presidential Specialty
+197.2,211.2,10.36,7.34,11.24,84.83,Specialty Grade
+204.8,213.7,13.51,9.5,12.35,79.88,Underdeveloped / Reprocess
+190.8,205.5,13.4,9.79,8.22,78.0,Underdeveloped / Reprocess
+190.9,212.4,12.82,9.69,10.52,86.17,Specialty Grade
+210.6,209.9,10.5,8.44,9.79,86.81,Specialty Grade
+199.0,212.5,12.25,9.64,8.02,87.08,Specialty Grade
+193.2,207.8,10.99,8.67,9.57,85.21,Specialty Grade
+203.1,225.5,9.5,7.14,7.48,78.0,Underdeveloped / Reprocess
+209.2,218.7,14.05,10.41,7.18,78.0,Underdeveloped / Reprocess
+195.4,220.6,9.75,7.26,7.95,79.49,Underdeveloped / Reprocess
+205.6,223.2,14.23,11.64,13.74,78.0,Underdeveloped / Reprocess
+192.1,216.5,11.45,8.07,10.85,87.76,Specialty Grade
+191.3,207.0,10.02,8.06,13.76,78.0,Underdeveloped / Reprocess
+203.3,217.4,11.98,9.22,10.03,88.19,Presidential Specialty
+203.5,218.5,13.8,10.39,9.18,80.03,Premium Commercial
+205.9,222.1,13.03,10.25,10.54,79.96,Underdeveloped / Reprocess
+208.2,214.9,13.44,10.19,10.08,82.82,Premium Commercial
+214.4,207.9,12.62,10.16,7.74,83.28,Premium Commercial
+202.9,211.5,12.81,10.35,11.49,84.77,Specialty Grade
+198.1,213.4,13.67,10.26,8.51,81.36,Premium Commercial
+209.9,219.9,10.37,7.61,11.34,82.98,Premium Commercial
+196.8,218.1,11.69,9.02,11.55,85.35,Specialty Grade
+201.0,213.2,10.22,8.27,8.06,85.89,Specialty Grade
+192.0,227.7,14.43,10.47,7.43,78.0,Underdeveloped / Reprocess
+190.6,218.9,14.19,11.0,12.47,78.0,Underdeveloped / Reprocess
+214.1,210.5,9.22,7.15,10.22,80.52,Premium Commercial
+210.9,207.3,12.88,10.15,7.41,81.03,Premium Commercial
+207.4,208.5,14.09,10.08,13.96,78.0,Underdeveloped / Reprocess
+200.2,210.7,9.99,7.85,7.4,83.3,Premium Commercial
+194.3,208.7,12.12,9.81,11.87,83.25,Premium Commercial
+193.9,209.3,14.04,10.13,13.89,78.0,Underdeveloped / Reprocess
+196.3,211.6,9.19,6.69,8.67,80.53,Premium Commercial
+203.7,209.0,12.84,10.48,8.0,83.83,Premium Commercial
+207.9,225.6,10.64,7.68,7.85,78.0,Underdeveloped / Reprocess
+206.5,206.8,14.08,11.3,9.12,78.0,Underdeveloped / Reprocess
+197.0,217.1,14.34,10.89,7.71,78.0,Underdeveloped / Reprocess
+213.9,214.4,14.19,10.36,11.85,78.0,Underdeveloped / Reprocess
+208.4,227.6,11.61,9.34,7.44,78.0,Underdeveloped / Reprocess
+203.9,207.6,13.74,10.35,10.57,78.0,Underdeveloped / Reprocess
+205.3,214.2,13.65,10.39,13.98,78.0,Underdeveloped / Reprocess
+200.5,227.3,10.76,7.99,12.7,78.0,Underdeveloped / Reprocess
+196.2,224.9,13.56,10.46,11.31,78.0,Underdeveloped / Reprocess
+198.9,223.8,9.2,6.62,9.14,78.0,Underdeveloped / Reprocess
+208.9,210.9,12.28,9.17,11.37,86.12,Specialty Grade
+190.4,208.9,10.27,8.38,10.69,83.74,Premium Commercial
+192.9,220.4,9.66,7.06,9.98,80.06,Premium Commercial
+191.2,226.4,9.42,7.34,7.91,78.0,Underdeveloped / Reprocess
+191.0,217.8,12.83,9.48,13.21,78.09,Underdeveloped / Reprocess
+211.4,218.1,10.87,8.62,10.15,87.45,Specialty Grade
+207.6,211.4,12.99,9.29,8.36,85.64,Specialty Grade
+201.9,222.7,9.36,7.64,9.57,78.0,Underdeveloped / Reprocess
+192.4,209.3,10.73,8.1,9.9,85.67,Specialty Grade
+202.3,212.4,11.97,8.72,12.79,83.89,Premium Commercial
+201.8,214.8,13.35,9.46,12.14,80.85,Premium Commercial
+194.3,216.7,10.75,7.75,12.39,83.68,Premium Commercial
+200.8,210.6,12.44,9.49,7.08,84.3,Specialty Grade
+200.0,207.6,13.87,10.27,9.91,78.0,Underdeveloped / Reprocess
+205.4,219.0,12.39,9.9,10.37,86.1,Specialty Grade
+205.9,211.6,10.28,7.73,7.13,84.24,Specialty Grade
+191.1,218.4,9.13,6.67,8.82,78.34,Underdeveloped / Reprocess
+199.4,208.6,13.79,10.67,12.32,78.0,Underdeveloped / Reprocess
+205.6,216.1,9.12,7.16,7.96,80.02,Premium Commercial

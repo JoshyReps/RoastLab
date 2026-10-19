@@ -1,0 +1,46 @@
+{
+  "linear_regression": {
+    "algorithm": "Linear Regression",
+    "formula": "Y = 0.960 * X + -4.638",
+    "slope": 0.96,
+    "intercept": -4.6381,
+    "r2_score": 0.9095,
+    "rmse": 1.776,
+    "samples": 180
+  },
+  "naive_bayes": {
+    "algorithm": "Multinomial Naive Bayes (Laplace alpha=1.0)",
+    "accuracy": 0.8156,
+    "samples": 320,
+    "classes": [
+      "Hot",
+      "Iced"
+    ]
+  },
+  "knn": {
+    "algorithm": "K-Nearest Neighbors (k=3, Euclidean metric)",
+    "menu_items_count": 14,
+    "samples": 350
+  },
+  "svm": {
+    "algorithm": "Support Vector Classifier (Linear Kernel Boundary)",
+    "accuracy": 1.0,
+    "support_vectors": 24,
+    "samples": 24
+  },
+  "decision_tree": {
+    "algorithm": "ID3 Decision Tree (Information Gain / Entropy Criterion)",
+    "accuracy": 1.0,
+    "tree_depth": 3,
+    "leaves_count": 6,
+    "samples": 15
+  },
+  "ann": {
+    "algorithm": "Artificial Neural Network (Multi-Layer Perceptron Regressor)",
+    "architecture": "Input [5] -> Dense(32, ReLU) -> Dense(16, ReLU) -> Dense(1, Linear Output)",
+    "r2_score": 0.9868,
+    "rmse": 0.382,
+    "iterations": 122,
+    "samples": 350
+  }
+}
