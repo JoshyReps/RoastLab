@@ -1,11 +1,11 @@
 {
   "linear_regression": {
     "algorithm": "Linear Regression",
-    "formula": "Y = 0.960 * X + -4.638",
-    "slope": 0.96,
-    "intercept": -4.6381,
-    "r2_score": 0.9095,
-    "rmse": 1.776,
+    "formula": "Y = 0.960 * X + -4.622",
+    "slope": 0.9595,
+    "intercept": -4.622,
+    "r2_score": 0.9092,
+    "rmse": 1.779,
     "samples": 180
   },
   "naive_bayes": {

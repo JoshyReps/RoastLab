@@ -3,7 +3,7 @@
 **Course:** ELEC026.23: Machine Learning  
 **Final Project:** Design and Development of a Company Website Showcasing Core Machine Learning Algorithms  
 **Group Members:** Reponoya, Olpenado, Palencia, Rivera  
-**Technology Stack:** Python 3.12, Scikit-Learn, Streamlit, Altair, Pandas, NumPy, Joblib  
+**Technology Stack:** Python 3.12, Scikit-Learn, Streamlit (Multipage), Altair, Pandas, NumPy, Joblib  
 
 ---
 
@@ -11,41 +11,41 @@
 
 **RoastLab Coffee Co.** is a modern artisanal cafe chain that integrates practical machine learning tools into daily store operations to streamline inventory preparation, personalize customer beverage choices, and monitor customer feedback in real time.
 
-This repository contains:
-1. **Interactive Streamlit Web Application:** A fully realized multi-page company website demonstrating all 6 required machine learning models with live user controls and visualizations.
-2. **Reproducible Model Training Pipeline:** Automated data generation and model serialization for all 6 algorithms.
-3. **Curated Domain Datasets:** Sample coffee shop data simulating temperature demand, customer order preferences, 2D flavor spaces, sentiment reviews, single-origin bean cupping profiles, and roasting curve telemetry.
+This repository features a **modular, multi-page architecture** where each machine learning algorithm and application page has its own dedicated Python file.
 
 ---
 
-## 🏗️ Project Architecture & Algorithms
-
-| # | Algorithm | Business Purpose | Features | Target / Output |
-|---|---|---|---|---|
-| 1 | **Linear Regression** | Cold Brew Batch Demand Prediction | Forecasted Peak Daily Temperature (°C) | Steep Batch Liters ($Y = mx + b$) |
-| 2 | **Naïve Bayes Classifier** | Hot vs. Iced Drink Recommendation | Time of Day, Order Type, Outdoor Weather | Drink Temperature Class (Laplace smoothed) |
-| 3 | **K-Nearest Neighbors ($k=3$)** | Personalized Drink Matcher | Desired Sweetness (1-10), Caffeine Intensity (1-10) | Top 3 Matching Menu Items (Euclidean Distance) |
-| 4 | **Support Vector Machine (SVM)** | Real-time Customer Feedback Sentiment | Customer Review Text | Positive vs. Negative Service Alert |
-| 5 | **Decision Tree (ID3)** | Single-Origin Bean Selector Quiz | Body, Acidity, Primary Flavor Notes | Specialty Bean Origin (Entropy / Info Gain) |
-| 6 | **Artificial Neural Network (MLP)** | Roaster Quality Control & Cupping Score | Charge Temp, Drop Temp, Duration, Crack, RoR | SCA Cupping Score (80-95 pts) & Quality Tier |
-
----
-
-## 📁 Repository Layout
+## 📁 Repository Layout & File Structure
 
 ```
 RoastLab/
-├── .gitignore                      # Configured to ignore virtual environments & caches
-├── README.md                       # Comprehensive project guide & documentation
-├── requirements.txt                # Python package dependencies
-├── app.py                          # Main interactive Streamlit web application
-├── docs/                           # Rubrics, completed proposal & research notes
-│   ├── PROJECT_SPEC.md
-│   ├── Final_Machine-Learning-Plan_Completed.docx
-│   ├── Final_Machine-Learning-Plan.docx
-│   ├── ELEC026.23 - FINAL PROJECT SPECS & RUBRICS.docx
-│   └── Reponoya_MLDeployment.pdf
-├── data/                           # CSV datasets for all 6 models
+├── .gitignore                          # Ignores venv/ and caches
+├── README.md                           # Documentation & quickstart guide
+├── requirements.txt                    # Project package dependencies
+├── app.py                              # Main Landing Page: Company Overview & Architecture
+│
+├── pages/                              # Dedicated Python file for each app page
+│   ├── 1_📈_Linear_Regression.py       # Cold Brew Demand (Temperature -> Liters)
+│   ├── 2_🎲_Naive_Bayes.py             # Hot vs. Iced Order Predictor
+│   ├── 3_🎯_KNN_Taste_Recommender.py   # 2D Taste Space Drink Matcher
+│   ├── 4_⚖️_SVM_Sentiment_Analysis.py   # Review Sentiment Classifier
+│   ├── 5_🌳_Decision_Tree_Bean_Quiz.py # 3-Question Single-Origin Quiz
+│   ├── 6_🧠_ANN_Roaster_QC.py          # Roaster Telemetry to SCA Cupping Score
+│   └── 7_📊_Data_and_Performance_Hub.py# Datasets Explorer & Metrics Hub
+│
+├── src/                                # Dedicated Python module for each algorithm
+│   ├── common.py                       # Shared UI styles, cached loaders, and sidebar
+│   ├── linear_regression.py            # Linear Regression training & data generator
+│   ├── naive_bayes.py                  # Naïve Bayes pipeline with Laplace smoothing
+│   ├── knn.py                          # KNN model & 2D Euclidean taste mapper
+│   ├── svm.py                          # Linear SVM with TF-IDF vectorization
+│   ├── decision_tree.py                # ID3 Decision Tree (Entropy / Information Gain)
+│   ├── ann.py                          # Multi-Layer Perceptron (MLP) Neural Network
+│   ├── train_models.py                 # Master training orchestrator
+│   └── generate_docx_plan.py           # Word DOCX proposal generator
+│
+├── data/                               # Domain CSV datasets & Master Excel Workbook
+│   ├── RoastLab_All_Datasets.xlsx      # Master workbook with all 7 datasets
 │   ├── cold_brew_demand.csv
 │   ├── customer_reviews.csv
 │   ├── customer_taste_profiles.csv
@@ -53,7 +53,8 @@ RoastLab/
 │   ├── drink_preference.csv
 │   ├── coffee_beans_quiz.csv
 │   └── roast_quality_telemetry.csv
-├── models/                         # Serialized model binaries (.pkl) & metrics
+│
+├── models/                             # Serialized .pkl binaries & evaluation metrics
 │   ├── linear_regression.pkl
 │   ├── naive_bayes.pkl
 │   ├── knn.pkl
@@ -61,39 +62,49 @@ RoastLab/
 │   ├── decision_tree.pkl
 │   ├── ann_roast_qc.pkl
 │   └── model_metrics.json
-└── src/
-    ├── train_models.py             # End-to-end training pipeline
-    └── generate_docx_plan.py       # DOCX report generator
+│
+└── docs/                               # Project specs, rubrics, and completed proposal
+    ├── PROJECT_SPEC.md
+    ├── Final_Machine-Learning-Plan_Completed.docx
+    ├── Final_Machine-Learning-Plan.docx
+    ├── ELEC026.23 - FINAL PROJECT SPECS & RUBRICS.docx
+    └── Reponoya_MLDeployment.pdf
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🏗️ Algorithm Breakdown
 
-### 1. Activating the Virtual Environment
-From PowerShell inside `Final`:
+| # | Page / Module | Business Task | Input Features | Output Target |
+|---|---|---|---|---|
+| 1 | **Linear Regression** | Cold Brew Batch Demand | Forecast Peak Temp (°C) | Steep Liters ($Y = mx + b$) |
+| 2 | **Naïve Bayes** | Hot vs. Iced Order Predictor | Time, Order Type, Weather | Drink Class (Laplace $\alpha=1.0$) |
+| 3 | **KNN ($k=3$)** | Flavor Profile Drink Matcher | Desired Sweetness & Caffeine (1-10) | Top 3 Menu Items (Euclidean Distance) |
+| 4 | **Linear SVM** | Review Sentiment Tagging | Review Text | Positive vs. Negative Alert |
+| 5 | **Decision Tree** | Single-Origin Bean Selector Quiz | Body, Acidity, Flavor Notes | Recommended Bean Origin (ID3) |
+| 6 | **Neural Network** | Roaster Quality Control & QC | Charge/Drop Temp, RoR, Crack Time | SCA Cupping Score (80-95 pts) |
+
+---
+
+## 🚀 Running the App
+
+### 1. Activate Environment
 ```powershell
 .\venv\Scripts\Activate.ps1
 ```
 
-### 2. Retraining Models (Optional)
-To regenerate datasets and retrain all 6 machine learning models:
-```powershell
-python src/train_models.py
-```
-
-### 3. Launching the Web Application
-Run the Streamlit application:
+### 2. Launch the Multi-Page Application
 ```powershell
 streamlit run app.py
 ```
+Streamlit automatically detects all files in `pages/` and renders a clean, organized navigation bar in the sidebar!
 
----
-
-## 🏆 ELEC026.23 Grading Rubric Alignment (50/50 Points)
-
-1. **Website Aesthetics and Navigation (10/10):** Polished cafe brand identity, intuitive sidebar navigation, responsive layout, custom typography and CSS styling.
-2. **Clarity and Accuracy of Algorithm Explanations (10/10):** Dual-audience explanations featuring plain business rationale alongside rigorous mathematical formulas and hyperparameter details.
-3. **Relevance and Justification of Data and Algorithms (10/10):** Realistic coffee domain scenarios with justifiable algorithm selections addressing practical operational bottlenecks.
-4. **Depth of Algorithm Application and Results Interpretation (10/10):** Live interactive sliders, real-time predictions, 2D taste space scatter charts, and metrics exploration hub.
-5. **Presentation Quality (10/10):** Clean Git repository, documented workflows, and ready-to-present interactive interface.
+### 3. Retrain Models Individually or All at Once
+- Run any single algorithm script directly, e.g.:
+  ```powershell
+  python src/ann.py
+  ```
+- Or run the master pipeline:
+  ```powershell
+  python src/train_models.py
+  ```
