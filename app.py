@@ -16,29 +16,26 @@ st.set_page_config(
 apply_custom_theme()
 render_sidebar_info()
 
-st.markdown("<h1 class='brand-title'>☕ RoastLab Coffee Co.</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='brand-title'>RoastLab Coffee Co.</h1>", unsafe_allow_html=True)
 st.markdown("<p class='brand-subtitle'>Artisanal Coffee Meets Machine Learning Operations</p>", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.markdown("<div class='metric-card'>", unsafe_allow_html=True)
     st.markdown("#### 🎯 Smart Inventory")
     st.write("Linear Regression forecasts daily cold brew batch production to virtually eliminate food waste and stockouts.")
     st.markdown("</div>", unsafe_allow_html=True)
 with col2:
-    st.markdown("<div class='metric-card'>", unsafe_allow_html=True)
     st.markdown("#### 🤝 Hyper-Personalization")
     st.write("Naïve Bayes, KNN, and Decision Trees personalize every order from espresso strength to single-origin beans.")
     st.markdown("</div>", unsafe_allow_html=True)
 with col3:
-    st.markdown("<div class='metric-card'>", unsafe_allow_html=True)
     st.markdown("#### 🔬 Quality & Sentiment")
     st.write("SVM routes live customer reviews, while an Artificial Neural Network guarantees SCA cupping score consistency.")
     st.markdown("</div>", unsafe_allow_html=True)
 
 st.markdown("---")
 
-tab_mission, tab_arch, tab_rubric = st.tabs(["🏛️ Mission & Vision", "🏗️ Machine Learning Architecture", "📋 Rubric & Goals"])
+tab_mission, tab_arch = st.tabs(["🏛️ Mission & Vision", "🏗️ Machine Learning Architecture"])
 
 with tab_mission:
     col_m1, col_m2 = st.columns(2)
@@ -78,15 +75,6 @@ with tab_arch:
     | **7. Data Hub** | Dataset Explorer & Benchmarks | View & Download CSVs, Master Excel Workbook | 7 Domain Datasets |
     """)
     
-with tab_rubric:
-    st.markdown("### 🎓 ELEC026.23 Course Rubric Alignment (50/50 Points)")
-    st.markdown("""
-    - **Website Aesthetics & Navigation (10 pts):** Modular multi-page architecture with separate Python files per algorithm, custom cafe CSS, and responsive charts.
-    - **Clarity & Accuracy of Explanations (10 pts):** Non-technical business rationale paired with mathematical equations and performance metrics.
-    - **Relevance & Justification of Data/Algorithms (10 pts):** Coffee retail operations grounded in realistic domain data.
-    - **Depth of Application & Results Interpretation (10 pts):** Live interactive sliders, real-time predictions, 2D scatter charts, and downloadable datasets.
-    - **Presentation Quality (10 pts):** Modular code structure, version control on GitHub, and defense readiness.
-    """)
 
 st.markdown("---")
 st.info("👈 **Get Started:** Select any algorithm or the Data Hub from the left sidebar to interact with the models!")

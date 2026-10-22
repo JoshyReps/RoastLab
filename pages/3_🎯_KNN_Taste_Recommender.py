@@ -21,7 +21,7 @@ render_sidebar_info()
 st.markdown("""
 <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #ebd9c8; padding-bottom: 0.8rem; margin-bottom: 1.2rem;">
     <div>
-        <h2 class='brand-title' style='margin:0;'>☕ RoastLab FlavorMatch™ Concierge</h2>
+        <h2 class='brand-title' style='margin:0;'>RoastLab FlavorMatch Concierge</h2>
         <span style='color: #795548; font-size: 0.95rem; font-weight: 500;'>Guest-Facing Beverage Personalization & Taste Profile Discovery</span>
     </div>
     <div style="text-align: right;">

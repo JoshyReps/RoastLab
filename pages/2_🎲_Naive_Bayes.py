@@ -20,12 +20,8 @@ render_sidebar_info()
 st.markdown("""
 <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #ebd9c8; padding-bottom: 0.8rem; margin-bottom: 1.2rem;">
     <div>
-        <h2 class='brand-title' style='margin:0;'>☕ RoastLab POS & Kiosk Dispatch</h2>
+        <h2 class='brand-title' style='margin:0;'>RoastLab POS & Kiosk Dispatch</h2>
         <span style='color: #795548; font-size: 0.95rem; font-weight: 500;'>Terminal #04 • Downtown Flagship • Automated Menu Pre-load Engine</span>
-    </div>
-    <div style="text-align: right;">
-        <span class="badge-pill badge-active">🟢 POS ONLINE</span>
-        <span class="badge-pill badge-specialty">⚡ AI ENGINE ACTIVE</span>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -33,7 +29,7 @@ st.markdown("""
 model = load_model("naive_bayes")
 
 # Live Environment Inputs (Simulating automated store sensors & channel feeds)
-st.markdown("##### 📡 Store Context & Environment Sensors")
+st.markdown("##### Store Context & Environment Sensors")
 col_env1, col_env2, col_env3 = st.columns(3)
 
 with col_env1:
@@ -42,6 +38,7 @@ with col_env1:
         ["Morning (06:00 - 11:30)", "Afternoon (11:30 - 17:00)", "Evening (17:00 - Close)"],
         index=0
     )
+    
     time_val = "Morning" if "Morning" in shift_selection else ("Afternoon" if "Afternoon" in shift_selection else "Evening")
 
 with col_env2:
@@ -129,8 +126,7 @@ if model:
 
     # Right Column: Decision Telemetry & Operational KPIs
     with col_telemetry:
-        st.markdown("<div class='metric-card'>", unsafe_allow_html=True)
-        st.markdown("#### ⚡ AI Dispatch Telemetry")
+        st.markdown("#### AI Dispatch Telemetry")
         st.metric(
             label="Predicted Customer Affinity",
             value=f"{pred_category} Beverage",
@@ -150,15 +146,12 @@ if model:
         st.altair_chart(chart, use_container_width=True)
         st.markdown("</div>", unsafe_allow_html=True)
 
-        st.markdown("<div class='metric-card'>", unsafe_allow_html=True)
-        st.markdown("#### 📈 Store Efficiency Metrics")
+        st.markdown("#### Store Efficiency Metrics")
         kpi1, kpi2 = st.columns(2)
         with kpi1:
             st.metric("Queue Time", "-38 sec", delta="vs static menu")
         with kpi2:
             st.metric("Conversion", "89.4%", delta="+12.1% uplift")
-        st.caption("Active model: `MultinomialNB-v1.4` • Zero cold-start latency")
-        st.markdown("</div>", unsafe_allow_html=True)
 
 else:
     st.warning("Prediction engine offline. Please ensure trained models are loaded.")

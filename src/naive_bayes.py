@@ -45,6 +45,7 @@ def generate_preference_data(n_samples: int = 320, seed: int = 42) -> pd.DataFra
     return pd.DataFrame(rows)
 
 def train_and_save(data_dir: str, models_dir: str) -> dict:
+    
     df = generate_preference_data()
     df.to_csv(os.path.join(data_dir, "drink_preference.csv"), index=False)
     
