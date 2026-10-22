@@ -1,6 +1,18 @@
 """
-Algorithm 2: Multinomial Naïve Bayes Classifier with Laplace Smoothing
-Business Task: Hot vs. Iced Order Preference Predictor
+Algorithm 2: Multi-Class Multinomial Naïve Bayes Classifier with Laplace Smoothing
+Business Task: Granular Beverage Category Predictor based on Contextual Operational Conditions
+
+Features:
+- day_type: Weekday, Weekend / Holiday
+- weather_condition: Hot & Humid, Cool & Dry, Rainy, Freezing
+- customer_segment: Student, Morning Commuter, Remote Worker, Evening Social
+- companion_purchase: Food Item Ordered, Beverage Only
+
+Target (Y):
+- Hot Espresso
+- Iced Specialty Milk
+- Blended Frappé
+- Cold Brew / Iced Tea
 """
 
 import os
@@ -12,45 +24,79 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score
 
-def generate_preference_data(n_samples: int = 320, seed: int = 42) -> pd.DataFrame:
+DAY_TYPES = ["Weekday", "Weekend / Holiday"]
+WEATHER_CONDITIONS = ["Hot & Humid", "Cool & Dry", "Rainy", "Freezing"]
+CUSTOMER_SEGMENTS = ["Morning Commuter", "Student", "Remote Worker", "Evening Social"]
+COMPANION_PURCHASES = ["Food Item Ordered", "Beverage Only"]
+CATEGORIES = ["Hot Espresso", "Iced Specialty Milk", "Blended Frappé", "Cold Brew / Iced Tea"]
+
+def generate_enhanced_preference_data(n_samples: int = 480, seed: int = 42) -> pd.DataFrame:
     np.random.seed(seed)
-    time_of_day_opts = ["Morning", "Afternoon", "Evening"]
-    order_type_opts = ["Dine-in", "Takeaway"]
-    weather_opts = ["Warm", "Cool"]
-    
     rows = []
+    
     for _ in range(n_samples):
-        tod = np.random.choice(time_of_day_opts, p=[0.5, 0.35, 0.15])
-        ot = np.random.choice(order_type_opts, p=[0.4, 0.6])
-        w = np.random.choice(weather_opts, p=[0.65, 0.35])
+        dt = np.random.choice(DAY_TYPES, p=[0.70, 0.30])
+        w = np.random.choice(WEATHER_CONDITIONS, p=[0.35, 0.30, 0.25, 0.10])
+        cs = np.random.choice(CUSTOMER_SEGMENTS, p=[0.40, 0.25, 0.20, 0.15])
+        cp = np.random.choice(COMPANION_PURCHASES, p=[0.45, 0.55])
         
-        p_iced = 0.5
-        if tod == "Morning":
-            p_iced -= 0.25
-        elif tod == "Afternoon":
-            p_iced += 0.30
+        # Base log-odds / weights for categories:
+        # [Hot Espresso, Iced Specialty Milk, Blended Frappé, Cold Brew / Iced Tea]
+        scores = np.array([1.0, 1.0, 1.0, 1.0])
         
-        if w == "Warm":
-            p_iced += 0.30
+        # Weather influence
+        if w == "Hot & Humid":
+            scores += np.array([-0.6, 0.5, 0.8, 0.9])
+        elif w == "Freezing":
+            scores += np.array([1.2, -0.4, -0.9, -0.8])
+        elif w == "Rainy":
+            scores += np.array([0.9, 0.3, -0.8, -0.5])
+        elif w == "Cool & Dry":
+            scores += np.array([0.5, 0.4, -0.3, 0.1])
+            
+        # Day Type influence
+        if dt == "Weekday":
+            scores += np.array([0.5, 0.2, -0.3, 0.3])
         else:
-            p_iced -= 0.35
+            scores += np.array([-0.2, 0.4, 0.7, 0.1])
             
-        if ot == "Takeaway":
-            p_iced += 0.10
+        # Segment influence
+        if cs == "Morning Commuter":
+            scores += np.array([0.9, 0.1, -0.6, 0.4])
+        elif cs == "Student":
+            scores += np.array([-0.4, 0.6, 0.8, 0.2])
+        elif cs == "Remote Worker":
+            scores += np.array([0.3, 0.5, -0.2, 0.4])
+        elif cs == "Evening Social":
+            scores += np.array([-0.1, 0.5, 0.5, 0.1])
             
-        p_iced = np.clip(p_iced, 0.05, 0.95)
-        label = "Iced" if np.random.rand() < p_iced else "Hot"
-        rows.append({"time_of_day": tod, "order_type": ot, "weather": w, "preference": label})
+        # Companion Purchase influence (warm pastry/food strongly pairs with warm drinks)
+        if cp == "Food Item Ordered":
+            scores += np.array([0.8, 0.3, -0.6, -0.4])
+        else:
+            scores += np.array([-0.2, 0.1, 0.4, 0.5])
+            
+        # Softmax into probability distribution
+        exp_scores = np.exp(scores - np.max(scores))
+        probs = exp_scores / np.sum(exp_scores)
+        
+        chosen_cat = np.random.choice(CATEGORIES, p=probs)
+        rows.append({
+            "day_type": dt,
+            "weather_condition": w,
+            "customer_segment": cs,
+            "companion_purchase": cp,
+            "beverage_category": chosen_cat
+        })
         
     return pd.DataFrame(rows)
 
 def train_and_save(data_dir: str, models_dir: str) -> dict:
-    
-    df = generate_preference_data()
+    df = generate_enhanced_preference_data()
     df.to_csv(os.path.join(data_dir, "drink_preference.csv"), index=False)
     
-    X = df[["time_of_day", "order_type", "weather"]]
-    y = df["preference"]
+    X = df[["day_type", "weather_condition", "customer_segment", "companion_purchase"]]
+    y = df["beverage_category"]
     
     pipeline = Pipeline([
         ("encoder", OneHotEncoder(handle_unknown="ignore")),
@@ -62,13 +108,13 @@ def train_and_save(data_dir: str, models_dir: str) -> dict:
     
     joblib.dump(pipeline, os.path.join(models_dir, "naive_bayes.pkl"))
     return {
-        "algorithm": "Multinomial Naive Bayes (Laplace alpha=1.0)",
+        "algorithm": "Multinomial Naive Bayes (Multi-Class with Laplace alpha=1.0)",
         "accuracy": round(float(acc), 4),
         "samples": len(df),
-        "classes": [str(c) for c in pipeline.named_steps["nb"].classes_]
+        "categories": [str(c) for c in pipeline.named_steps["nb"].classes_]
     }
 
 if __name__ == "__main__":
     base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     metrics = train_and_save(os.path.join(base, "data"), os.path.join(base, "models"))
-    print("Naïve Bayes trained successfully:", metrics)
+    print("Enhanced Naïve Bayes trained successfully:", metrics)
