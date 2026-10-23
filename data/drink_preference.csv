@@ -1,321 +1,481 @@
-time_of_day,order_type,weather,preference
-Morning,Takeaway,Cool,Hot
-Morning,Dine-in,Warm,Hot
-Afternoon,Takeaway,Warm,Hot
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Dine-in,Cool,Hot
-Morning,Takeaway,Warm,Hot
-Morning,Takeaway,Warm,Iced
-Afternoon,Dine-in,Cool,Hot
-Evening,Takeaway,Warm,Hot
-Morning,Dine-in,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Morning,Takeaway,Warm,Hot
-Morning,Takeaway,Cool,Hot
-Morning,Takeaway,Cool,Hot
-Afternoon,Dine-in,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Evening,Takeaway,Warm,Iced
-Afternoon,Takeaway,Cool,Iced
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Evening,Dine-in,Warm,Iced
-Morning,Dine-in,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Afternoon,Dine-in,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Afternoon,Takeaway,Warm,Hot
-Evening,Dine-in,Warm,Iced
-Morning,Dine-in,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Morning,Takeaway,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Cool,Iced
-Afternoon,Dine-in,Warm,Iced
-Afternoon,Dine-in,Cool,Iced
-Morning,Dine-in,Cool,Hot
-Morning,Takeaway,Cool,Hot
-Afternoon,Dine-in,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Afternoon,Takeaway,Cool,Hot
-Afternoon,Dine-in,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Dine-in,Warm,Hot
-Afternoon,Dine-in,Cool,Iced
-Morning,Takeaway,Warm,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Evening,Takeaway,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Dine-in,Warm,Iced
-Evening,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Hot
-Evening,Takeaway,Warm,Iced
-Evening,Dine-in,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Evening,Takeaway,Cool,Hot
-Morning,Dine-in,Cool,Hot
-Evening,Takeaway,Warm,Iced
-Afternoon,Takeaway,Cool,Hot
-Evening,Dine-in,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Dine-in,Warm,Iced
-Afternoon,Takeaway,Cool,Iced
-Evening,Takeaway,Warm,Iced
-Morning,Dine-in,Warm,Hot
-Morning,Dine-in,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Hot
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Evening,Dine-in,Cool,Hot
-Morning,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Dine-in,Cool,Iced
-Morning,Takeaway,Warm,Hot
-Afternoon,Takeaway,Warm,Iced
-Afternoon,Takeaway,Cool,Iced
-Morning,Takeaway,Warm,Hot
-Evening,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Hot
-Morning,Takeaway,Warm,Iced
-Evening,Dine-in,Warm,Hot
-Evening,Takeaway,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Hot
-Morning,Dine-in,Warm,Hot
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Afternoon,Takeaway,Cool,Hot
-Morning,Dine-in,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Evening,Dine-in,Warm,Hot
-Morning,Takeaway,Warm,Hot
-Morning,Takeaway,Warm,Hot
-Morning,Takeaway,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Morning,Dine-in,Warm,Iced
-Afternoon,Dine-in,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Afternoon,Dine-in,Cool,Hot
-Evening,Takeaway,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Afternoon,Dine-in,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Evening,Takeaway,Cool,Hot
-Afternoon,Dine-in,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Afternoon,Takeaway,Cool,Iced
-Morning,Dine-in,Cool,Hot
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Evening,Dine-in,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Dine-in,Warm,Hot
-Morning,Dine-in,Cool,Hot
-Afternoon,Dine-in,Warm,Iced
-Morning,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Afternoon,Dine-in,Cool,Hot
-Morning,Dine-in,Cool,Hot
-Morning,Dine-in,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Hot
-Afternoon,Takeaway,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Morning,Dine-in,Warm,Hot
-Morning,Takeaway,Warm,Iced
-Morning,Dine-in,Warm,Iced
-Morning,Dine-in,Warm,Hot
-Morning,Takeaway,Warm,Hot
-Morning,Dine-in,Cool,Hot
-Afternoon,Dine-in,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Hot
-Morning,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Hot
-Afternoon,Takeaway,Warm,Iced
-Evening,Dine-in,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Morning,Dine-in,Warm,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Evening,Takeaway,Warm,Hot
-Afternoon,Dine-in,Warm,Iced
-Afternoon,Takeaway,Cool,Hot
-Morning,Dine-in,Warm,Hot
-Morning,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Hot
-Morning,Dine-in,Cool,Hot
-Morning,Takeaway,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Evening,Takeaway,Cool,Hot
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Dine-in,Cool,Hot
-Morning,Takeaway,Cool,Hot
-Afternoon,Dine-in,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Morning,Dine-in,Warm,Iced
-Evening,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Hot
-Morning,Takeaway,Warm,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Dine-in,Cool,Iced
-Morning,Dine-in,Cool,Hot
-Afternoon,Dine-in,Cool,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Dine-in,Warm,Hot
-Morning,Takeaway,Cool,Hot
-Morning,Dine-in,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Evening,Takeaway,Cool,Hot
-Morning,Dine-in,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Dine-in,Warm,Hot
-Evening,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Afternoon,Takeaway,Cool,Hot
-Afternoon,Dine-in,Warm,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Afternoon,Takeaway,Cool,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Evening,Dine-in,Cool,Hot
-Morning,Takeaway,Cool,Hot
-Afternoon,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Hot
-Evening,Dine-in,Cool,Hot
-Morning,Takeaway,Cool,Iced
-Afternoon,Dine-in,Cool,Hot
-Evening,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Morning,Dine-in,Warm,Hot
-Morning,Takeaway,Warm,Iced
-Afternoon,Takeaway,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Evening,Dine-in,Cool,Hot
-Evening,Takeaway,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Evening,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Morning,Dine-in,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Morning,Takeaway,Warm,Hot
-Afternoon,Dine-in,Warm,Iced
-Evening,Takeaway,Warm,Iced
-Evening,Dine-in,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Morning,Takeaway,Cool,Hot
-Evening,Dine-in,Warm,Iced
-Afternoon,Dine-in,Cool,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Evening,Takeaway,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Dine-in,Cool,Hot
-Morning,Dine-in,Cool,Hot
-Evening,Takeaway,Warm,Iced
-Afternoon,Dine-in,Cool,Hot
-Morning,Takeaway,Cool,Hot
-Evening,Takeaway,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Morning,Takeaway,Cool,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Dine-in,Warm,Hot
-Afternoon,Dine-in,Warm,Iced
-Afternoon,Dine-in,Cool,Hot
-Evening,Dine-in,Warm,Hot
-Morning,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Hot
-Evening,Takeaway,Cool,Iced
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Cool,Hot
-Morning,Takeaway,Cool,Hot
-Evening,Dine-in,Warm,Hot
-Morning,Takeaway,Warm,Iced
-Evening,Takeaway,Cool,Iced
-Morning,Dine-in,Cool,Hot
-Evening,Takeaway,Cool,Iced
-Evening,Takeaway,Cool,Hot
-Afternoon,Takeaway,Warm,Iced
-Evening,Takeaway,Cool,Hot
-Morning,Dine-in,Cool,Hot
-Morning,Takeaway,Warm,Iced
-Morning,Takeaway,Warm,Iced
-Morning,Dine-in,Warm,Iced
-Afternoon,Dine-in,Cool,Hot
-Afternoon,Dine-in,Warm,Iced
-Morning,Takeaway,Warm,Iced
+day_type,weather_condition,customer_segment,companion_purchase,beverage_category
+Weekday,Freezing,Remote Worker,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Freezing,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Blended Frappé
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Rainy,Evening Social,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Student,Beverage Only,Iced Specialty Milk
+Weekday,Rainy,Remote Worker,Beverage Only,Blended Frappé
+Weekday,Cool & Dry,Student,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Cool & Dry,Student,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekday,Cool & Dry,Student,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Evening Social,Beverage Only,Iced Specialty Milk
+Weekday,Rainy,Student,Beverage Only,Hot Espresso
+Weekday,Rainy,Evening Social,Beverage Only,Hot Espresso
+Weekday,Rainy,Evening Social,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Freezing,Evening Social,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Evening Social,Food Item Ordered,Hot Espresso
+Weekday,Freezing,Remote Worker,Beverage Only,Hot Espresso
+Weekday,Freezing,Morning Commuter,Beverage Only,Blended Frappé
+Weekend / Holiday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Rainy,Evening Social,Beverage Only,Iced Specialty Milk
+Weekday,Rainy,Student,Beverage Only,Blended Frappé
+Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
+Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Remote Worker,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Student,Beverage Only,Blended Frappé
+Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Freezing,Evening Social,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Rainy,Student,Beverage Only,Blended Frappé
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Rainy,Student,Beverage Only,Blended Frappé
+Weekday,Freezing,Student,Beverage Only,Hot Espresso
+Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Freezing,Evening Social,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Evening Social,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Student,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Freezing,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Freezing,Remote Worker,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Student,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Remote Worker,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
+Weekday,Rainy,Student,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Blended Frappé
+Weekday,Freezing,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Cool & Dry,Evening Social,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Remote Worker,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Freezing,Evening Social,Beverage Only,Blended Frappé
+Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
+Weekday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Evening Social,Beverage Only,Blended Frappé
+Weekday,Freezing,Student,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Rainy,Student,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Cool & Dry,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Freezing,Student,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Student,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Hot & Humid,Remote Worker,Food Item Ordered,Blended Frappé
+Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Rainy,Evening Social,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Remote Worker,Beverage Only,Hot Espresso
+Weekend / Holiday,Cool & Dry,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Student,Beverage Only,Blended Frappé
+Weekday,Freezing,Student,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Cool & Dry,Student,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Rainy,Evening Social,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Student,Beverage Only,Hot Espresso
+Weekend / Holiday,Freezing,Student,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
+Weekend / Holiday,Freezing,Evening Social,Beverage Only,Hot Espresso
+Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Blended Frappé
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Student,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Rainy,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Evening Social,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Evening Social,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Evening Social,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
+Weekday,Rainy,Evening Social,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Evening Social,Food Item Ordered,Iced Specialty Milk
+Weekday,Cool & Dry,Remote Worker,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Freezing,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Freezing,Evening Social,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Student,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Freezing,Remote Worker,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Blended Frappé
+Weekday,Freezing,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Remote Worker,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Evening Social,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Freezing,Evening Social,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Student,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Rainy,Remote Worker,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Rainy,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Evening Social,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Rainy,Student,Food Item Ordered,Hot Espresso
+Weekday,Freezing,Student,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Freezing,Evening Social,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Rainy,Student,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Blended Frappé
+Weekday,Rainy,Student,Beverage Only,Hot Espresso
+Weekend / Holiday,Rainy,Remote Worker,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
+Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Evening Social,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Student,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Rainy,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Student,Beverage Only,Iced Specialty Milk
+Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Cool & Dry,Student,Beverage Only,Blended Frappé
+Weekend / Holiday,Freezing,Student,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
+Weekday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Hot & Humid,Evening Social,Beverage Only,Blended Frappé
+Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Cool & Dry,Evening Social,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Blended Frappé
+Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Remote Worker,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Student,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Blended Frappé
+Weekend / Holiday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Rainy,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Cool & Dry,Evening Social,Beverage Only,Hot Espresso
+Weekend / Holiday,Rainy,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Freezing,Student,Beverage Only,Blended Frappé
+Weekday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Remote Worker,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Student,Food Item Ordered,Blended Frappé
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Freezing,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Student,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Student,Beverage Only,Blended Frappé
+Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Freezing,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Freezing,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Student,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Evening Social,Food Item Ordered,Blended Frappé
+Weekday,Rainy,Evening Social,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
+Weekday,Freezing,Student,Beverage Only,Hot Espresso
+Weekend / Holiday,Freezing,Student,Beverage Only,Blended Frappé
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Blended Frappé
+Weekday,Cool & Dry,Evening Social,Beverage Only,Blended Frappé
+Weekday,Cool & Dry,Student,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
+Weekend / Holiday,Freezing,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Rainy,Student,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Evening Social,Beverage Only,Blended Frappé
+Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Freezing,Student,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Student,Beverage Only,Hot Espresso
+Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Evening Social,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Evening Social,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Student,Beverage Only,Blended Frappé
+Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Blended Frappé
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
+Weekday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Student,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Freezing,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Student,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Student,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Student,Beverage Only,Blended Frappé
+Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Cool & Dry,Student,Beverage Only,Blended Frappé
+Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Student,Beverage Only,Hot Espresso
+Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
+Weekday,Freezing,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Evening Social,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Evening Social,Food Item Ordered,Iced Specialty Milk
+Weekday,Hot & Humid,Evening Social,Food Item Ordered,Blended Frappé
+Weekend / Holiday,Cool & Dry,Evening Social,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Evening Social,Food Item Ordered,Iced Specialty Milk
+Weekday,Cool & Dry,Student,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Blended Frappé
+Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Student,Beverage Only,Blended Frappé
+Weekday,Cool & Dry,Remote Worker,Beverage Only,Hot Espresso
+Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Student,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Blended Frappé
+Weekend / Holiday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Student,Food Item Ordered,Blended Frappé
+Weekend / Holiday,Cool & Dry,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
+Weekend / Holiday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
+Weekend / Holiday,Cool & Dry,Remote Worker,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Rainy,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Freezing,Remote Worker,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Evening Social,Beverage Only,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
+Weekend / Holiday,Hot & Humid,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
+Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Hot & Humid,Evening Social,Beverage Only,Blended Frappé
+Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
+Weekday,Freezing,Remote Worker,Beverage Only,Cold Brew / Iced Tea
+Weekday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Cool & Dry,Evening Social,Food Item Ordered,Iced Specialty Milk
+Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Rainy,Student,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Student,Food Item Ordered,Hot Espresso
+Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
+Weekday,Rainy,Student,Beverage Only,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
+Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
+Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
+Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Freezing,Student,Beverage Only,Blended Frappé
+Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
+Weekday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
+Weekday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
+Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
+Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
+Weekend / Holiday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
+Weekday,Cool & Dry,Student,Beverage Only,Blended Frappé
+Weekday,Hot & Humid,Student,Food Item Ordered,Cold Brew / Iced Tea
+Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea

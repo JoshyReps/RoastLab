@@ -9,18 +9,27 @@
     "samples": 180
   },
   "naive_bayes": {
-    "algorithm": "Multinomial Naive Bayes (Laplace alpha=1.0)",
-    "accuracy": 0.8156,
-    "samples": 320,
-    "classes": [
-      "Hot",
-      "Iced"
+    "algorithm": "Multinomial Naive Bayes (Multi-Class with Laplace alpha=1.0)",
+    "accuracy": 0.5729,
+    "samples": 480,
+    "categories": [
+      "Blended Frapp\u00e9",
+      "Cold Brew / Iced Tea",
+      "Hot Espresso",
+      "Iced Specialty Milk"
     ]
   },
   "knn": {
-    "algorithm": "K-Nearest Neighbors (k=3, Euclidean metric)",
+    "algorithm": "K-Nearest Neighbors (5-Dimensional with Min-Max Scaling)",
+    "features": [
+      "sweetness",
+      "caffeine",
+      "bitterness",
+      "creaminess",
+      "acidity"
+    ],
     "menu_items_count": 14,
-    "samples": 350
+    "samples": 420
   },
   "svm": {
     "algorithm": "Support Vector Classifier (Linear Kernel Boundary)",

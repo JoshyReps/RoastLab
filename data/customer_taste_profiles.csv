@@ -1,351 +1,421 @@
-sweetness_pref,caffeine_pref,recommended_drink
-1.7,9.14,Signature Cold Brew
-1.76,9.81,Signature Cold Brew
-1.41,9.11,Signature Cold Brew
-2.13,9.51,Signature Cold Brew
-1.31,9.42,Signature Cold Brew
-1.31,9.01,Signature Cold Brew
-1.6,8.43,Signature Cold Brew
-1.0,8.98,Signature Cold Brew
-1.09,9.33,Signature Cold Brew
-1.14,8.64,Signature Cold Brew
-2.09,9.11,Signature Cold Brew
-1.53,8.63,Signature Cold Brew
-1.28,9.24,Signature Cold Brew
-1.04,9.35,Signature Cold Brew
-1.26,9.08,Signature Cold Brew
-1.26,9.94,Signature Cold Brew
-1.49,8.78,Signature Cold Brew
-1.83,8.71,Signature Cold Brew
-1.58,8.42,Signature Cold Brew
-1.0,9.28,Signature Cold Brew
-1.8,9.27,Signature Cold Brew
-1.45,9.08,Signature Cold Brew
-1.0,8.91,Signature Cold Brew
-1.32,9.62,Signature Cold Brew
-1.64,8.49,Signature Cold Brew
-2.13,9.35,Nitro Draft Coffee
-1.73,9.74,Nitro Draft Coffee
-2.41,9.87,Nitro Draft Coffee
-1.66,9.38,Nitro Draft Coffee
-2.13,9.89,Nitro Draft Coffee
-1.81,9.43,Nitro Draft Coffee
-1.56,9.02,Nitro Draft Coffee
-2.33,10.0,Nitro Draft Coffee
-1.97,9.9,Nitro Draft Coffee
-2.14,9.24,Nitro Draft Coffee
-2.14,10.0,Nitro Draft Coffee
-1.99,10.0,Nitro Draft Coffee
-1.0,9.83,Nitro Draft Coffee
-2.03,9.38,Nitro Draft Coffee
-2.04,8.7,Nitro Draft Coffee
-1.91,9.64,Nitro Draft Coffee
-2.59,9.29,Nitro Draft Coffee
-1.68,9.3,Nitro Draft Coffee
-2.37,9.63,Nitro Draft Coffee
-1.79,9.71,Nitro Draft Coffee
-2.04,9.89,Nitro Draft Coffee
-1.72,9.37,Nitro Draft Coffee
-1.84,8.91,Nitro Draft Coffee
-2.12,9.6,Nitro Draft Coffee
-2.0,9.41,Nitro Draft Coffee
-1.0,9.63,Double Espresso
-1.0,9.48,Double Espresso
-1.0,9.96,Double Espresso
-1.75,9.87,Double Espresso
-1.1,9.77,Double Espresso
-1.0,9.79,Double Espresso
-1.02,10.0,Double Espresso
-1.0,9.92,Double Espresso
-1.0,9.33,Double Espresso
-1.46,10.0,Double Espresso
-1.32,9.44,Double Espresso
-1.56,9.24,Double Espresso
-1.23,10.0,Double Espresso
-1.0,9.57,Double Espresso
-1.04,9.6,Double Espresso
-1.0,9.83,Double Espresso
-1.0,9.99,Double Espresso
-1.0,10.0,Double Espresso
-1.0,9.67,Double Espresso
-1.33,9.31,Double Espresso
-1.09,10.0,Double Espresso
-1.0,9.87,Double Espresso
-1.1,10.0,Double Espresso
-1.0,9.27,Double Espresso
-1.21,9.92,Double Espresso
-1.9,8.14,Artisanal Americano
-1.53,8.09,Artisanal Americano
-1.92,7.71,Artisanal Americano
-2.55,8.19,Artisanal Americano
-1.32,8.26,Artisanal Americano
-1.41,8.31,Artisanal Americano
-2.26,7.67,Artisanal Americano
-2.19,8.17,Artisanal Americano
-2.13,8.76,Artisanal Americano
-1.7,7.7,Artisanal Americano
-1.44,7.67,Artisanal Americano
-1.77,8.14,Artisanal Americano
-1.91,8.33,Artisanal Americano
-1.81,8.58,Artisanal Americano
-1.69,9.09,Artisanal Americano
-2.05,7.66,Artisanal Americano
-1.37,8.19,Artisanal Americano
-1.71,8.29,Artisanal Americano
-1.99,7.97,Artisanal Americano
-1.46,7.39,Artisanal Americano
-1.62,8.34,Artisanal Americano
-1.89,7.5,Artisanal Americano
-1.87,8.15,Artisanal Americano
-1.45,8.06,Artisanal Americano
-1.82,7.54,Artisanal Americano
-3.64,7.72,Flat White
-3.93,7.92,Flat White
-2.95,7.12,Flat White
-3.71,7.71,Flat White
-3.71,9.04,Flat White
-3.73,7.95,Flat White
-3.88,7.76,Flat White
-3.37,7.8,Flat White
-3.19,7.41,Flat White
-3.31,7.53,Flat White
-4.43,6.75,Flat White
-3.77,6.85,Flat White
-3.31,7.94,Flat White
-3.53,7.07,Flat White
-3.21,7.77,Flat White
-3.21,7.59,Flat White
-3.52,7.24,Flat White
-4.36,7.75,Flat White
-2.69,7.57,Flat White
-3.24,7.84,Flat White
-3.18,7.45,Flat White
-3.7,7.85,Flat White
-3.02,7.37,Flat White
-3.31,7.24,Flat White
-4.21,7.66,Flat White
-2.3,8.57,Cortado
-3.65,8.61,Cortado
-2.19,8.01,Cortado
-3.31,7.92,Cortado
-2.98,8.51,Cortado
-2.43,8.18,Cortado
-1.5,7.79,Cortado
-2.7,7.7,Cortado
-3.45,7.63,Cortado
-2.62,8.25,Cortado
-3.38,7.63,Cortado
-3.27,8.2,Cortado
-2.41,8.38,Cortado
-2.88,7.96,Cortado
-2.83,8.05,Cortado
-2.85,8.46,Cortado
-3.43,7.7,Cortado
-3.65,7.42,Cortado
-2.74,8.44,Cortado
-2.91,7.95,Cortado
-2.72,8.0,Cortado
-2.56,8.54,Cortado
-2.94,7.92,Cortado
-3.16,8.32,Cortado
-3.13,8.45,Cortado
-4.17,6.28,Caffe Latte
-4.8,6.74,Caffe Latte
-4.49,6.55,Caffe Latte
-5.01,6.26,Caffe Latte
-4.72,6.42,Caffe Latte
-4.41,6.94,Caffe Latte
-4.83,6.83,Caffe Latte
-5.02,6.51,Caffe Latte
-4.77,6.38,Caffe Latte
-4.63,6.45,Caffe Latte
-4.54,6.74,Caffe Latte
-4.17,7.34,Caffe Latte
-4.1,6.01,Caffe Latte
-4.96,6.82,Caffe Latte
-4.75,6.75,Caffe Latte
-4.5,6.14,Caffe Latte
-4.53,6.23,Caffe Latte
-4.89,6.44,Caffe Latte
-4.17,6.37,Caffe Latte
-4.67,6.27,Caffe Latte
-4.17,6.6,Caffe Latte
-4.6,6.3,Caffe Latte
-4.31,6.59,Caffe Latte
-3.92,5.94,Caffe Latte
-4.21,6.41,Caffe Latte
-7.92,7.39,Spanish Latte
-8.14,6.74,Spanish Latte
-7.79,6.4,Spanish Latte
-7.79,6.68,Spanish Latte
-7.93,6.47,Spanish Latte
-8.01,7.41,Spanish Latte
-7.76,6.96,Spanish Latte
-8.08,6.64,Spanish Latte
-7.89,6.81,Spanish Latte
-7.84,6.49,Spanish Latte
-7.81,7.0,Spanish Latte
-8.38,7.18,Spanish Latte
-8.66,6.49,Spanish Latte
-8.15,6.87,Spanish Latte
-8.68,6.48,Spanish Latte
-7.46,6.56,Spanish Latte
-6.95,6.59,Spanish Latte
-7.5,6.86,Spanish Latte
-7.94,7.55,Spanish Latte
-8.18,6.57,Spanish Latte
-7.44,7.0,Spanish Latte
-7.27,7.53,Spanish Latte
-8.27,6.61,Spanish Latte
-7.11,7.34,Spanish Latte
-7.75,7.3,Spanish Latte
-7.86,5.76,Caramel Macchiato
-8.5,6.02,Caramel Macchiato
-8.32,6.25,Caramel Macchiato
-8.07,5.94,Caramel Macchiato
-8.55,6.21,Caramel Macchiato
-8.78,5.55,Caramel Macchiato
-7.89,6.51,Caramel Macchiato
-8.63,5.7,Caramel Macchiato
-9.12,6.05,Caramel Macchiato
-8.97,6.03,Caramel Macchiato
-9.32,6.7,Caramel Macchiato
-8.4,6.39,Caramel Macchiato
-8.76,6.55,Caramel Macchiato
-8.11,6.27,Caramel Macchiato
-8.92,5.3,Caramel Macchiato
-8.03,5.18,Caramel Macchiato
-8.39,6.29,Caramel Macchiato
-9.1,6.03,Caramel Macchiato
-9.15,5.45,Caramel Macchiato
-7.82,5.98,Caramel Macchiato
-8.65,5.99,Caramel Macchiato
-7.67,5.96,Caramel Macchiato
-7.98,6.27,Caramel Macchiato
-8.65,5.62,Caramel Macchiato
-8.29,5.58,Caramel Macchiato
-7.47,7.38,Mocha Truffle
-7.11,7.2,Mocha Truffle
-7.29,6.68,Mocha Truffle
-7.46,6.59,Mocha Truffle
-7.28,6.52,Mocha Truffle
-8.29,7.01,Mocha Truffle
-7.22,7.09,Mocha Truffle
-7.46,6.91,Mocha Truffle
-7.75,7.3,Mocha Truffle
-7.29,6.77,Mocha Truffle
-7.39,6.08,Mocha Truffle
-6.89,7.55,Mocha Truffle
-8.16,6.9,Mocha Truffle
-7.73,7.12,Mocha Truffle
-8.73,7.45,Mocha Truffle
-7.45,6.62,Mocha Truffle
-6.86,7.08,Mocha Truffle
-7.2,6.43,Mocha Truffle
-7.24,6.57,Mocha Truffle
-8.17,7.35,Mocha Truffle
-7.5,7.59,Mocha Truffle
-7.53,6.66,Mocha Truffle
-8.11,7.22,Mocha Truffle
-7.09,6.92,Mocha Truffle
-7.15,6.45,Mocha Truffle
-9.57,4.76,Vanilla Bean Frappe
-8.64,4.23,Vanilla Bean Frappe
-8.94,3.81,Vanilla Bean Frappe
-8.96,3.65,Vanilla Bean Frappe
-9.22,3.67,Vanilla Bean Frappe
-9.31,3.98,Vanilla Bean Frappe
-9.1,3.64,Vanilla Bean Frappe
-8.97,4.3,Vanilla Bean Frappe
-9.4,3.61,Vanilla Bean Frappe
-9.24,4.3,Vanilla Bean Frappe
-8.53,4.22,Vanilla Bean Frappe
-8.93,4.23,Vanilla Bean Frappe
-8.89,3.28,Vanilla Bean Frappe
-8.55,4.02,Vanilla Bean Frappe
-9.3,3.64,Vanilla Bean Frappe
-9.46,3.34,Vanilla Bean Frappe
-9.17,3.52,Vanilla Bean Frappe
-8.94,4.02,Vanilla Bean Frappe
-8.86,3.85,Vanilla Bean Frappe
-9.6,3.77,Vanilla Bean Frappe
-9.53,3.55,Vanilla Bean Frappe
-9.41,4.58,Vanilla Bean Frappe
-8.21,3.68,Vanilla Bean Frappe
-9.43,3.92,Vanilla Bean Frappe
-9.35,3.76,Vanilla Bean Frappe
-6.83,5.74,Brown Sugar Oat Latte
-7.27,5.9,Brown Sugar Oat Latte
-6.94,5.64,Brown Sugar Oat Latte
-6.6,5.63,Brown Sugar Oat Latte
-6.96,5.63,Brown Sugar Oat Latte
-6.92,6.63,Brown Sugar Oat Latte
-7.15,5.67,Brown Sugar Oat Latte
-7.28,5.64,Brown Sugar Oat Latte
-5.98,5.4,Brown Sugar Oat Latte
-6.05,5.66,Brown Sugar Oat Latte
-6.81,6.47,Brown Sugar Oat Latte
-6.93,5.71,Brown Sugar Oat Latte
-7.13,4.92,Brown Sugar Oat Latte
-6.89,6.11,Brown Sugar Oat Latte
-6.21,6.26,Brown Sugar Oat Latte
-6.94,5.63,Brown Sugar Oat Latte
-7.05,6.71,Brown Sugar Oat Latte
-6.87,5.9,Brown Sugar Oat Latte
-6.62,5.46,Brown Sugar Oat Latte
-7.13,5.46,Brown Sugar Oat Latte
-6.83,5.61,Brown Sugar Oat Latte
-6.99,5.93,Brown Sugar Oat Latte
-7.22,5.6,Brown Sugar Oat Latte
-6.69,5.41,Brown Sugar Oat Latte
-6.62,5.95,Brown Sugar Oat Latte
-5.8,5.83,Matcha Espresso Fusion
-5.85,6.74,Matcha Espresso Fusion
-5.67,6.95,Matcha Espresso Fusion
-5.19,5.7,Matcha Espresso Fusion
-4.79,6.8,Matcha Espresso Fusion
-5.76,6.18,Matcha Espresso Fusion
-5.61,5.75,Matcha Espresso Fusion
-6.48,6.25,Matcha Espresso Fusion
-5.54,6.49,Matcha Espresso Fusion
-5.69,6.29,Matcha Espresso Fusion
-5.18,6.39,Matcha Espresso Fusion
-6.25,6.74,Matcha Espresso Fusion
-6.14,6.0,Matcha Espresso Fusion
-5.1,6.15,Matcha Espresso Fusion
-5.52,6.64,Matcha Espresso Fusion
-4.82,6.81,Matcha Espresso Fusion
-5.44,6.03,Matcha Espresso Fusion
-5.1,5.54,Matcha Espresso Fusion
-5.83,6.23,Matcha Espresso Fusion
-4.98,5.68,Matcha Espresso Fusion
-5.37,6.87,Matcha Espresso Fusion
-5.4,5.6,Matcha Espresso Fusion
-5.4,6.09,Matcha Espresso Fusion
-4.42,6.18,Matcha Espresso Fusion
-5.41,6.48,Matcha Espresso Fusion
-5.74,1.65,Decaf Honey Cinnamon Cappuccino
-4.89,1.0,Decaf Honey Cinnamon Cappuccino
-6.03,1.22,Decaf Honey Cinnamon Cappuccino
-5.01,1.19,Decaf Honey Cinnamon Cappuccino
-5.08,1.14,Decaf Honey Cinnamon Cappuccino
-4.77,1.0,Decaf Honey Cinnamon Cappuccino
-4.99,1.0,Decaf Honey Cinnamon Cappuccino
-4.71,1.24,Decaf Honey Cinnamon Cappuccino
-4.9,1.8,Decaf Honey Cinnamon Cappuccino
-3.94,1.64,Decaf Honey Cinnamon Cappuccino
-5.5,1.0,Decaf Honey Cinnamon Cappuccino
-4.86,1.05,Decaf Honey Cinnamon Cappuccino
-4.44,1.0,Decaf Honey Cinnamon Cappuccino
-4.56,1.9,Decaf Honey Cinnamon Cappuccino
-5.37,1.71,Decaf Honey Cinnamon Cappuccino
-5.29,1.0,Decaf Honey Cinnamon Cappuccino
-4.79,1.4,Decaf Honey Cinnamon Cappuccino
-4.51,1.49,Decaf Honey Cinnamon Cappuccino
-4.9,1.05,Decaf Honey Cinnamon Cappuccino
-5.28,1.38,Decaf Honey Cinnamon Cappuccino
-4.86,1.66,Decaf Honey Cinnamon Cappuccino
-4.57,1.45,Decaf Honey Cinnamon Cappuccino
-5.24,1.08,Decaf Honey Cinnamon Cappuccino
-5.13,1.0,Decaf Honey Cinnamon Cappuccino
-5.37,1.13,Decaf Honey Cinnamon Cappuccino
+sweetness_pref,caffeine_pref,bitterness_pref,creaminess_pref,acidity_pref,recommended_drink
+1.7,9.14,6.76,1.61,5.41,Signature Cold Brew
+1.41,9.83,6.81,1.0,5.72,Signature Cold Brew
+1.31,9.01,6.6,1.0,4.81,Signature Cold Brew
+1.28,8.79,6.63,1.0,4.94,Signature Cold Brew
+2.09,9.11,6.53,1.0,5.28,Signature Cold Brew
+1.54,8.74,6.65,1.0,5.38,Signature Cold Brew
+1.26,9.94,6.49,1.0,5.83,Signature Cold Brew
+1.01,9.28,5.72,1.0,5.58,Signature Cold Brew
+1.8,9.27,6.45,1.0,4.91,Signature Cold Brew
+1.21,9.02,6.92,1.14,4.79,Signature Cold Brew
+1.63,9.05,6.23,1.24,5.91,Signature Cold Brew
+1.87,8.86,6.38,1.13,5.89,Signature Cold Brew
+1.31,9.13,6.06,1.0,5.83,Signature Cold Brew
+2.04,9.17,6.9,1.14,5.24,Signature Cold Brew
+1.64,9.82,6.49,1.63,4.45,Signature Cold Brew
+1.83,9.23,6.38,1.04,4.7,Signature Cold Brew
+1.41,9.34,7.09,1.0,5.18,Signature Cold Brew
+1.3,9.57,6.63,1.0,5.71,Signature Cold Brew
+1.54,9.59,6.22,1.0,5.34,Signature Cold Brew
+1.0,9.32,6.6,1.0,5.41,Signature Cold Brew
+1.0,9.03,6.36,1.0,5.44,Signature Cold Brew
+1.66,9.95,6.57,1.1,5.47,Signature Cold Brew
+1.0,9.19,6.52,1.99,5.42,Signature Cold Brew
+1.62,9.19,6.03,1.46,5.8,Signature Cold Brew
+1.82,8.84,7.06,1.0,5.73,Signature Cold Brew
+2.38,8.8,6.27,1.04,5.3,Signature Cold Brew
+1.0,9.23,6.08,1.19,5.13,Signature Cold Brew
+2.12,8.89,6.37,1.33,5.01,Signature Cold Brew
+1.59,9.72,5.86,1.07,5.6,Signature Cold Brew
+1.81,8.71,5.97,1.21,5.62,Signature Cold Brew
+2.1,9.64,5.53,4.59,4.12,Nitro Draft Velvet
+1.71,10.0,5.99,4.02,4.26,Nitro Draft Velvet
+1.61,9.81,6.26,4.17,4.39,Nitro Draft Velvet
+2.17,9.83,6.56,4.4,3.7,Nitro Draft Velvet
+1.64,9.17,5.77,4.64,4.11,Nitro Draft Velvet
+2.33,9.51,6.38,4.39,5.09,Nitro Draft Velvet
+2.25,9.16,5.37,4.69,3.91,Nitro Draft Velvet
+2.29,9.69,5.77,4.16,3.39,Nitro Draft Velvet
+1.82,9.84,5.89,4.0,4.07,Nitro Draft Velvet
+2.15,9.15,5.86,4.52,3.54,Nitro Draft Velvet
+2.14,9.72,6.23,4.92,3.45,Nitro Draft Velvet
+1.62,9.71,6.01,4.71,5.54,Nitro Draft Velvet
+2.23,9.95,6.18,4.76,3.87,Nitro Draft Velvet
+2.3,9.19,5.71,4.31,4.03,Nitro Draft Velvet
+2.93,8.75,6.07,3.85,3.81,Nitro Draft Velvet
+2.44,9.53,5.37,4.21,4.27,Nitro Draft Velvet
+1.71,9.59,5.82,4.24,4.86,Nitro Draft Velvet
+2.25,8.69,5.87,4.24,4.34,Nitro Draft Velvet
+1.68,9.45,6.0,4.85,3.52,Nitro Draft Velvet
+1.87,9.31,5.54,5.21,4.16,Nitro Draft Velvet
+1.5,9.87,6.65,4.91,3.39,Nitro Draft Velvet
+1.81,10.0,5.52,4.68,4.31,Nitro Draft Velvet
+1.63,9.48,4.5,4.09,3.9,Nitro Draft Velvet
+1.5,10.0,5.23,4.32,4.05,Nitro Draft Velvet
+2.58,8.93,6.27,4.5,3.61,Nitro Draft Velvet
+2.18,9.58,5.56,4.53,3.85,Nitro Draft Velvet
+2.05,9.76,6.43,4.0,4.85,Nitro Draft Velvet
+1.22,9.44,6.04,4.61,3.75,Nitro Draft Velvet
+1.92,9.3,5.56,4.84,4.14,Nitro Draft Velvet
+1.72,9.86,5.92,4.83,4.25,Nitro Draft Velvet
+1.0,9.58,9.1,1.74,7.19,Double Ristretto Espresso
+1.05,10.0,8.56,1.72,7.12,Double Ristretto Espresso
+1.0,10.0,9.13,1.83,7.72,Double Ristretto Espresso
+1.01,10.0,8.68,1.63,7.15,Double Ristretto Espresso
+1.04,10.0,8.47,2.34,6.8,Double Ristretto Espresso
+1.0,10.0,9.12,1.75,7.45,Double Ristretto Espresso
+1.0,9.44,8.83,1.23,7.59,Double Ristretto Espresso
+1.0,9.47,8.67,1.67,6.97,Double Ristretto Espresso
+1.0,9.9,8.9,1.3,7.01,Double Ristretto Espresso
+1.09,9.22,8.24,1.21,7.11,Double Ristretto Espresso
+1.12,10.0,9.14,1.44,7.19,Double Ristretto Espresso
+1.0,9.79,8.68,1.63,6.87,Double Ristretto Espresso
+1.21,10.0,8.76,1.66,7.48,Double Ristretto Espresso
+1.0,9.89,8.81,1.54,6.89,Double Ristretto Espresso
+1.01,10.0,9.38,1.88,8.06,Double Ristretto Espresso
+1.0,10.0,8.87,2.38,6.88,Double Ristretto Espresso
+1.0,9.56,7.95,1.29,6.9,Double Ristretto Espresso
+1.06,9.94,9.55,1.88,6.97,Double Ristretto Espresso
+1.0,10.0,8.27,2.23,7.67,Double Ristretto Espresso
+1.0,9.11,9.34,1.45,7.7,Double Ristretto Espresso
+1.0,9.56,8.8,1.52,7.02,Double Ristretto Espresso
+1.25,9.37,8.74,1.55,7.41,Double Ristretto Espresso
+1.28,9.35,8.19,2.01,7.33,Double Ristretto Espresso
+1.0,10.0,8.85,1.97,7.23,Double Ristretto Espresso
+1.82,10.0,8.7,1.89,7.46,Double Ristretto Espresso
+1.55,9.41,9.07,1.92,6.5,Double Ristretto Espresso
+1.0,8.98,8.69,1.79,7.8,Double Ristretto Espresso
+1.03,10.0,8.25,1.0,7.18,Double Ristretto Espresso
+1.15,9.79,7.97,1.46,6.68,Double Ristretto Espresso
+1.27,9.95,8.42,1.29,6.78,Double Ristretto Espresso
+1.47,8.58,6.41,1.2,5.79,Artisanal Americano
+1.18,8.16,6.39,1.0,5.52,Artisanal Americano
+2.29,8.21,6.52,1.09,5.96,Artisanal Americano
+1.41,8.45,7.1,1.0,5.77,Artisanal Americano
+1.39,7.28,6.19,1.55,6.66,Artisanal Americano
+1.4,8.43,6.92,2.23,6.45,Artisanal Americano
+1.45,7.82,6.16,1.08,5.7,Artisanal Americano
+1.0,7.94,6.37,1.67,6.35,Artisanal Americano
+1.5,8.79,6.83,1.0,6.61,Artisanal Americano
+1.72,7.79,6.72,1.0,5.45,Artisanal Americano
+1.87,8.96,6.24,1.23,5.74,Artisanal Americano
+1.31,7.96,6.45,1.02,5.67,Artisanal Americano
+1.61,8.18,6.7,1.0,5.77,Artisanal Americano
+1.8,8.4,6.41,1.04,6.3,Artisanal Americano
+1.0,8.42,6.53,1.23,5.69,Artisanal Americano
+1.0,7.55,6.82,1.1,5.64,Artisanal Americano
+1.76,7.54,6.77,1.0,5.74,Artisanal Americano
+1.52,7.86,6.65,1.4,5.77,Artisanal Americano
+1.83,7.75,7.01,1.58,5.01,Artisanal Americano
+1.18,8.43,6.72,1.15,5.76,Artisanal Americano
+1.53,8.14,7.27,1.1,6.14,Artisanal Americano
+1.34,8.0,6.63,1.16,5.83,Artisanal Americano
+1.62,9.03,7.15,1.0,6.48,Artisanal Americano
+1.34,7.38,6.4,1.0,5.86,Artisanal Americano
+1.51,8.87,6.93,1.0,6.33,Artisanal Americano
+1.0,8.29,7.11,1.0,6.46,Artisanal Americano
+1.64,8.03,7.05,1.91,6.07,Artisanal Americano
+1.6,8.02,6.46,1.33,5.66,Artisanal Americano
+1.53,8.01,6.99,1.13,6.42,Artisanal Americano
+1.3,8.09,6.41,1.0,6.15,Artisanal Americano
+3.3,7.63,3.55,1.54,9.37,Single-Origin Pour-Over (Ethiopian)
+3.75,7.69,2.7,1.0,9.8,Single-Origin Pour-Over (Ethiopian)
+3.26,7.98,3.31,1.0,10.0,Single-Origin Pour-Over (Ethiopian)
+3.05,8.04,3.49,1.19,9.29,Single-Origin Pour-Over (Ethiopian)
+2.68,8.19,3.95,1.54,9.84,Single-Origin Pour-Over (Ethiopian)
+2.8,7.6,3.15,1.02,9.64,Single-Origin Pour-Over (Ethiopian)
+2.32,8.61,3.14,1.0,8.8,Single-Origin Pour-Over (Ethiopian)
+2.34,8.33,3.23,1.0,8.68,Single-Origin Pour-Over (Ethiopian)
+2.87,8.67,3.1,1.0,9.1,Single-Origin Pour-Over (Ethiopian)
+2.89,6.92,3.18,1.0,9.48,Single-Origin Pour-Over (Ethiopian)
+3.74,8.45,3.09,1.0,10.0,Single-Origin Pour-Over (Ethiopian)
+3.02,8.01,3.19,1.08,9.14,Single-Origin Pour-Over (Ethiopian)
+2.77,7.78,3.19,1.0,8.91,Single-Origin Pour-Over (Ethiopian)
+3.04,7.9,3.8,1.0,9.64,Single-Origin Pour-Over (Ethiopian)
+3.5,7.17,3.06,1.0,8.64,Single-Origin Pour-Over (Ethiopian)
+2.69,7.56,3.9,1.37,9.71,Single-Origin Pour-Over (Ethiopian)
+3.29,7.55,2.99,1.2,8.71,Single-Origin Pour-Over (Ethiopian)
+3.29,7.9,3.05,1.28,9.38,Single-Origin Pour-Over (Ethiopian)
+2.86,8.46,2.77,1.25,9.44,Single-Origin Pour-Over (Ethiopian)
+2.88,8.13,2.7,1.37,9.13,Single-Origin Pour-Over (Ethiopian)
+2.79,8.42,2.92,1.0,8.58,Single-Origin Pour-Over (Ethiopian)
+3.24,7.49,3.9,1.0,9.88,Single-Origin Pour-Over (Ethiopian)
+3.08,7.96,2.98,1.16,9.18,Single-Origin Pour-Over (Ethiopian)
+3.44,8.05,3.26,1.0,9.18,Single-Origin Pour-Over (Ethiopian)
+3.12,7.32,2.66,1.3,9.27,Single-Origin Pour-Over (Ethiopian)
+2.93,8.01,3.34,1.0,8.89,Single-Origin Pour-Over (Ethiopian)
+3.08,7.61,3.36,1.0,9.61,Single-Origin Pour-Over (Ethiopian)
+3.19,8.1,3.59,1.67,9.61,Single-Origin Pour-Over (Ethiopian)
+2.26,7.49,2.95,1.01,9.41,Single-Origin Pour-Over (Ethiopian)
+2.71,8.07,2.9,1.0,8.64,Single-Origin Pour-Over (Ethiopian)
+1.0,7.96,8.81,2.22,1.62,Sumatra Dark Roast French Press
+2.05,8.7,9.27,1.46,2.28,Sumatra Dark Roast French Press
+1.0,8.55,10.0,1.76,2.46,Sumatra Dark Roast French Press
+1.0,8.49,9.91,1.55,2.72,Sumatra Dark Roast French Press
+1.28,8.28,9.45,2.19,2.25,Sumatra Dark Roast French Press
+1.0,8.21,9.1,1.77,2.25,Sumatra Dark Roast French Press
+1.07,7.97,9.35,2.04,2.22,Sumatra Dark Roast French Press
+1.43,8.83,9.38,1.77,1.34,Sumatra Dark Roast French Press
+1.17,8.58,9.31,1.29,1.57,Sumatra Dark Roast French Press
+1.42,8.48,9.47,1.81,2.01,Sumatra Dark Roast French Press
+1.38,8.29,9.24,1.62,1.83,Sumatra Dark Roast French Press
+1.0,8.59,9.01,2.3,1.64,Sumatra Dark Roast French Press
+1.0,8.32,9.78,1.88,2.41,Sumatra Dark Roast French Press
+1.0,8.61,9.56,1.83,2.43,Sumatra Dark Roast French Press
+1.0,9.06,10.0,1.65,1.82,Sumatra Dark Roast French Press
+1.58,9.13,8.99,1.63,1.89,Sumatra Dark Roast French Press
+1.0,8.13,8.8,1.49,1.99,Sumatra Dark Roast French Press
+1.09,9.12,8.8,2.19,1.91,Sumatra Dark Roast French Press
+1.0,8.77,8.75,1.95,2.07,Sumatra Dark Roast French Press
+1.2,8.62,10.0,1.54,1.79,Sumatra Dark Roast French Press
+1.0,8.28,8.95,2.28,2.57,Sumatra Dark Roast French Press
+1.0,8.17,9.39,1.58,2.25,Sumatra Dark Roast French Press
+1.08,7.89,9.82,2.52,1.75,Sumatra Dark Roast French Press
+1.0,8.61,9.33,2.06,2.8,Sumatra Dark Roast French Press
+1.0,8.18,8.65,1.51,1.99,Sumatra Dark Roast French Press
+1.72,8.29,9.29,1.79,2.48,Sumatra Dark Roast French Press
+2.01,8.29,9.0,2.22,2.27,Sumatra Dark Roast French Press
+1.74,8.73,9.06,2.04,2.44,Sumatra Dark Roast French Press
+1.33,8.7,9.63,2.27,2.55,Sumatra Dark Roast French Press
+1.26,8.43,9.26,2.28,1.67,Sumatra Dark Roast French Press
+3.65,7.34,5.21,8.01,4.08,Artisanal Flat White
+3.52,6.96,5.5,7.76,4.87,Artisanal Flat White
+3.38,7.59,5.3,8.13,3.96,Artisanal Flat White
+3.61,7.74,5.27,7.32,4.08,Artisanal Flat White
+3.93,7.09,5.25,7.22,4.48,Artisanal Flat White
+2.89,7.28,5.35,8.13,3.97,Artisanal Flat White
+3.28,8.25,4.62,6.62,4.18,Artisanal Flat White
+3.3,7.09,5.48,7.6,3.77,Artisanal Flat White
+2.99,7.85,5.46,7.46,4.74,Artisanal Flat White
+3.07,6.89,4.92,7.48,4.1,Artisanal Flat White
+3.4,7.64,4.7,8.08,3.97,Artisanal Flat White
+3.95,7.64,5.38,7.73,4.18,Artisanal Flat White
+3.76,8.03,5.28,7.78,3.96,Artisanal Flat White
+4.08,7.23,5.92,7.48,3.43,Artisanal Flat White
+3.55,7.23,5.54,7.24,3.82,Artisanal Flat White
+2.74,7.32,4.23,6.87,4.3,Artisanal Flat White
+3.81,7.67,4.81,7.48,4.0,Artisanal Flat White
+3.04,8.1,5.55,7.41,4.01,Artisanal Flat White
+3.58,6.68,5.1,7.23,3.6,Artisanal Flat White
+3.39,8.22,5.46,7.27,4.23,Artisanal Flat White
+4.06,7.87,5.22,7.24,4.28,Artisanal Flat White
+3.66,7.86,5.45,7.92,3.79,Artisanal Flat White
+4.03,7.58,6.03,7.22,4.69,Artisanal Flat White
+3.58,7.24,5.01,7.37,4.17,Artisanal Flat White
+3.71,7.27,5.19,8.36,4.69,Artisanal Flat White
+3.67,7.52,5.25,7.75,3.59,Artisanal Flat White
+3.4,6.83,5.36,7.76,3.81,Artisanal Flat White
+4.13,7.01,4.61,7.59,4.42,Artisanal Flat White
+4.17,7.32,5.63,7.48,3.93,Artisanal Flat White
+3.85,7.76,4.57,8.09,4.55,Artisanal Flat White
+2.75,8.36,6.7,5.6,4.78,Spanish Cortado
+2.73,8.19,6.97,5.72,4.85,Spanish Cortado
+3.31,7.06,6.96,4.8,4.86,Spanish Cortado
+2.55,7.68,6.96,5.31,5.14,Spanish Cortado
+2.98,8.39,6.53,4.99,5.4,Spanish Cortado
+2.8,7.58,6.33,6.1,5.34,Spanish Cortado
+2.86,8.06,6.37,6.33,5.15,Spanish Cortado
+3.17,8.61,6.6,5.4,4.92,Spanish Cortado
+2.97,8.19,6.79,5.52,5.29,Spanish Cortado
+2.97,8.23,5.7,5.87,5.14,Spanish Cortado
+3.4,7.04,7.34,5.44,5.44,Spanish Cortado
+2.58,8.45,6.08,5.25,5.77,Spanish Cortado
+2.92,8.29,6.85,5.7,5.06,Spanish Cortado
+3.15,9.16,6.48,5.58,5.42,Spanish Cortado
+3.44,8.67,6.76,5.04,5.65,Spanish Cortado
+2.54,8.32,6.2,5.47,5.13,Spanish Cortado
+3.13,8.37,7.15,5.68,4.9,Spanish Cortado
+3.39,8.68,6.01,5.74,5.28,Spanish Cortado
+2.88,8.75,6.44,5.55,4.93,Spanish Cortado
+3.01,7.76,5.92,6.14,4.66,Spanish Cortado
+2.6,7.34,6.24,4.97,5.66,Spanish Cortado
+3.4,7.92,7.4,5.89,4.87,Spanish Cortado
+2.0,9.12,5.94,4.84,5.41,Spanish Cortado
+3.98,8.75,6.73,5.74,5.34,Spanish Cortado
+3.3,8.31,6.54,5.47,4.7,Spanish Cortado
+2.89,7.52,6.46,5.1,4.56,Spanish Cortado
+3.07,8.76,6.87,4.87,4.6,Spanish Cortado
+3.38,7.81,6.41,5.72,4.61,Spanish Cortado
+3.04,7.67,6.26,5.63,4.36,Spanish Cortado
+3.18,8.19,6.72,5.59,5.55,Spanish Cortado
+4.55,6.33,4.05,8.72,3.22,Caffe Velvet Latte
+4.52,6.22,3.73,7.94,3.9,Caffe Velvet Latte
+4.0,6.22,3.71,8.86,3.08,Caffe Velvet Latte
+5.0,6.23,4.11,8.17,4.06,Caffe Velvet Latte
+4.02,6.62,4.25,8.67,3.13,Caffe Velvet Latte
+4.45,6.52,3.94,8.89,4.08,Caffe Velvet Latte
+4.28,5.95,3.96,9.53,2.88,Caffe Velvet Latte
+5.16,7.17,3.78,8.73,3.85,Caffe Velvet Latte
+4.35,6.42,3.77,8.09,2.94,Caffe Velvet Latte
+4.01,6.51,3.69,8.59,2.58,Caffe Velvet Latte
+4.63,6.83,3.2,8.65,3.69,Caffe Velvet Latte
+4.02,7.17,4.17,8.22,3.18,Caffe Velvet Latte
+4.72,6.53,4.22,8.13,3.27,Caffe Velvet Latte
+3.93,6.46,3.64,8.21,3.69,Caffe Velvet Latte
+4.94,6.74,3.56,8.37,3.69,Caffe Velvet Latte
+4.56,7.43,4.16,8.58,3.08,Caffe Velvet Latte
+4.55,6.44,4.28,8.88,2.89,Caffe Velvet Latte
+3.97,5.77,4.2,8.06,2.34,Caffe Velvet Latte
+4.66,7.5,4.0,8.84,3.23,Caffe Velvet Latte
+4.46,6.87,3.88,8.61,3.33,Caffe Velvet Latte
+4.23,6.9,3.93,8.2,3.41,Caffe Velvet Latte
+4.14,6.51,4.0,8.93,3.39,Caffe Velvet Latte
+4.49,6.83,4.56,8.72,3.2,Caffe Velvet Latte
+3.98,6.07,3.88,8.26,3.13,Caffe Velvet Latte
+4.52,6.71,3.97,8.69,3.23,Caffe Velvet Latte
+3.71,6.12,3.94,8.02,3.44,Caffe Velvet Latte
+5.11,6.99,3.91,9.1,3.26,Caffe Velvet Latte
+4.37,6.25,3.88,8.34,3.27,Caffe Velvet Latte
+4.56,6.5,4.17,8.98,3.58,Caffe Velvet Latte
+3.91,5.48,4.37,7.95,3.11,Caffe Velvet Latte
+6.33,5.08,4.42,8.1,2.57,Brown Sugar Oat Latte
+5.76,5.58,4.36,7.21,2.87,Brown Sugar Oat Latte
+6.79,6.03,4.25,7.41,3.28,Brown Sugar Oat Latte
+6.74,5.79,3.83,7.62,2.45,Brown Sugar Oat Latte
+6.73,6.48,3.65,7.15,3.39,Brown Sugar Oat Latte
+6.72,5.53,4.62,7.56,3.53,Brown Sugar Oat Latte
+7.07,5.6,5.06,7.56,3.1,Brown Sugar Oat Latte
+6.92,6.32,4.82,7.81,2.5,Brown Sugar Oat Latte
+6.98,5.53,5.01,7.85,2.65,Brown Sugar Oat Latte
+6.87,5.26,3.81,8.28,2.54,Brown Sugar Oat Latte
+6.38,6.01,4.67,8.09,3.2,Brown Sugar Oat Latte
+6.5,5.23,4.8,7.67,2.7,Brown Sugar Oat Latte
+7.33,6.02,4.38,8.67,2.54,Brown Sugar Oat Latte
+7.17,5.82,4.31,8.41,3.0,Brown Sugar Oat Latte
+7.02,6.23,4.05,7.46,2.38,Brown Sugar Oat Latte
+6.01,6.62,3.76,7.71,2.69,Brown Sugar Oat Latte
+6.92,6.13,4.54,7.57,2.73,Brown Sugar Oat Latte
+6.91,5.7,4.84,8.0,3.09,Brown Sugar Oat Latte
+7.07,6.27,4.27,7.28,2.96,Brown Sugar Oat Latte
+6.54,5.59,4.43,8.3,2.81,Brown Sugar Oat Latte
+6.92,6.48,4.3,8.84,3.03,Brown Sugar Oat Latte
+6.1,6.1,4.35,8.32,3.07,Brown Sugar Oat Latte
+6.74,5.31,4.12,7.46,2.57,Brown Sugar Oat Latte
+7.04,6.47,4.36,7.32,2.98,Brown Sugar Oat Latte
+7.28,5.56,4.15,7.81,2.49,Brown Sugar Oat Latte
+7.06,5.75,4.37,7.45,2.63,Brown Sugar Oat Latte
+7.09,5.65,4.89,7.64,2.89,Brown Sugar Oat Latte
+7.17,5.23,3.5,7.19,3.31,Brown Sugar Oat Latte
+6.58,6.82,3.97,7.87,3.42,Brown Sugar Oat Latte
+7.6,6.62,4.68,8.21,3.04,Brown Sugar Oat Latte
+8.81,5.78,3.47,8.2,2.43,Caramel Macchiato Reserve
+8.32,6.28,4.18,8.24,3.09,Caramel Macchiato Reserve
+8.04,5.92,3.51,7.45,2.47,Caramel Macchiato Reserve
+8.45,6.61,4.05,7.79,3.24,Caramel Macchiato Reserve
+8.99,6.23,3.71,7.82,2.35,Caramel Macchiato Reserve
+8.94,6.75,4.42,8.0,2.05,Caramel Macchiato Reserve
+8.56,5.29,3.93,8.14,2.31,Caramel Macchiato Reserve
+7.86,6.21,3.59,7.73,1.35,Caramel Macchiato Reserve
+8.49,6.71,4.46,8.02,2.26,Caramel Macchiato Reserve
+8.69,5.6,3.92,8.51,2.99,Caramel Macchiato Reserve
+8.46,5.92,3.45,7.87,2.41,Caramel Macchiato Reserve
+8.65,6.37,3.48,8.8,2.39,Caramel Macchiato Reserve
+8.49,5.7,2.83,8.55,2.79,Caramel Macchiato Reserve
+8.39,6.03,4.01,7.57,2.29,Caramel Macchiato Reserve
+8.82,5.5,3.92,7.66,2.69,Caramel Macchiato Reserve
+8.49,5.35,4.27,7.91,2.18,Caramel Macchiato Reserve
+8.58,6.46,3.39,8.22,2.67,Caramel Macchiato Reserve
+8.78,6.07,3.65,7.87,2.53,Caramel Macchiato Reserve
+8.07,4.83,3.97,8.56,1.55,Caramel Macchiato Reserve
+8.1,6.25,4.62,8.21,2.21,Caramel Macchiato Reserve
+8.43,6.55,3.54,7.88,2.31,Caramel Macchiato Reserve
+8.12,6.05,4.45,8.33,2.4,Caramel Macchiato Reserve
+8.38,5.37,4.15,8.17,2.43,Caramel Macchiato Reserve
+9.78,6.12,3.5,8.03,2.96,Caramel Macchiato Reserve
+8.55,5.42,4.17,7.93,3.25,Caramel Macchiato Reserve
+8.93,5.82,4.31,8.23,2.84,Caramel Macchiato Reserve
+8.69,5.66,3.54,8.61,2.37,Caramel Macchiato Reserve
+8.34,5.62,3.97,9.03,2.07,Caramel Macchiato Reserve
+8.51,6.56,3.77,8.38,2.08,Caramel Macchiato Reserve
+8.67,5.93,4.19,8.67,3.54,Caramel Macchiato Reserve
+7.73,7.13,5.88,8.36,2.14,Valrhona Mocha Truffle
+7.38,7.07,6.33,8.1,2.46,Valrhona Mocha Truffle
+8.03,6.95,4.95,8.26,2.52,Valrhona Mocha Truffle
+7.49,6.6,5.6,8.84,2.22,Valrhona Mocha Truffle
+7.4,6.85,5.64,8.13,2.65,Valrhona Mocha Truffle
+7.37,7.49,6.41,8.9,1.83,Valrhona Mocha Truffle
+7.66,6.99,5.44,8.63,1.53,Valrhona Mocha Truffle
+7.98,6.81,5.88,8.61,1.9,Valrhona Mocha Truffle
+7.73,6.81,6.15,7.96,2.05,Valrhona Mocha Truffle
+8.28,6.6,5.53,8.71,2.07,Valrhona Mocha Truffle
+7.64,7.2,6.05,8.94,2.16,Valrhona Mocha Truffle
+7.4,7.27,6.56,8.45,1.61,Valrhona Mocha Truffle
+7.94,6.95,4.93,8.84,1.79,Valrhona Mocha Truffle
+7.46,7.13,5.88,8.78,1.83,Valrhona Mocha Truffle
+7.71,6.9,6.1,8.75,1.63,Valrhona Mocha Truffle
+7.93,6.79,6.12,8.65,2.74,Valrhona Mocha Truffle
+7.41,6.86,5.79,8.38,2.32,Valrhona Mocha Truffle
+6.85,6.58,5.37,8.88,2.68,Valrhona Mocha Truffle
+7.46,6.93,5.83,8.96,1.63,Valrhona Mocha Truffle
+7.6,7.39,6.0,8.58,2.4,Valrhona Mocha Truffle
+6.42,7.27,5.54,7.77,2.2,Valrhona Mocha Truffle
+8.05,6.95,6.18,9.14,2.53,Valrhona Mocha Truffle
+8.16,7.3,5.83,7.86,1.9,Valrhona Mocha Truffle
+7.16,7.87,5.73,8.55,2.22,Valrhona Mocha Truffle
+7.52,7.68,5.55,8.58,1.7,Valrhona Mocha Truffle
+6.97,6.76,5.79,8.33,1.72,Valrhona Mocha Truffle
+6.94,6.97,5.2,8.8,2.03,Valrhona Mocha Truffle
+6.92,6.88,5.5,8.63,2.54,Valrhona Mocha Truffle
+6.75,7.05,5.74,8.77,2.09,Valrhona Mocha Truffle
+7.2,6.87,5.48,8.93,2.01,Valrhona Mocha Truffle
+9.96,3.48,1.52,8.39,1.0,Madagascar Vanilla Bean Frappé
+8.57,3.61,2.0,8.37,1.56,Madagascar Vanilla Bean Frappé
+9.01,3.56,2.44,9.36,1.09,Madagascar Vanilla Bean Frappé
+8.84,2.64,1.51,8.92,1.0,Madagascar Vanilla Bean Frappé
+9.15,3.53,1.71,8.74,1.27,Madagascar Vanilla Bean Frappé
+9.38,3.06,2.36,8.96,1.21,Madagascar Vanilla Bean Frappé
+9.48,3.59,2.18,9.11,1.0,Madagascar Vanilla Bean Frappé
+9.34,3.04,1.84,8.99,1.12,Madagascar Vanilla Bean Frappé
+9.15,2.75,1.58,9.04,1.26,Madagascar Vanilla Bean Frappé
+8.79,4.01,1.45,9.39,1.37,Madagascar Vanilla Bean Frappé
+8.94,4.21,1.32,9.37,1.6,Madagascar Vanilla Bean Frappé
+8.93,4.06,1.7,9.12,1.3,Madagascar Vanilla Bean Frappé
+9.15,3.82,2.12,8.3,1.72,Madagascar Vanilla Bean Frappé
+8.54,3.91,2.25,8.56,1.04,Madagascar Vanilla Bean Frappé
+8.76,3.41,1.68,9.31,1.72,Madagascar Vanilla Bean Frappé
+9.76,3.28,1.72,8.33,1.0,Madagascar Vanilla Bean Frappé
+9.59,4.15,1.31,8.76,1.19,Madagascar Vanilla Bean Frappé
+9.31,3.18,1.97,8.81,1.19,Madagascar Vanilla Bean Frappé
+9.42,3.5,1.63,8.96,1.16,Madagascar Vanilla Bean Frappé
+9.05,3.4,2.44,9.22,1.08,Madagascar Vanilla Bean Frappé
+9.48,3.37,2.27,9.15,1.16,Madagascar Vanilla Bean Frappé
+9.38,2.87,1.35,8.52,1.26,Madagascar Vanilla Bean Frappé
+9.89,4.39,2.06,9.2,1.0,Madagascar Vanilla Bean Frappé
+8.98,3.18,1.55,8.93,1.01,Madagascar Vanilla Bean Frappé
+8.41,3.8,1.37,9.1,2.03,Madagascar Vanilla Bean Frappé
+8.83,2.49,1.69,9.44,1.98,Madagascar Vanilla Bean Frappé
+8.71,3.7,1.61,8.96,2.26,Madagascar Vanilla Bean Frappé
+8.6,3.6,1.99,9.43,1.24,Madagascar Vanilla Bean Frappé
+9.32,3.34,1.91,8.86,1.45,Madagascar Vanilla Bean Frappé
+9.05,3.65,1.79,9.45,1.18,Madagascar Vanilla Bean Frappé
+4.49,6.7,5.14,6.54,2.56,Ceremonial Matcha Espresso Fusion
+5.75,5.35,6.76,7.22,2.89,Ceremonial Matcha Espresso Fusion
+5.18,6.31,5.71,7.06,3.02,Ceremonial Matcha Espresso Fusion
+5.24,6.12,5.44,6.72,3.25,Ceremonial Matcha Espresso Fusion
+5.44,5.02,5.76,6.88,2.79,Ceremonial Matcha Espresso Fusion
+5.04,6.65,5.88,6.49,2.96,Ceremonial Matcha Espresso Fusion
+4.81,5.65,5.25,7.14,3.18,Ceremonial Matcha Espresso Fusion
+5.41,6.49,5.71,6.54,2.97,Ceremonial Matcha Espresso Fusion
+5.52,6.5,5.98,7.08,2.94,Ceremonial Matcha Espresso Fusion
+5.63,6.19,5.15,6.73,2.5,Ceremonial Matcha Espresso Fusion
+4.93,6.14,5.18,6.68,2.04,Ceremonial Matcha Espresso Fusion
+5.29,6.2,5.17,7.06,3.18,Ceremonial Matcha Espresso Fusion
+4.56,5.89,5.19,6.42,3.13,Ceremonial Matcha Espresso Fusion
+5.12,6.09,4.7,7.05,2.3,Ceremonial Matcha Espresso Fusion
+5.22,6.31,6.04,6.28,1.59,Ceremonial Matcha Espresso Fusion
+5.27,6.92,6.0,6.88,2.6,Ceremonial Matcha Espresso Fusion
+5.52,5.81,5.69,7.0,3.22,Ceremonial Matcha Espresso Fusion
+6.3,6.36,5.3,6.79,2.09,Ceremonial Matcha Espresso Fusion
+4.92,6.04,5.29,6.86,2.47,Ceremonial Matcha Espresso Fusion
+5.65,6.2,5.5,6.67,2.86,Ceremonial Matcha Espresso Fusion
+5.53,5.85,5.24,6.68,2.26,Ceremonial Matcha Espresso Fusion
+4.87,6.01,5.85,6.91,2.88,Ceremonial Matcha Espresso Fusion
+5.54,6.15,5.66,6.76,2.91,Ceremonial Matcha Espresso Fusion
+4.97,5.22,5.45,7.37,3.17,Ceremonial Matcha Espresso Fusion
+5.59,6.69,5.54,6.88,2.55,Ceremonial Matcha Espresso Fusion
+5.07,6.45,5.98,6.74,2.62,Ceremonial Matcha Espresso Fusion
+5.2,6.44,4.92,5.88,2.58,Ceremonial Matcha Espresso Fusion
+4.71,6.0,5.44,6.62,3.38,Ceremonial Matcha Espresso Fusion
+5.33,6.32,5.75,6.34,3.22,Ceremonial Matcha Espresso Fusion
+5.17,6.47,5.07,6.18,3.13,Ceremonial Matcha Espresso Fusion

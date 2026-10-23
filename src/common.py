@@ -60,16 +60,6 @@ def render_sidebar_info():
     with st.sidebar:
         st.markdown("---")
         st.markdown("### ☕ RoastLab Co.")
-        st.caption("ELEC026.23 Machine Learning Final Project")
-        st.markdown("**Team Members:**")
-        st.markdown("""
-        - **Reponoya**
-        - **Olpenado**
-        - **Palencia**
-        - **Rivera**
-        """)
-        st.markdown("---")
-        st.caption("Specialty Coffee Retail Analytics Suite • v1.0")
 
 @st.cache_resource
 def load_model(model_name: str):

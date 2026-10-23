@@ -1,15 +1,15 @@
-drink_name,sweetness,caffeine,category,desc
-Signature Cold Brew,1.5,9.2,Cold Coffee,"Steeped for 20h, bold, chocolate notes, zero sugar"
-Nitro Draft Coffee,2.0,9.5,Cold Coffee,"Velvety head, creamy texture without dairy"
-Double Espresso,1.0,9.8,Hot Espresso,"Rich crema, intense caramelized body"
-Artisanal Americano,1.8,8.0,Hot Espresso,Hot water pulled over double espresso shots
-Flat White,3.5,7.5,Milk Coffee,Microfoam milk with double ristretto
-Cortado,2.8,8.2,Milk Coffee,Equal parts espresso and warm steamed milk
-Caffe Latte,4.5,6.5,Milk Coffee,Smooth steamed milk with rich espresso base
-Spanish Latte,7.8,6.8,Sweet Coffee,Espresso infused with sweetened condensed milk
-Caramel Macchiato,8.5,6.0,Sweet Coffee,Vanilla-infused milk marked with espresso & caramel drizzle
-Mocha Truffle,7.5,7.0,Sweet Coffee,Artisan dark cacao melted with espresso and whole milk
-Vanilla Bean Frappe,9.2,4.0,Blended,"Blended ice, real Madagascar vanilla, whipped cream"
-Brown Sugar Oat Latte,6.8,5.8,Plant-based,Rolled oat milk with spiced brown sugar reduction
-Matcha Espresso Fusion,5.5,6.2,Specialty,Ceremonial grade Uji matcha layered with single-origin espresso
-Decaf Honey Cinnamon Cappuccino,5.0,1.2,Low Caffeine,Swiss water decaf with wild honey and Ceylon cinnamon
+drink_name,category,sweetness,caffeine,bitterness,creaminess,acidity,price,desc
+Signature Cold Brew,Cold Coffee,1.5,9.2,6.5,1.0,5.5,$5.50,"Steeped 20 hours in cold water. Clean, bold cacao finish with crisp clarity and zero dairy."
+Nitro Draft Velvet,Cold Coffee,2.0,9.5,5.8,4.5,4.0,$6.25,Draft tap infused with pure nitrogen. Micro-foam cascade creating a natural creamy texture.
+Double Ristretto Espresso,Hot Espresso,1.0,9.8,8.8,1.5,7.2,$4.25,"Short, restricted extraction capturing dense caramel crema and intense essential oils."
+Artisanal Americano,Hot Espresso,1.5,8.2,6.8,1.0,6.0,$4.50,"Double espresso pulled over hot mountain spring water. Balanced, aromatic, and light-bodied."
+Single-Origin Pour-Over (Ethiopian),Pour-Over,3.0,8.0,3.2,1.0,9.2,$6.50,"Hand-poured Chemex. Vivid floral jasmine, bergamot brightness, and sweet Meyer lemon notes."
+Sumatra Dark Roast French Press,Pour-Over,1.0,8.5,9.2,1.8,2.0,$5.75,"Heavy body, intense dark roast depth, earthy cedar, pipe tobacco, and dark bittersweet cocoa."
+Artisanal Flat White,Milk Coffee,3.5,7.5,5.2,7.5,4.0,$5.25,"Double ristretto enveloped in free-poured, velvety steamed microfoam milk with silky mouthfeel."
+Spanish Cortado,Milk Coffee,3.0,8.2,6.5,5.5,5.0,$4.75,1:1 ratio of rich espresso to warm steamed milk. Cuts bitterness while maintaining punch.
+Caffe Velvet Latte,Milk Coffee,4.5,6.5,4.0,8.5,3.2,$5.50,"Smooth steamed whole milk over espresso with a delicate, creamy froth top."
+Brown Sugar Oat Latte,Plant-Based,6.8,5.8,4.2,7.8,2.8,$6.75,"Rolled oat milk hand-shaken with espresso, molasses brown sugar reduction, and cinnamon."
+Caramel Macchiato Reserve,Sweet Coffee,8.5,6.0,3.8,8.2,2.5,$6.25,Vanilla-infused steamed milk marked with fresh espresso shots and artisanal butter caramel drizzle.
+Valrhona Mocha Truffle,Sweet Coffee,7.5,7.0,5.8,8.5,2.0,$6.50,Melted French dark cacao ganache folded into espresso and warm velvety textured milk.
+Madagascar Vanilla Bean Frappé,Blended,9.2,3.5,1.8,9.0,1.2,$6.75,"Blended crystal ice, fresh dairy cream, real Madagascar vanilla seeds, and light cold-brew syrup."
+Ceremonial Matcha Espresso Fusion,Specialty,5.2,6.2,5.5,6.8,2.8,$6.50,Stone-ground Uji matcha green tea layered over iced oat milk and a floating single-origin espresso shot.
