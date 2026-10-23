@@ -91,6 +91,7 @@ RoastLab/
 ### 1. Activate Environment
 ```powershell
 .\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 ```
 
 ### 2. Launch the Multi-Page Application

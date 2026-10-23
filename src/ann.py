@@ -7,6 +7,7 @@ import os
 import joblib
 import numpy as np
 import pandas as pd
+from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
@@ -60,6 +61,8 @@ def train_and_save(data_dir: str, models_dir: str) -> dict:
     
     X = df_roast[["charge_temp_c", "drop_temp_c", "roast_time_min", "first_crack_time_min", "avg_ror_c_per_min"]]
     y = df_roast["sca_cupping_score"].values
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     
     reg = TransformedTargetRegressor(
         regressor=MLPRegressor(
@@ -77,11 +80,11 @@ def train_and_save(data_dir: str, models_dir: str) -> dict:
         ("scaler", StandardScaler()),
         ("mlp_reg", reg)
     ])
-    mlp_pipeline.fit(X, y)
+    mlp_pipeline.fit(X_train, y_train)
     
-    preds = mlp_pipeline.predict(X)
-    r2 = r2_score(y, preds)
-    rmse = np.sqrt(mean_squared_error(y, preds))
+    preds = mlp_pipeline.predict(X_test)
+    r2 = r2_score(y_test, preds)
+    rmse = np.sqrt(mean_squared_error(y_test, preds))
     
     joblib.dump(mlp_pipeline, os.path.join(models_dir, "ann_roast_qc.pkl"))
     return {

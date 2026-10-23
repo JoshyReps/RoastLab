@@ -14,7 +14,6 @@ MODELS_DIR = os.path.join(BASE_DIR, "models")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 def apply_custom_theme():
-    """Applies artisanal coffee CSS styling to the current Streamlit page."""
     st.markdown("""
     <style>
         .brand-title {

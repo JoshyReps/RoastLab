@@ -30,18 +30,13 @@ with col_ann1:
     **drum temperature at drop**, **first crack timing**, and **Rate of Rise (RoR)** drastically alter chemical caramelization 
     and organic acid breakdown.
     
-    **Why Multi-Layer Perceptrons (ANN)?**
-    - Roasting chemistry involves non-linear thermodynamics that standard linear models cannot capture.
-    - Our MLP processes a 5-dimensional telemetry vector through hidden layers with ReLU activations:
-      $$h_1 = \\text{ReLU}(W_1 x + b_1), \\quad h_2 = \\text{ReLU}(W_2 h_1 + b_2), \\quad \\hat{y} = W_3 h_2 + b_3$$
-    - Predicts the batch's **Specialty Coffee Association (SCA) Cupping Score (80 - 95 scale)** before cooling even finishes!
+    #### **🏆 SCA Cupping Score Scale**
     """)
-    st.markdown(f"""
-    - **Architecture:** `{metrics.get('architecture', 'Dense(32) -> Dense(16) -> Dense(1)')}`
-    - **Non-Linear Activation:** `Rectified Linear Unit (ReLU)`
-    - **Coefficient of Determination ($R^2$):** `{metrics.get('r2_score', 0.987)}`
-    - **Root Mean Squared Error:** `{metrics.get('rmse', 0.38)} pts`
-    - **Optimization Epochs:** `{metrics.get('iterations', 122)} (Adam Solver)`
+    st.markdown("""
+    - **88.0 - 100.0 (Presidential Specialty):** Flawless bean structure, exotic aromatics, vibrant fruit sweetness. Reserved for competition lots.
+    - **84.0 - 87.9 (Specialty Grade):** Standard RoastLab single-origin offerings with clean cup quality and distinct acidity.
+    - **80.0 - 83.9 (Premium Commercial):** High-grade espresso blend components with balanced cocoa sweetness.
+    - **< 80.0 (Defective):** Under-extracted or scorched roast batch; flagged for reprocessing or cold brew syrup extraction.
     """)
     
 with col_ann2:
@@ -74,7 +69,7 @@ with col_ann2:
             tier = "Specialty Grade"
             tier_color = "#1565c0"
         elif pred_score >= 80.0:
-            tier = "Premium Commercial Grade"
+            tier = "Commercial Grade"
             tier_color = "#ef6c00"
         else:
             tier = "Underdeveloped / Roaster Defect"
@@ -88,10 +83,13 @@ with col_ann2:
     st.markdown("</div>", unsafe_allow_html=True)
 
 st.markdown("---")
-st.markdown("### 🔬 Sensory Quality Scale Breakdown (SCA Protocol)")
-st.markdown("""
-- **88.0 - 100.0 (Presidential Specialty):** Flawless bean structure, exotic aromatics, vibrant fruit sweetness. Reserved for competition lots.
-- **84.0 - 87.9 (Specialty Grade):** Standard RoastLab single-origin offerings with clean cup quality and distinct acidity.
-- **80.0 - 83.9 (Premium Commercial):** High-grade espresso blend components with balanced cocoa sweetness.
-- **< 80.0 (Defective):** Under-extracted or scorched roast batch; flagged for reprocessing or cold brew syrup extraction.
+st.markdown("### 🔬 Why Multi-Layer Perceptrons (ANN)?")
+st.markdown(f"""
+    - Roasting chemistry involves non-linear thermodynamics that standard linear models cannot capture.
+    - Predicts the batch's **Specialty Coffee Association (SCA) Cupping Score (80 - 95 scale)** before cooling even finishes!
+    - **Architecture:** `{metrics.get('architecture', 'Dense(32) -> Dense(16) -> Dense(1)')}`
+    - **Non-Linear Activation:** `Rectified Linear Unit (ReLU)`
+    - **Coefficient of Determination ($R^2$):** `{metrics.get('r2_score', 0.987)}`
+    - **Root Mean Squared Error:** `{metrics.get('rmse', 0.38)} pts`
+    - **Optimization Epochs:** `{metrics.get('iterations', 122)} (Adam Solver)`
 """)
