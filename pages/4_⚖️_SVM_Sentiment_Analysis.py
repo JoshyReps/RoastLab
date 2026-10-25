@@ -49,26 +49,53 @@ with col_s2:
         "Best artisanal latte in town! Barista made stunning latte art and the froth was silky.",
         "The iced latte tasted watered down like ice cubes with milk. Extremely disappointed."
     ]
-    selected_sample = st.selectbox("Select a sample review or type your own below:", ["-- Type your own review --"] + sample_reviews)
-    
-    review_text = st.text_area(
-        "Customer Review Text", 
-        value="" if selected_sample == "-- Type your own review --" else selected_sample,
-        placeholder="e.g. Delicious pour-over and fast barista service!"
+    sample_placeholder = "-- Pick a sample (optional) --"
+
+    def load_sample():
+        """Copies a chosen sample into the feedback box, then resets the dropdown so it can be re-picked."""
+        choice = st.session_state["svm_sample"]
+        if choice != sample_placeholder:
+            st.session_state["svm_review_text"] = choice
+        st.session_state["svm_sample"] = sample_placeholder
+
+    # Primary input: type your own feedback
+    with st.form("svm_feedback_form"):
+        review_text = st.text_area(
+            "✍️ Type your own customer feedback",
+            key="svm_review_text",
+            height=130,
+            placeholder="e.g. Delicious pour-over and fast barista service!"
+        )
+        st.form_submit_button("🔍 Analyze Feedback")
+
+    # Secondary: quick-fill with a curated sample
+    st.selectbox(
+        "...or try a sample review:",
+        [sample_placeholder] + sample_reviews,
+        key="svm_sample",
+        on_change=load_sample
     )
-    
-    if review_text.strip() and model:
-        pred_sent = model.predict([review_text])[0]
-        decision = model.decision_function([review_text])[0]
-        
-        if pred_sent == "Positive":
-            st.success(f"✅ **Sentiment:** POSITIVE (Margin Distance: `+{abs(decision):.2f}`)")
-            st.write("🟢 **Store Action:** Logged to Barista Recognition Board & Google Review Highlights.")
-        else:
-            st.error(f"⚠️ **Sentiment:** NEGATIVE (Margin Distance: `-{abs(decision):.2f}`)")
-            st.write("🔴 **Store Action:** High-priority ticket opened. Branch Manager alerted for customer outreach.")
-    elif not model:
+
+    if not model:
         st.warning("Model file not found. Please train models first.")
+    elif review_text.strip():
+        if model.named_steps["tfidf"].transform([review_text]).nnz == 0:
+            st.info(
+                "🤔 The model doesn't recognize any of those words, so it can't judge this feedback. "
+                "Try mentioning the drink, service, or atmosphere (e.g., *\"slow service\"*, *\"smooth latte\"*)."
+            )
+        else:
+            pred_sent = model.predict([review_text])[0]
+            decision = model.decision_function([review_text])[0]
+
+            if pred_sent == "Positive":
+                st.success(f"✅ **Sentiment:** POSITIVE (Margin Distance: `+{abs(decision):.2f}`)")
+                st.write("🟢 **Store Action:** Logged to Barista Recognition Board & Google Review Highlights.")
+            else:
+                st.error(f"⚠️ **Sentiment:** NEGATIVE (Margin Distance: `-{abs(decision):.2f}`)")
+                st.write("🔴 **Store Action:** High-priority ticket opened. Branch Manager alerted for customer outreach.")
+    else:
+        st.caption("Type feedback above and press **Analyze Feedback**, or pick a sample.")
     st.markdown("</div>", unsafe_allow_html=True)
 
 st.markdown("---")
