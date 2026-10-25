@@ -15,3 +15,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+yelp.tgz
+yelp_review_polarity_csv/
+make_extra_reviews.py
