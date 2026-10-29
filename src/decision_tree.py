@@ -1,8 +1,15 @@
 """
 Algorithm 5: ID3 Decision Tree Classifier (Entropy / Information Gain)
-Business Task: Cafe Branch Location & Expansion Site Selection Optimizer
-Recommends the ideal coffee shop format and location archetype based on
-environmental, demographic, financial, and spatial site characteristics.
+Business Task: Coffee Shop Location Feasibility Evaluator (Yes / No)
+Predicts whether to open a new coffee shop at a target location
+based on 4 environmental site criteria:
+- foot_traffic: High, Moderate, Low
+- rent_cost: Affordable, Moderate, Expensive
+- competition: Low, High
+- accessibility: Good, Poor
+
+Target Output:
+- open_coffee_shop: Yes / No
 """
 
 import os
@@ -13,55 +20,36 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score
 
-LOCATION_DATA = [
-    # 1. Downtown CBD Express Kiosk (High commuter density, grab-and-go, prime rent, transit/compact)
-    ("Heavy Transit & Office Commuters", "High / Prime Downtown ($$$$)", "Grab-&-Go (< 10 mins)", "Transit Hub / Walk-Up Only (Zero Parking)", "Micro Space (< 40 sqm)", "Downtown CBD Express Kiosk"),
-    ("Heavy Transit & Office Commuters", "High / Prime Downtown ($$$$)", "Grab-&-Go (< 10 mins)", "Street Parking & Shared Lot", "Micro Space (< 40 sqm)", "Downtown CBD Express Kiosk"),
-    ("Heavy Transit & Office Commuters", "Moderate / Urban Commercial ($$)", "Grab-&-Go (< 10 mins)", "Transit Hub / Walk-Up Only (Zero Parking)", "Micro Space (< 40 sqm)", "Downtown CBD Express Kiosk"),
-    ("Heavy Transit & Office Commuters", "High / Prime Downtown ($$$$)", "Grab-&-Go (< 10 mins)", "Transit Hub / Walk-Up Only (Zero Parking)", "Standard Lounge (80 - 150 sqm)", "Downtown CBD Express Kiosk"),
-    
-    # 2. University Campus Study Lounge (Academic demographic, extended dwell, moderate rent, standard lounge)
-    ("Moderate Student & Academic", "Moderate / Urban Commercial ($$)", "Extended Study & Work (> 60 mins)", "Transit Hub / Walk-Up Only (Zero Parking)", "Standard Lounge (80 - 150 sqm)", "University Campus Study Lounge"),
-    ("Moderate Student & Academic", "Moderate / Urban Commercial ($$)", "Extended Study & Work (> 60 mins)", "Street Parking & Shared Lot", "Standard Lounge (80 - 150 sqm)", "University Campus Study Lounge"),
-    ("Moderate Student & Academic", "Economical / Low Overhead ($)", "Extended Study & Work (> 60 mins)", "Transit Hub / Walk-Up Only (Zero Parking)", "Standard Lounge (80 - 150 sqm)", "University Campus Study Lounge"),
-    ("Moderate Student & Academic", "Moderate / Urban Commercial ($$)", "Extended Study & Work (> 60 mins)", "Street Parking & Shared Lot", "Spacious Destination (> 200 sqm)", "University Campus Study Lounge"),
-    ("Moderate Student & Academic", "Economical / Low Overhead ($)", "Extended Study & Work (> 60 mins)", "Street Parking & Shared Lot", "Standard Lounge (80 - 150 sqm)", "University Campus Study Lounge"),
-    
-    # 3. Suburban Community Roastery & Patio (Residential families, weekend brunch, spacious, parking)
-    ("Neighborhood Residents & Families", "Moderate / Urban Commercial ($$)", "Social Dine-In & Brunch (30 - 60 mins)", "Street Parking & Shared Lot", "Spacious Destination (> 200 sqm)", "Suburban Community Roastery & Patio"),
-    ("Neighborhood Residents & Families", "Economical / Low Overhead ($)", "Social Dine-In & Brunch (30 - 60 mins)", "Street Parking & Shared Lot", "Spacious Destination (> 200 sqm)", "Suburban Community Roastery & Patio"),
-    ("Neighborhood Residents & Families", "Moderate / Urban Commercial ($$)", "Social Dine-In & Brunch (30 - 60 mins)", "Street Parking & Shared Lot", "Standard Lounge (80 - 150 sqm)", "Suburban Community Roastery & Patio"),
-    ("Neighborhood Residents & Families", "Moderate / Urban Commercial ($$)", "Extended Study & Work (> 60 mins)", "Street Parking & Shared Lot", "Spacious Destination (> 200 sqm)", "Suburban Community Roastery & Patio"),
-    ("Neighborhood Residents & Families", "Economical / Low Overhead ($)", "Social Dine-In & Brunch (30 - 60 mins)", "Dedicated Drive-Thru & Ample Parking", "Spacious Destination (> 200 sqm)", "Suburban Community Roastery & Patio"),
-    
-    # 4. Highway Commuter Drive-Thru Express (High vehicular flow, rapid window service, dedicated drive-thru lane)
-    ("Low Pedestrian / High Vehicular Flow", "Economical / Low Overhead ($)", "Grab-&-Go (< 10 mins)", "Dedicated Drive-Thru & Ample Parking", "Standard Lounge (80 - 150 sqm)", "Highway Commuter Drive-Thru Express"),
-    ("Low Pedestrian / High Vehicular Flow", "Moderate / Urban Commercial ($$)", "Grab-&-Go (< 10 mins)", "Dedicated Drive-Thru & Ample Parking", "Standard Lounge (80 - 150 sqm)", "Highway Commuter Drive-Thru Express"),
-    ("Low Pedestrian / High Vehicular Flow", "Economical / Low Overhead ($)", "Grab-&-Go (< 10 mins)", "Dedicated Drive-Thru & Ample Parking", "Micro Space (< 40 sqm)", "Highway Commuter Drive-Thru Express"),
-    ("Low Pedestrian / High Vehicular Flow", "Economical / Low Overhead ($)", "Social Dine-In & Brunch (30 - 60 mins)", "Dedicated Drive-Thru & Ample Parking", "Standard Lounge (80 - 150 sqm)", "Highway Commuter Drive-Thru Express"),
-    
-    # 5. Arts & Heritage Flagship Tasting Room (Tourists & cultural leisure, tasting bar, high ticket, spacious)
-    ("Weekend Leisure & Tourists", "High / Prime Downtown ($$$$)", "Social Dine-In & Brunch (30 - 60 mins)", "Transit Hub / Walk-Up Only (Zero Parking)", "Spacious Destination (> 200 sqm)", "Arts & Heritage Flagship Tasting Room"),
-    ("Weekend Leisure & Tourists", "Moderate / Urban Commercial ($$)", "Social Dine-In & Brunch (30 - 60 mins)", "Street Parking & Shared Lot", "Spacious Destination (> 200 sqm)", "Arts & Heritage Flagship Tasting Room"),
-    ("Weekend Leisure & Tourists", "High / Prime Downtown ($$$$)", "Extended Study & Work (> 60 mins)", "Street Parking & Shared Lot", "Spacious Destination (> 200 sqm)", "Arts & Heritage Flagship Tasting Room"),
-    ("Weekend Leisure & Tourists", "Moderate / Urban Commercial ($$)", "Extended Study & Work (> 60 mins)", "Transit Hub / Walk-Up Only (Zero Parking)", "Spacious Destination (> 200 sqm)", "Arts & Heritage Flagship Tasting Room"),
-    
-    # 6. Corporate Business Park Micro-Lobby (Captive office workers, low overhead, M-F weekday rush)
-    ("Heavy Transit & Office Commuters", "Economical / Low Overhead ($)", "Grab-&-Go (< 10 mins)", "Street Parking & Shared Lot", "Micro Space (< 40 sqm)", "Corporate Business Park Micro-Lobby"),
-    ("Heavy Transit & Office Commuters", "Economical / Low Overhead ($)", "Grab-&-Go (< 10 mins)", "Transit Hub / Walk-Up Only (Zero Parking)", "Micro Space (< 40 sqm)", "Corporate Business Park Micro-Lobby"),
-    ("Moderate Student & Academic", "Economical / Low Overhead ($)", "Grab-&-Go (< 10 mins)", "Transit Hub / Walk-Up Only (Zero Parking)", "Micro Space (< 40 sqm)", "Corporate Business Park Micro-Lobby"),
-    ("Heavy Transit & Office Commuters", "Economical / Low Overhead ($)", "Moderate Stay (15 - 45 mins)", "Street Parking & Shared Lot", "Micro Space (< 40 sqm)", "Corporate Business Park Micro-Lobby")
+# 17 Environmental Site Evaluation Observations
+SITE_DATA = [
+    ("High", "Affordable", "Low", "Good", "Yes"),
+    ("High", "Affordable", "High", "Good", "Yes"),
+    ("High", "Moderate", "Low", "Good", "Yes"),
+    ("High", "Moderate", "High", "Good", "Yes"),
+    ("High", "Expensive", "Low", "Good", "Yes"),
+    ("High", "Expensive", "High", "Good", "No"),
+    ("High", "Affordable", "Low", "Poor", "No"),
+    ("Moderate", "Affordable", "Low", "Good", "Yes"),
+    ("Moderate", "Affordable", "High", "Good", "No"),
+    ("Moderate", "Moderate", "Low", "Good", "Yes"),
+    ("Moderate", "Moderate", "High", "Good", "No"),
+    ("Moderate", "Expensive", "Low", "Good", "No"),
+    ("Moderate", "Affordable", "Low", "Poor", "No"),
+    ("Low", "Affordable", "Low", "Good", "No"),
+    ("Low", "Affordable", "High", "Poor", "No"),
+    ("Low", "Moderate", "Low", "Good", "No"),
+    ("Low", "Expensive", "Low", "Poor", "No")
 ]
 
-FEATURE_COLS = ["foot_traffic", "rent_budget", "dwell_time", "parking_access", "space_capacity"]
-TARGET_COL = "store_format"
+FEATURE_COLS = ["foot_traffic", "rent_cost", "competition", "accessibility"]
+TARGET_COL = "open_coffee_shop"
 
 def train_and_save(data_dir: str, models_dir: str) -> dict:
-    df_locations = pd.DataFrame(LOCATION_DATA, columns=FEATURE_COLS + [TARGET_COL])
-    df_locations.to_csv(os.path.join(data_dir, "store_location_expansion.csv"), index=False)
+    df_sites = pd.DataFrame(SITE_DATA, columns=FEATURE_COLS + [TARGET_COL])
+    df_sites.to_csv(os.path.join(data_dir, "coffee_shop_location_decision.csv"), index=False)
     
-    X = df_locations[FEATURE_COLS]
-    y = df_locations[TARGET_COL]
+    X = df_sites[FEATURE_COLS]
+    y = df_sites[TARGET_COL]
     
     pipeline = Pipeline([
         ("encoder", OneHotEncoder(handle_unknown="ignore")),
@@ -75,15 +63,16 @@ def train_and_save(data_dir: str, models_dir: str) -> dict:
     
     joblib.dump(pipeline, os.path.join(models_dir, "decision_tree.pkl"))
     return {
-        "algorithm": "ID3 Decision Tree (Information Gain / Entropy Criterion)",
+        "algorithm": "ID3 Decision Tree (Entropy / Information Gain)",
+        "task": "Coffee Shop Location Feasibility (Yes / No)",
         "accuracy": round(float(acc), 4),
         "tree_depth": int(dt_model.get_depth()),
         "leaves_count": int(dt_model.get_n_leaves()),
-        "samples": len(df_locations),
+        "samples": len(df_sites),
         "classes": [str(c) for c in dt_model.classes_]
     }
 
 if __name__ == "__main__":
     base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     metrics = train_and_save(os.path.join(base, "data"), os.path.join(base, "models"))
-    print("Decision Tree Location Model trained successfully:", metrics)
+    print("Simple Binary Decision Tree trained successfully:", metrics)
