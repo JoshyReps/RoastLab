@@ -200,41 +200,41 @@ if model:
     col_res_card, col_res_tree = st.columns([1.4, 1.2])
     
     with col_res_card:
-        st.markdown(f"""
-        <div style="background: linear-gradient(135deg, #fdfbf7 0%, #f7efe6 100%); border: 2px solid {info['accent']}; border-radius: 12px; padding: 1.4rem; box-shadow: 0 4px 10px rgba(0,0,0,0.06);">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-                <span class="badge-pill" style="background:{info['accent']}; color:white; font-size:0.8rem;">⭐ OPTIMAL SITE EXPANSION ARCHETYPE</span>
-                <span class="badge-pill badge-specialty">{info['tag']}</span>
-            </div>
-            <h3 style="margin: 0.3rem 0; color: #3e2723; font-weight: 800;">{info['icon']} {match_format}</h3>
-            <p style="margin: 0.6rem 0; font-size: 0.95rem; color: #424242; line-height: 1.5;">{info['concept']}</p>
-            
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 1rem 0; font-size: 0.88rem;">
-                <div style="background: #ffffff; padding: 0.6rem 0.8rem; border-radius: 6px; border: 1px solid #ebd9c8;">
-                    <div style="color: #795548; font-weight: 600; font-size: 0.78rem;">ESTIMATED FITOUT CAPEX</div>
-                    <div style="font-weight: 800; color: #d84315; font-size: 1.05rem;">{info['capex']}</div>
-                </div>
-                <div style="background: #ffffff; padding: 0.6rem 0.8rem; border-radius: 6px; border: 1px solid #ebd9c8;">
-                    <div style="color: #795548; font-weight: 600; font-size: 0.78rem;">TARGET FOOTPRINT</div>
-                    <div style="font-weight: 700; color: #3e2723;">{info['footprint']}</div>
-                </div>
-                <div style="background: #ffffff; padding: 0.6rem 0.8rem; border-radius: 6px; border: 1px solid #ebd9c8;">
-                    <div style="color: #795548; font-weight: 600; font-size: 0.78rem;">DAILY VOLUME EXPECTATION</div>
-                    <div style="font-weight: 700; color: #2e7d32;">{info['daily_volume']}</div>
-                </div>
-                <div style="background: #ffffff; padding: 0.6rem 0.8rem; border-radius: 6px; border: 1px solid #ebd9c8;">
-                    <div style="color: #795548; font-weight: 600; font-size: 0.78rem;">PROJECTED AVG TICKET</div>
-                    <div style="font-weight: 700; color: #3e2723;">{info['avg_ticket']}</div>
-                </div>
-            </div>
-            
-            <div style="display: flex; gap: 15px; font-size: 0.85rem; color: #555555; background: #ffffff; padding: 0.5rem 0.8rem; border-radius: 6px; border: 1px solid #e0d4c8;">
-                <span>Staffing: <strong>{info['staffing']}</strong></span>
-                <span>•</span>
-                <span>Speed of Service: <strong>{info['turnover']}</strong></span>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+        card_html = (
+            f'<div style="background: linear-gradient(135deg, #fdfbf7 0%, #f7efe6 100%); '
+            f'border: 2px solid {info["accent"]}; border-radius: 12px; padding: 1.4rem; box-shadow: 0 4px 10px rgba(0,0,0,0.06);">'
+            f'<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">'
+            f'<span class="badge-pill" style="background:{info["accent"]}; color:white; font-size:0.8rem;">⭐ OPTIMAL SITE EXPANSION ARCHETYPE</span>'
+            f'<span class="badge-pill badge-specialty">{info["tag"]}</span>'
+            f'</div>'
+            f'<h3 style="margin: 0.3rem 0; color: #3e2723; font-weight: 800;">{info["icon"]} {match_format}</h3>'
+            f'<p style="margin: 0.6rem 0; font-size: 0.95rem; color: #424242; line-height: 1.5;">{info["concept"]}</p>'
+            f'<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 1rem 0; font-size: 0.88rem;">'
+            f'<div style="background: #ffffff; padding: 0.6rem 0.8rem; border-radius: 6px; border: 1px solid #ebd9c8;">'
+            f'<div style="color: #795548; font-weight: 600; font-size: 0.78rem;">ESTIMATED FITOUT CAPEX</div>'
+            f'<div style="font-weight: 800; color: #d84315; font-size: 1.05rem;">{info["capex"]}</div>'
+            f'</div>'
+            f'<div style="background: #ffffff; padding: 0.6rem 0.8rem; border-radius: 6px; border: 1px solid #ebd9c8;">'
+            f'<div style="color: #795548; font-weight: 600; font-size: 0.78rem;">TARGET FOOTPRINT</div>'
+            f'<div style="font-weight: 700; color: #3e2723;">{info["footprint"]}</div>'
+            f'</div>'
+            f'<div style="background: #ffffff; padding: 0.6rem 0.8rem; border-radius: 6px; border: 1px solid #ebd9c8;">'
+            f'<div style="color: #795548; font-weight: 600; font-size: 0.78rem;">DAILY VOLUME EXPECTATION</div>'
+            f'<div style="font-weight: 700; color: #2e7d32;">{info["daily_volume"]}</div>'
+            f'</div>'
+            f'<div style="background: #ffffff; padding: 0.6rem 0.8rem; border-radius: 6px; border: 1px solid #ebd9c8;">'
+            f'<div style="color: #795548; font-weight: 600; font-size: 0.78rem;">PROJECTED AVG TICKET</div>'
+            f'<div style="font-weight: 700; color: #3e2723;">{info["avg_ticket"]}</div>'
+            f'</div>'
+            f'</div>'
+            f'<div style="display: flex; gap: 15px; font-size: 0.85rem; color: #555555; background: #ffffff; padding: 0.5rem 0.8rem; border-radius: 6px; border: 1px solid #e0d4c8;">'
+            f'<span>Staffing: <strong>{info["staffing"]}</strong></span>'
+            f'<span>•</span>'
+            f'<span>Speed of Service: <strong>{info["turnover"]}</strong></span>'
+            f'</div>'
+            f'</div>'
+        )
+        st.markdown(card_html, unsafe_allow_html=True)
         
         st.markdown("<br>", unsafe_allow_html=True)
         c_btn1, c_btn2 = st.columns([1.5, 2.0])
@@ -250,29 +250,19 @@ if model:
         st.markdown("#### 🌳 Hierarchical Tree Decision Path")
         st.caption("Step-by-step route traversed through the ID3 tree based on your inputs:")
         
-        st.markdown(f"""
-        <div style="background: #ffffff; border-radius: 8px; border: 1px solid #ebd9c8; padding: 0.8rem; font-size: 0.85rem; margin-bottom: 0.8rem;">
-            <div style="margin-bottom: 0.4rem; color: #795548;"><strong>1. Root Split (Traffic Demographic):</strong></div>
-            <div style="padding-left: 0.8rem; border-left: 2px solid #2e7d32; margin-bottom: 0.6rem; color: #1b5e20;">
-                ↳ Selected: <code>{q_traffic}</code>
-            </div>
-            
-            <div style="margin-bottom: 0.4rem; color: #795548;"><strong>2. Financial & Overhead Split:</strong></div>
-            <div style="padding-left: 0.8rem; border-left: 2px solid #2e7d32; margin-bottom: 0.6rem; color: #1b5e20;">
-                ↳ Selected: <code>{q_rent}</code>
-            </div>
-            
-            <div style="margin-bottom: 0.4rem; color: #795548;"><strong>3. Operational Dwell & Spatial Split:</strong></div>
-            <div style="padding-left: 0.8rem; border-left: 2px solid #2e7d32; margin-bottom: 0.6rem; color: #1b5e20;">
-                ↳ Selected: <code>{q_dwell}</code> | <code>{q_space}</code>
-            </div>
-            
-            <div style="margin-bottom: 0.4rem; color: #795548;"><strong>4. Terminal Classification Leaf:</strong></div>
-            <div style="padding-left: 0.8rem; border-left: 3px solid {info['accent']}; font-weight: bold; color: #3e2723;">
-                ↳ Result: <strong>{match_format}</strong> (Zero Entropy Terminal Node)
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+        path_html = (
+            f'<div style="background: #ffffff; border-radius: 8px; border: 1px solid #ebd9c8; padding: 0.8rem; font-size: 0.85rem; margin-bottom: 0.8rem;">'
+            f'<div style="margin-bottom: 0.3rem; color: #795548;"><strong>1. Root Split (Traffic Demographic):</strong></div>'
+            f'<div style="padding-left: 0.8rem; border-left: 2px solid #2e7d32; margin-bottom: 0.5rem; color: #1b5e20;">↳ Selected: <code>{q_traffic}</code></div>'
+            f'<div style="margin-bottom: 0.3rem; color: #795548;"><strong>2. Financial & Overhead Split:</strong></div>'
+            f'<div style="padding-left: 0.8rem; border-left: 2px solid #2e7d32; margin-bottom: 0.5rem; color: #1b5e20;">↳ Selected: <code>{q_rent}</code></div>'
+            f'<div style="margin-bottom: 0.3rem; color: #795548;"><strong>3. Operational Dwell & Spatial Split:</strong></div>'
+            f'<div style="padding-left: 0.8rem; border-left: 2px solid #2e7d32; margin-bottom: 0.5rem; color: #1b5e20;">↳ Selected: <code>{q_dwell}</code> | <code>{q_space}</code></div>'
+            f'<div style="margin-bottom: 0.3rem; color: #795548;"><strong>4. Terminal Classification Leaf:</strong></div>'
+            f'<div style="padding-left: 0.8rem; border-left: 3px solid {info["accent"]}; font-weight: bold; color: #3e2723;">↳ Result: <strong>{match_format}</strong> (Zero Entropy Terminal Node)</div>'
+            f'</div>'
+        )
+        st.markdown(path_html, unsafe_allow_html=True)
         
         st.markdown("##### 📊 Store Archetype Feasibility Matrix")
         df_benchmarks = pd.DataFrame([
