@@ -9,14 +9,16 @@
     "samples": 180
   },
   "naive_bayes": {
-    "algorithm": "Multinomial Naive Bayes (Multi-Class with Laplace alpha=1.0)",
-    "accuracy": 0.5729,
-    "samples": 480,
-    "categories": [
-      "Blended Frapp\u00e9",
-      "Cold Brew / Iced Tea",
-      "Hot Espresso",
-      "Iced Specialty Milk"
+    "algorithm": "Multinomial Naive Bayes (Single-Origin Bean Origin Recommender)",
+    "accuracy": 0.604,
+    "samples": 500,
+    "beans": [
+      "Brazilian Cerrado Santos",
+      "Colombian Huila Supremo",
+      "Ethiopian Yirgacheffe",
+      "Guatemalan Antigua",
+      "Kenyan AA",
+      "Sumatra Mandheling"
     ]
   },
   "knn": {
@@ -33,9 +35,9 @@
   },
   "svm": {
     "algorithm": "Support Vector Classifier (Linear Kernel Boundary)",
-    "accuracy": 1.0,
-    "support_vectors": 24,
-    "samples": 24
+    "accuracy": 0.9074,
+    "support_vectors": 2531,
+    "samples": 3024
   },
   "decision_tree": {
     "algorithm": "ID3 Decision Tree (Information Gain / Entropy Criterion)",
@@ -47,9 +49,9 @@
   "ann": {
     "algorithm": "Artificial Neural Network (Multi-Layer Perceptron Regressor)",
     "architecture": "Input [5] -> Dense(32, ReLU) -> Dense(16, ReLU) -> Dense(1, Linear Output)",
-    "r2_score": 0.9868,
-    "rmse": 0.382,
-    "iterations": 122,
+    "r2_score": 0.9583,
+    "rmse": 0.633,
+    "iterations": 111,
     "samples": 350
   }
 }

@@ -67,7 +67,7 @@ with tab_arch:
     | Page | Algorithm | Practical Business Application | Key Metric |
     |---|---|---|---|
     | **1. Linear Regression** | Cold Brew Batch Demand Prediction | Peak Forecasted Temp (°C) $\\rightarrow$ Steep Liters | $R^2 = 0.909$, $\\text{RMSE} = 1.78\\,\\text{L}$ |
-    | **2. Naïve Bayes** | Hot vs. Iced Drink Recommendation | Time, Order Type, Weather $\\rightarrow$ Drink Type | $\\text{Accuracy} = 81.6\\%$ (Laplace $\\alpha=1.0$) |
+    | **2. Naïve Bayes** | Whole Bean Origin Recommender | Brew Method, Roast, Flavors $\\rightarrow$ Bean Origin | Multi-Class Laplace $\\alpha=1.0$ |
     | **3. KNN ($k=3$)** | Flavor Profile Drink Recommender | Desired Sweetness & Caffeine $\\rightarrow$ Top 3 Menu Items | Euclidean 2D Taste Space |
     | **4. Linear SVM** | Real-time Customer Sentiment Tagging | Review Text $\\rightarrow$ Positive vs. Negative Alert | $\\text{Accuracy} = 100\\%$, 24 Support Vectors |
     | **5. Decision Tree** | Single-Origin Bean Selector Quiz | Body, Acidity, Flavor Notes $\\rightarrow$ Bean Origin | Entropy / Information Gain (Depth 3) |

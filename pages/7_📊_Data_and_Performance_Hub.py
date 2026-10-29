@@ -23,7 +23,7 @@ metrics = load_all_metrics()
 st.markdown("### 🏆 Algorithm Metrics Summary")
 summary_rows = [
     {"#": 1, "Algorithm": "Linear Regression", "Task": "Cold Brew Volume Prediction", "Key Metric": f"R² = {metrics.get('linear_regression', {}).get('r2_score', 0.909)}", "Error": f"RMSE = {metrics.get('linear_regression', {}).get('rmse', 1.78)}L", "Samples": 180},
-    {"#": 2, "Algorithm": "Naïve Bayes", "Task": "Hot vs. Iced Classification", "Key Metric": f"Accuracy = {metrics.get('naive_bayes', {}).get('accuracy', 0.816):.1%}", "Error": "Laplace α=1.0", "Samples": 320},
+    {"#": 2, "Algorithm": "Naïve Bayes", "Task": "Whole Bean Origin Matching", "Key Metric": f"Accuracy = {metrics.get('naive_bayes', {}).get('accuracy', 0.604):.1%}", "Error": "Laplace α=1.0", "Samples": 500},
     {"#": 3, "Algorithm": "K-Nearest Neighbors", "Task": "Personalized Drink Match", "Key Metric": "k = 3 Neighbors", "Error": "Euclidean Space", "Samples": 350},
     {"#": 4, "Algorithm": "Support Vector Machine", "Task": "Feedback Sentiment Analysis", "Key Metric": f"Accuracy = {metrics.get('svm', {}).get('accuracy', 1.0):.1%}", "Error": "Linear Margin", "Samples": 24},
     {"#": 5, "Algorithm": "Decision Tree (ID3)", "Task": "Single-Origin Bean Match", "Key Metric": f"Depth = {metrics.get('decision_tree', {}).get('tree_depth', 3)}", "Error": "Entropy Split", "Samples": 15},
@@ -53,7 +53,7 @@ dataset_choice = st.selectbox(
     "Select dataset to preview:",
     [
         "Cold Brew Daily Demand (Linear Regression)",
-        "Drink Order Preferences (Naïve Bayes)",
+        "Whole Bean Origin Matching (Naïve Bayes)",
         "Drinks Menu Catalog (KNN)",
         "Customer Taste Profiles (KNN)",
         "Customer Review Feedback (SVM)",
@@ -64,7 +64,7 @@ dataset_choice = st.selectbox(
 
 mapping = {
     "Cold Brew Daily Demand (Linear Regression)": "cold_brew_demand",
-    "Drink Order Preferences (Naïve Bayes)": "drink_preference",
+    "Whole Bean Origin Matching (Naïve Bayes)": "drink_preference",
     "Drinks Menu Catalog (KNN)": "drinks_menu",
     "Customer Taste Profiles (KNN)": "customer_taste_profiles",
     "Customer Review Feedback (SVM)": "customer_reviews",

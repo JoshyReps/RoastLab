@@ -1,481 +1,501 @@
-day_type,weather_condition,customer_segment,companion_purchase,beverage_category
-Weekday,Freezing,Remote Worker,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Freezing,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Blended Frappé
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Rainy,Evening Social,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Student,Beverage Only,Iced Specialty Milk
-Weekday,Rainy,Remote Worker,Beverage Only,Blended Frappé
-Weekday,Cool & Dry,Student,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Cool & Dry,Student,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekday,Cool & Dry,Student,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Evening Social,Beverage Only,Iced Specialty Milk
-Weekday,Rainy,Student,Beverage Only,Hot Espresso
-Weekday,Rainy,Evening Social,Beverage Only,Hot Espresso
-Weekday,Rainy,Evening Social,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Freezing,Evening Social,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Evening Social,Food Item Ordered,Hot Espresso
-Weekday,Freezing,Remote Worker,Beverage Only,Hot Espresso
-Weekday,Freezing,Morning Commuter,Beverage Only,Blended Frappé
-Weekend / Holiday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Rainy,Evening Social,Beverage Only,Iced Specialty Milk
-Weekday,Rainy,Student,Beverage Only,Blended Frappé
-Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
-Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Remote Worker,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Student,Beverage Only,Blended Frappé
-Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Freezing,Evening Social,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Rainy,Student,Beverage Only,Blended Frappé
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Rainy,Student,Beverage Only,Blended Frappé
-Weekday,Freezing,Student,Beverage Only,Hot Espresso
-Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Freezing,Evening Social,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Evening Social,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Student,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Freezing,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Freezing,Remote Worker,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Student,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Remote Worker,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
-Weekday,Rainy,Student,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Blended Frappé
-Weekday,Freezing,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Cool & Dry,Evening Social,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Remote Worker,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Freezing,Evening Social,Beverage Only,Blended Frappé
-Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
-Weekday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Evening Social,Beverage Only,Blended Frappé
-Weekday,Freezing,Student,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Rainy,Student,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Cool & Dry,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Freezing,Student,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Student,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Hot & Humid,Remote Worker,Food Item Ordered,Blended Frappé
-Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Rainy,Evening Social,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Remote Worker,Beverage Only,Hot Espresso
-Weekend / Holiday,Cool & Dry,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Student,Beverage Only,Blended Frappé
-Weekday,Freezing,Student,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Cool & Dry,Student,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Rainy,Evening Social,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Student,Beverage Only,Hot Espresso
-Weekend / Holiday,Freezing,Student,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
-Weekend / Holiday,Freezing,Evening Social,Beverage Only,Hot Espresso
-Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Blended Frappé
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Student,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Rainy,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Evening Social,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Evening Social,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Evening Social,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
-Weekday,Rainy,Evening Social,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Evening Social,Food Item Ordered,Iced Specialty Milk
-Weekday,Cool & Dry,Remote Worker,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Freezing,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Freezing,Evening Social,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Student,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Freezing,Remote Worker,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Blended Frappé
-Weekday,Freezing,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Remote Worker,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Evening Social,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Freezing,Evening Social,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Student,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Rainy,Remote Worker,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Rainy,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Evening Social,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Rainy,Student,Food Item Ordered,Hot Espresso
-Weekday,Freezing,Student,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Freezing,Evening Social,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Rainy,Student,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Blended Frappé
-Weekday,Rainy,Student,Beverage Only,Hot Espresso
-Weekend / Holiday,Rainy,Remote Worker,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
-Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Evening Social,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Student,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Rainy,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Student,Beverage Only,Iced Specialty Milk
-Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Cool & Dry,Student,Beverage Only,Blended Frappé
-Weekend / Holiday,Freezing,Student,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
-Weekday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Hot & Humid,Evening Social,Beverage Only,Blended Frappé
-Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Cool & Dry,Evening Social,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Blended Frappé
-Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Remote Worker,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Student,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Blended Frappé
-Weekend / Holiday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Rainy,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Cool & Dry,Evening Social,Beverage Only,Hot Espresso
-Weekend / Holiday,Rainy,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Freezing,Student,Beverage Only,Blended Frappé
-Weekday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Remote Worker,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Student,Food Item Ordered,Blended Frappé
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Freezing,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Student,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Student,Beverage Only,Blended Frappé
-Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Freezing,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Freezing,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Student,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Evening Social,Food Item Ordered,Blended Frappé
-Weekday,Rainy,Evening Social,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
-Weekday,Freezing,Student,Beverage Only,Hot Espresso
-Weekend / Holiday,Freezing,Student,Beverage Only,Blended Frappé
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Blended Frappé
-Weekday,Cool & Dry,Evening Social,Beverage Only,Blended Frappé
-Weekday,Cool & Dry,Student,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
-Weekend / Holiday,Freezing,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Rainy,Student,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Evening Social,Beverage Only,Blended Frappé
-Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Freezing,Student,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Student,Beverage Only,Hot Espresso
-Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Evening Social,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Evening Social,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Student,Beverage Only,Blended Frappé
-Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Blended Frappé
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
-Weekday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Student,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Freezing,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Student,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Student,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Student,Beverage Only,Blended Frappé
-Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Cool & Dry,Student,Beverage Only,Blended Frappé
-Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Student,Beverage Only,Hot Espresso
-Weekday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
-Weekday,Freezing,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Evening Social,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Evening Social,Food Item Ordered,Iced Specialty Milk
-Weekday,Hot & Humid,Evening Social,Food Item Ordered,Blended Frappé
-Weekend / Holiday,Cool & Dry,Evening Social,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Evening Social,Food Item Ordered,Iced Specialty Milk
-Weekday,Cool & Dry,Student,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Blended Frappé
-Weekend / Holiday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Student,Beverage Only,Blended Frappé
-Weekday,Cool & Dry,Remote Worker,Beverage Only,Hot Espresso
-Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Student,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Blended Frappé
-Weekend / Holiday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Cool & Dry,Student,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Student,Food Item Ordered,Blended Frappé
-Weekend / Holiday,Cool & Dry,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
-Weekend / Holiday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
-Weekend / Holiday,Cool & Dry,Remote Worker,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Rainy,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Freezing,Remote Worker,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Evening Social,Beverage Only,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
-Weekend / Holiday,Hot & Humid,Evening Social,Food Item Ordered,Cold Brew / Iced Tea
-Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekend / Holiday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Hot & Humid,Evening Social,Beverage Only,Blended Frappé
-Weekday,Rainy,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Hot & Humid,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Remote Worker,Beverage Only,Iced Specialty Milk
-Weekday,Freezing,Remote Worker,Beverage Only,Cold Brew / Iced Tea
-Weekday,Cool & Dry,Student,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Cool & Dry,Evening Social,Food Item Ordered,Iced Specialty Milk
-Weekday,Cool & Dry,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Rainy,Student,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Student,Food Item Ordered,Hot Espresso
-Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Cool & Dry,Student,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Student,Food Item Ordered,Iced Specialty Milk
-Weekday,Rainy,Student,Beverage Only,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Rainy,Student,Food Item Ordered,Iced Specialty Milk
-Weekend / Holiday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Hot & Humid,Student,Beverage Only,Iced Specialty Milk
-Weekday,Cool & Dry,Morning Commuter,Food Item Ordered,Hot Espresso
-Weekend / Holiday,Hot & Humid,Morning Commuter,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Rainy,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Freezing,Student,Beverage Only,Blended Frappé
-Weekday,Freezing,Morning Commuter,Beverage Only,Hot Espresso
-Weekday,Cool & Dry,Morning Commuter,Beverage Only,Iced Specialty Milk
-Weekday,Hot & Humid,Student,Food Item Ordered,Blended Frappé
-Weekday,Rainy,Remote Worker,Food Item Ordered,Hot Espresso
-Weekday,Hot & Humid,Remote Worker,Food Item Ordered,Cold Brew / Iced Tea
-Weekend / Holiday,Rainy,Evening Social,Food Item Ordered,Hot Espresso
-Weekday,Cool & Dry,Student,Beverage Only,Blended Frappé
-Weekday,Hot & Humid,Student,Food Item Ordered,Cold Brew / Iced Tea
-Weekday,Hot & Humid,Morning Commuter,Beverage Only,Cold Brew / Iced Tea
+brew_method,roast_preference,flavor_notes_desired,drinking_style,recommended_bean
+French Press / Immersion,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,With Milk / Cream,Colombian Huila Supremo
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+French Press / Immersion,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Drank Black / Neat,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Sumatra Mandheling
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,Iced / Chilled,Ethiopian Yirgacheffe
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Brazilian Cerrado Santos
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+French Press / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Kenyan AA
+French Press / Immersion,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Drank Black / Neat,Sumatra Mandheling
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Colombian Huila Supremo
+French Press / Immersion,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Kenyan AA
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Guatemalan Antigua
+French Press / Immersion,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Iced / Chilled,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,Iced / Chilled,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Kenyan AA
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,With Milk / Cream,Kenyan AA
+French Press / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Brazilian Cerrado Santos
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Iced / Chilled,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Ethiopian Yirgacheffe
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+French Press / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Brazilian Cerrado Santos
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Guatemalan Antigua
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Iced / Chilled,Kenyan AA
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Iced / Chilled,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Ethiopian Yirgacheffe
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Drank Black / Neat,Ethiopian Yirgacheffe
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Brazilian Cerrado Santos
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Drank Black / Neat,Kenyan AA
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Floral & Citrus,Iced / Chilled,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Kenyan AA
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Brazilian Cerrado Santos
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Iced / Chilled,Sumatra Mandheling
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Brazilian Cerrado Santos
+French Press / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Sumatra Mandheling
+French Press / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,Iced / Chilled,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Guatemalan Antigua
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Brazilian Cerrado Santos
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Drank Black / Neat,Kenyan AA
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,With Milk / Cream,Brazilian Cerrado Santos
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Floral & Citrus,Iced / Chilled,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Iced / Chilled,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,With Milk / Cream,Brazilian Cerrado Santos
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Iced / Chilled,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,With Milk / Cream,Kenyan AA
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+French Press / Immersion,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Guatemalan Antigua
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Guatemalan Antigua
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Colombian Huila Supremo
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Sumatra Mandheling
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Floral & Citrus,Iced / Chilled,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Colombian Huila Supremo
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,With Milk / Cream,Kenyan AA
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Iced / Chilled,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+French Press / Immersion,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Colombian Huila Supremo
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Iced / Chilled,Ethiopian Yirgacheffe
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Guatemalan Antigua
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Brazilian Cerrado Santos
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Colombian Huila Supremo
+French Press / Immersion,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,With Milk / Cream,Sumatra Mandheling
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,Iced / Chilled,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Colombian Huila Supremo
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,With Milk / Cream,Kenyan AA
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+French Press / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+French Press / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Guatemalan Antigua
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Iced / Chilled,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Iced / Chilled,Sumatra Mandheling
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Iced / Chilled,Kenyan AA
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Sumatra Mandheling
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Brazilian Cerrado Santos
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Iced / Chilled,Guatemalan Antigua
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Brazilian Cerrado Santos
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Iced / Chilled,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Ethiopian Yirgacheffe
+French Press / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Iced / Chilled,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Brazilian Cerrado Santos
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Floral & Citrus,Iced / Chilled,Kenyan AA
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,Iced / Chilled,Kenyan AA
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Iced / Chilled,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Brazilian Cerrado Santos
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Iced / Chilled,Kenyan AA
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Brazilian Cerrado Santos
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Iced / Chilled,Colombian Huila Supremo
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,With Milk / Cream,Brazilian Cerrado Santos
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,With Milk / Cream,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+French Press / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+French Press / Immersion,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Iced / Chilled,Sumatra Mandheling
+French Press / Immersion,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Sumatra Mandheling
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Brazilian Cerrado Santos
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Sumatra Mandheling
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Iced / Chilled,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Iced / Chilled,Kenyan AA
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Colombian Huila Supremo
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,Iced / Chilled,Kenyan AA
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+French Press / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,With Milk / Cream,Brazilian Cerrado Santos
+French Press / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Sumatra Mandheling
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Colombian Huila Supremo
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Sumatra Mandheling
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Floral & Citrus,Iced / Chilled,Sumatra Mandheling
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Kenyan AA
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+French Press / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Sumatra Mandheling
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Drank Black / Neat,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Ethiopian Yirgacheffe
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Iced / Chilled,Colombian Huila Supremo
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Iced / Chilled,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Drank Black / Neat,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Brazilian Cerrado Santos
+French Press / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,With Milk / Cream,Kenyan AA
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,With Milk / Cream,Kenyan AA
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Sumatra Mandheling
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,Iced / Chilled,Ethiopian Yirgacheffe
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Brazilian Cerrado Santos
+French Press / Immersion,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Sumatra Mandheling
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Sumatra Mandheling
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Iced / Chilled,Sumatra Mandheling
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+French Press / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,With Milk / Cream,Brazilian Cerrado Santos
+French Press / Immersion,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Iced / Chilled,Sumatra Mandheling
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Kenyan AA
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Iced / Chilled,Sumatra Mandheling
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Iced / Chilled,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Colombian Huila Supremo
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,Iced / Chilled,Kenyan AA
+French Press / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,With Milk / Cream,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Guatemalan Antigua
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Kenyan AA
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Cold Drip / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Ethiopian Yirgacheffe
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Sumatra Mandheling
+French Press / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,Iced / Chilled,Kenyan AA
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Colombian Huila Supremo
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,Drank Black / Neat,Sumatra Mandheling
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Kenyan AA
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Iced / Chilled,Kenyan AA
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Iced / Chilled,Ethiopian Yirgacheffe
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,With Milk / Cream,Brazilian Cerrado Santos
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Ethiopian Yirgacheffe
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Winey Berry & Sweet Fruit,With Milk / Cream,Sumatra Mandheling
+Espresso Machine / Moka Pot,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,With Milk / Cream,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+French Press / Immersion,Light Roast (Bright & Acidic),Winey Berry & Sweet Fruit,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+French Press / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Iced / Chilled,Sumatra Mandheling
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+French Press / Immersion,Light Roast (Bright & Acidic),Floral & Citrus,Iced / Chilled,Ethiopian Yirgacheffe
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Kenyan AA
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Floral & Citrus,Iced / Chilled,Kenyan AA
+French Press / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Brazilian Cerrado Santos
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Kenyan AA
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,Iced / Chilled,Kenyan AA
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Iced / Chilled,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,Iced / Chilled,Kenyan AA
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+French Press / Immersion,Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,With Milk / Cream,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Iced / Chilled,Brazilian Cerrado Santos
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Espresso Machine / Moka Pot,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Dark Roast (Smoky & Bold),Milk Chocolate & Nutty,Drank Black / Neat,Sumatra Mandheling
+Cold Drip / Immersion,Dark Roast (Smoky & Bold),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
+Pour-Over (V60 / Chemex),Light Roast (Bright & Acidic),Dark Cacao & Earthy Spice,With Milk / Cream,Guatemalan Antigua
+French Press / Immersion,Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Guatemalan Antigua
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Floral & Citrus,With Milk / Cream,Ethiopian Yirgacheffe
+French Press / Immersion,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Guatemalan Antigua
+Espresso Machine / Moka Pot,Light Roast (Bright & Acidic),Milk Chocolate & Nutty,Drank Black / Neat,Colombian Huila Supremo
+French Press / Immersion,Dark Roast (Smoky & Bold),Dark Cacao & Earthy Spice,With Milk / Cream,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Floral & Citrus,Drank Black / Neat,Ethiopian Yirgacheffe
+Pour-Over (V60 / Chemex),Dark Roast (Smoky & Bold),Floral & Citrus,Iced / Chilled,Ethiopian Yirgacheffe
+French Press / Immersion,Medium Roast (Sweet & Balanced),Dark Cacao & Earthy Spice,Drank Black / Neat,Sumatra Mandheling
+Pour-Over (V60 / Chemex),Medium Roast (Sweet & Balanced),Winey Berry & Sweet Fruit,Drank Black / Neat,Kenyan AA
+Cold Drip / Immersion,Medium Roast (Sweet & Balanced),Floral & Citrus,With Milk / Cream,Colombian Huila Supremo
