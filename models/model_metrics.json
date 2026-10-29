@@ -42,9 +42,17 @@
   "decision_tree": {
     "algorithm": "ID3 Decision Tree (Information Gain / Entropy Criterion)",
     "accuracy": 1.0,
-    "tree_depth": 3,
-    "leaves_count": 6,
-    "samples": 15
+    "tree_depth": 4,
+    "leaves_count": 7,
+    "samples": 26,
+    "classes": [
+      "Arts & Heritage Flagship Tasting Room",
+      "Corporate Business Park Micro-Lobby",
+      "Downtown CBD Express Kiosk",
+      "Highway Commuter Drive-Thru Express",
+      "Suburban Community Roastery & Patio",
+      "University Campus Study Lounge"
+    ]
   },
   "ann": {
     "algorithm": "Artificial Neural Network (Multi-Layer Perceptron Regressor)",

@@ -1,0 +1,27 @@
+foot_traffic,rent_budget,dwell_time,parking_access,space_capacity,store_format
+Heavy Transit & Office Commuters,High / Prime Downtown ($$$$),Grab-&-Go (< 10 mins),Transit Hub / Walk-Up Only (Zero Parking),Micro Space (< 40 sqm),Downtown CBD Express Kiosk
+Heavy Transit & Office Commuters,High / Prime Downtown ($$$$),Grab-&-Go (< 10 mins),Street Parking & Shared Lot,Micro Space (< 40 sqm),Downtown CBD Express Kiosk
+Heavy Transit & Office Commuters,Moderate / Urban Commercial ($$),Grab-&-Go (< 10 mins),Transit Hub / Walk-Up Only (Zero Parking),Micro Space (< 40 sqm),Downtown CBD Express Kiosk
+Heavy Transit & Office Commuters,High / Prime Downtown ($$$$),Grab-&-Go (< 10 mins),Transit Hub / Walk-Up Only (Zero Parking),Standard Lounge (80 - 150 sqm),Downtown CBD Express Kiosk
+Moderate Student & Academic,Moderate / Urban Commercial ($$),Extended Study & Work (> 60 mins),Transit Hub / Walk-Up Only (Zero Parking),Standard Lounge (80 - 150 sqm),University Campus Study Lounge
+Moderate Student & Academic,Moderate / Urban Commercial ($$),Extended Study & Work (> 60 mins),Street Parking & Shared Lot,Standard Lounge (80 - 150 sqm),University Campus Study Lounge
+Moderate Student & Academic,Economical / Low Overhead ($),Extended Study & Work (> 60 mins),Transit Hub / Walk-Up Only (Zero Parking),Standard Lounge (80 - 150 sqm),University Campus Study Lounge
+Moderate Student & Academic,Moderate / Urban Commercial ($$),Extended Study & Work (> 60 mins),Street Parking & Shared Lot,Spacious Destination (> 200 sqm),University Campus Study Lounge
+Moderate Student & Academic,Economical / Low Overhead ($),Extended Study & Work (> 60 mins),Street Parking & Shared Lot,Standard Lounge (80 - 150 sqm),University Campus Study Lounge
+Neighborhood Residents & Families,Moderate / Urban Commercial ($$),Social Dine-In & Brunch (30 - 60 mins),Street Parking & Shared Lot,Spacious Destination (> 200 sqm),Suburban Community Roastery & Patio
+Neighborhood Residents & Families,Economical / Low Overhead ($),Social Dine-In & Brunch (30 - 60 mins),Street Parking & Shared Lot,Spacious Destination (> 200 sqm),Suburban Community Roastery & Patio
+Neighborhood Residents & Families,Moderate / Urban Commercial ($$),Social Dine-In & Brunch (30 - 60 mins),Street Parking & Shared Lot,Standard Lounge (80 - 150 sqm),Suburban Community Roastery & Patio
+Neighborhood Residents & Families,Moderate / Urban Commercial ($$),Extended Study & Work (> 60 mins),Street Parking & Shared Lot,Spacious Destination (> 200 sqm),Suburban Community Roastery & Patio
+Neighborhood Residents & Families,Economical / Low Overhead ($),Social Dine-In & Brunch (30 - 60 mins),Dedicated Drive-Thru & Ample Parking,Spacious Destination (> 200 sqm),Suburban Community Roastery & Patio
+Low Pedestrian / High Vehicular Flow,Economical / Low Overhead ($),Grab-&-Go (< 10 mins),Dedicated Drive-Thru & Ample Parking,Standard Lounge (80 - 150 sqm),Highway Commuter Drive-Thru Express
+Low Pedestrian / High Vehicular Flow,Moderate / Urban Commercial ($$),Grab-&-Go (< 10 mins),Dedicated Drive-Thru & Ample Parking,Standard Lounge (80 - 150 sqm),Highway Commuter Drive-Thru Express
+Low Pedestrian / High Vehicular Flow,Economical / Low Overhead ($),Grab-&-Go (< 10 mins),Dedicated Drive-Thru & Ample Parking,Micro Space (< 40 sqm),Highway Commuter Drive-Thru Express
+Low Pedestrian / High Vehicular Flow,Economical / Low Overhead ($),Social Dine-In & Brunch (30 - 60 mins),Dedicated Drive-Thru & Ample Parking,Standard Lounge (80 - 150 sqm),Highway Commuter Drive-Thru Express
+Weekend Leisure & Tourists,High / Prime Downtown ($$$$),Social Dine-In & Brunch (30 - 60 mins),Transit Hub / Walk-Up Only (Zero Parking),Spacious Destination (> 200 sqm),Arts & Heritage Flagship Tasting Room
+Weekend Leisure & Tourists,Moderate / Urban Commercial ($$),Social Dine-In & Brunch (30 - 60 mins),Street Parking & Shared Lot,Spacious Destination (> 200 sqm),Arts & Heritage Flagship Tasting Room
+Weekend Leisure & Tourists,High / Prime Downtown ($$$$),Extended Study & Work (> 60 mins),Street Parking & Shared Lot,Spacious Destination (> 200 sqm),Arts & Heritage Flagship Tasting Room
+Weekend Leisure & Tourists,Moderate / Urban Commercial ($$),Extended Study & Work (> 60 mins),Transit Hub / Walk-Up Only (Zero Parking),Spacious Destination (> 200 sqm),Arts & Heritage Flagship Tasting Room
+Heavy Transit & Office Commuters,Economical / Low Overhead ($),Grab-&-Go (< 10 mins),Street Parking & Shared Lot,Micro Space (< 40 sqm),Corporate Business Park Micro-Lobby
+Heavy Transit & Office Commuters,Economical / Low Overhead ($),Grab-&-Go (< 10 mins),Transit Hub / Walk-Up Only (Zero Parking),Micro Space (< 40 sqm),Corporate Business Park Micro-Lobby
+Moderate Student & Academic,Economical / Low Overhead ($),Grab-&-Go (< 10 mins),Transit Hub / Walk-Up Only (Zero Parking),Micro Space (< 40 sqm),Corporate Business Park Micro-Lobby
+Heavy Transit & Office Commuters,Economical / Low Overhead ($),Moderate Stay (15 - 45 mins),Street Parking & Shared Lot,Micro Space (< 40 sqm),Corporate Business Park Micro-Lobby

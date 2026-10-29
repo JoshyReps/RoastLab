@@ -24,10 +24,10 @@ st.markdown("### 🏆 Algorithm Metrics Summary")
 summary_rows = [
     {"#": 1, "Algorithm": "Linear Regression", "Task": "Cold Brew Volume Prediction", "Key Metric": f"R² = {metrics.get('linear_regression', {}).get('r2_score', 0.909)}", "Error": f"RMSE = {metrics.get('linear_regression', {}).get('rmse', 1.78)}L", "Samples": 180},
     {"#": 2, "Algorithm": "Naïve Bayes", "Task": "Whole Bean Origin Matching", "Key Metric": f"Accuracy = {metrics.get('naive_bayes', {}).get('accuracy', 0.604):.1%}", "Error": "Laplace α=1.0", "Samples": 500},
-    {"#": 3, "Algorithm": "K-Nearest Neighbors", "Task": "Personalized Drink Match", "Key Metric": "k = 3 Neighbors", "Error": "Euclidean Space", "Samples": 350},
-    {"#": 4, "Algorithm": "Support Vector Machine", "Task": "Feedback Sentiment Analysis", "Key Metric": f"Accuracy = {metrics.get('svm', {}).get('accuracy', 1.0):.1%}", "Error": "Linear Margin", "Samples": 24},
-    {"#": 5, "Algorithm": "Decision Tree (ID3)", "Task": "Single-Origin Bean Match", "Key Metric": f"Depth = {metrics.get('decision_tree', {}).get('tree_depth', 3)}", "Error": "Entropy Split", "Samples": 15},
-    {"#": 6, "Algorithm": "Artificial Neural Network", "Task": "Roaster QC & Cupping Score", "Key Metric": f"R² = {metrics.get('ann', {}).get('r2_score', 0.987)}", "Error": f"RMSE = {metrics.get('ann', {}).get('rmse', 0.38)} pts", "Samples": 350}
+    {"#": 3, "Algorithm": "K-Nearest Neighbors", "Task": "5D Sensory Drink Recommender", "Key Metric": "Dynamic k (1-7)", "Error": "Normalized Euclidean", "Samples": 420},
+    {"#": 4, "Algorithm": "Support Vector Machine", "Task": "Feedback Sentiment Analysis", "Key Metric": f"Accuracy = {metrics.get('svm', {}).get('accuracy', 0.907):.1%}", "Error": "Linear Margin", "Samples": metrics.get('svm', {}).get('samples', 3024)},
+    {"#": 5, "Algorithm": "Decision Tree (ID3)", "Task": "Cafe Branch Site Selection", "Key Metric": f"Depth = {metrics.get('decision_tree', {}).get('tree_depth', 4)}", "Error": "Entropy Split", "Samples": metrics.get('decision_tree', {}).get('samples', 26)},
+    {"#": 6, "Algorithm": "Artificial Neural Network", "Task": "Roaster QC & Cupping Score", "Key Metric": f"R² = {metrics.get('ann', {}).get('r2_score', 0.958)}", "Error": f"RMSE = {metrics.get('ann', {}).get('rmse', 0.63)} pts", "Samples": 350}
 ]
 st.dataframe(pd.DataFrame(summary_rows), use_container_width=True, hide_index=True)
 
@@ -45,7 +45,7 @@ with col_excel:
                 file_name="RoastLab_All_Datasets.xlsx",
                 mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
             )
-    st.caption("Contains all 7 datasets arranged in separate labelled tabs.")
+    st.caption("Contains all domain datasets arranged in separate labelled tabs.")
 
 st.markdown("---")
 st.markdown("### 📁 Explore Individual Domain Datasets")
@@ -57,7 +57,7 @@ dataset_choice = st.selectbox(
         "Drinks Menu Catalog (KNN)",
         "Customer Taste Profiles (KNN)",
         "Customer Review Feedback (SVM)",
-        "Coffee Bean Tasting Quiz (Decision Tree)",
+        "Store Location Expansion Surveys (Decision Tree)",
         "Roast Drum Telemetry (ANN)"
     ]
 )
@@ -68,7 +68,7 @@ mapping = {
     "Drinks Menu Catalog (KNN)": "drinks_menu",
     "Customer Taste Profiles (KNN)": "customer_taste_profiles",
     "Customer Review Feedback (SVM)": "customer_reviews",
-    "Coffee Bean Tasting Quiz (Decision Tree)": "coffee_beans_quiz",
+    "Store Location Expansion Surveys (Decision Tree)": "store_location_expansion",
     "Roast Drum Telemetry (ANN)": "roast_quality_telemetry"
 }
 

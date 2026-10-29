@@ -25,8 +25,8 @@ with col1:
     st.write("Linear Regression forecasts daily cold brew batch production to virtually eliminate food waste and stockouts.")
     st.markdown("</div>", unsafe_allow_html=True)
 with col2:
-    st.markdown("#### 🤝 Hyper-Personalization")
-    st.write("Naïve Bayes, KNN, and Decision Trees personalize every order from espresso strength to single-origin beans.")
+    st.markdown("#### 🤝 Personalization & Expansion")
+    st.write("Naïve Bayes and KNN personalize orders and beans, while Decision Trees optimize strategic branch location expansion.")
     st.markdown("</div>", unsafe_allow_html=True)
 with col3:
     st.markdown("#### 🔬 Quality & Sentiment")
@@ -46,7 +46,7 @@ with tab_mission:
         st.markdown("""
         1. **Batch Accuracy:** Forecast cold brew batch sizes 24 hours in advance to minimize spoilage on cool days and stockouts during heatwaves.
         2. **Order Conversion:** Shorten customer queue times with automated contextual recommendations (Hot vs. Iced).
-        3. **Discovery:** Help novice guests order premium single-origin pour-overs without intimidation.
+        3. **Store Expansion:** Optimize new cafe branch formats and location selection using environmental decision trees.
         4. **Quality Assurance:** Predict batch cupping scores directly from roast drum telemetry sensors.
         """)
     with col_m2:
@@ -70,7 +70,7 @@ with tab_arch:
     | **2. Naïve Bayes** | Whole Bean Origin Recommender | Brew Method, Roast, Flavors $\\rightarrow$ Bean Origin | Multi-Class Laplace $\\alpha=1.0$ |
     | **3. KNN** | 5D Sensory Drink Recommender | 5 Sensory Dimensions, Dynamic $k$ $\\rightarrow$ Top Matches | Normalized 5D Euclidean Space |
     | **4. Linear SVM** | Real-time Customer Sentiment Tagging | Review Text $\\rightarrow$ Positive vs. Negative Alert | $\\text{Accuracy} = 100\\%$, 24 Support Vectors |
-    | **5. Decision Tree** | Single-Origin Bean Selector Quiz | Body, Acidity, Flavor Notes $\\rightarrow$ Bean Origin | Entropy / Information Gain (Depth 3) |
+    | **5. Decision Tree** | Cafe Branch Location & Site Selection | Foot Traffic, Rent, Dwell Time $\\rightarrow$ Store Format | Information Gain / Entropy (Depth 4) |
     | **6. Neural Network** | Roaster Telemetry Quality Control | Charge/Drop Temp, RoR, Crack Time $\\rightarrow$ Cupping Score | $R^2 = 0.987$, $\\text{RMSE} = 0.38\\,\\text{pts}$ |
     | **7. Data Hub** | Dataset Explorer & Benchmarks | View & Download CSVs, Master Excel Workbook | 7 Domain Datasets |
     """)
