@@ -1,18 +1,22 @@
-foot_traffic,rent_cost,competition,accessibility,open_coffee_shop
-High,Affordable,Low,Good,Yes
-High,Affordable,High,Good,Yes
-High,Moderate,Low,Good,Yes
-High,Moderate,High,Good,Yes
-High,Expensive,Low,Good,Yes
-High,Expensive,High,Good,No
-High,Affordable,Low,Poor,No
-Moderate,Affordable,Low,Good,Yes
-Moderate,Affordable,High,Good,No
-Moderate,Moderate,Low,Good,Yes
-Moderate,Moderate,High,Good,No
-Moderate,Expensive,Low,Good,No
-Moderate,Affordable,Low,Poor,No
-Low,Affordable,Low,Good,No
-Low,Affordable,High,Poor,No
-Low,Moderate,Low,Good,No
-Low,Expensive,Low,Poor,No
+foot_traffic,lease_overhead,competition_density,transit_access,expansion_verdict
+High Volume (> 15k pedestrians/day),Favorable (< 10% revenue),Low Saturation (0-2 cafes),Prime Accessibility (Transit Hub),YES
+High Volume (> 15k pedestrians/day),Favorable (< 10% revenue),Moderate Saturation (3-5 cafes),Prime Accessibility (Transit Hub),YES
+High Volume (> 15k pedestrians/day),Favorable (< 10% revenue),Heavy Saturation (> 5 cafes),Prime Accessibility (Transit Hub),YES
+High Volume (> 15k pedestrians/day),Moderate Market Rate (10-18%),Low Saturation (0-2 cafes),Prime Accessibility (Transit Hub),YES
+High Volume (> 15k pedestrians/day),Moderate Market Rate (10-18%),Moderate Saturation (3-5 cafes),Prime Accessibility (Transit Hub),YES
+High Volume (> 15k pedestrians/day),Moderate Market Rate (10-18%),Heavy Saturation (> 5 cafes),Prime Accessibility (Transit Hub),YES
+High Volume (> 15k pedestrians/day),Prime / Premium Overhead (> 18%),Low Saturation (0-2 cafes),Prime Accessibility (Transit Hub),YES
+High Volume (> 15k pedestrians/day),Prime / Premium Overhead (> 18%),Heavy Saturation (> 5 cafes),Prime Accessibility (Transit Hub),NO
+High Volume (> 15k pedestrians/day),Favorable (< 10% revenue),Low Saturation (0-2 cafes),Restricted (Poor Walkability),NO
+Moderate Volume (5k-15k pedestrians/day),Favorable (< 10% revenue),Low Saturation (0-2 cafes),Prime Accessibility (Transit Hub),YES
+Moderate Volume (5k-15k pedestrians/day),Favorable (< 10% revenue),Moderate Saturation (3-5 cafes),Standard Accessibility (Streetflow),YES
+Moderate Volume (5k-15k pedestrians/day),Favorable (< 10% revenue),Heavy Saturation (> 5 cafes),Standard Accessibility (Streetflow),NO
+Moderate Volume (5k-15k pedestrians/day),Moderate Market Rate (10-18%),Low Saturation (0-2 cafes),Standard Accessibility (Streetflow),YES
+Moderate Volume (5k-15k pedestrians/day),Moderate Market Rate (10-18%),Moderate Saturation (3-5 cafes),Standard Accessibility (Streetflow),YES
+Moderate Volume (5k-15k pedestrians/day),Moderate Market Rate (10-18%),Heavy Saturation (> 5 cafes),Standard Accessibility (Streetflow),NO
+Moderate Volume (5k-15k pedestrians/day),Prime / Premium Overhead (> 18%),Low Saturation (0-2 cafes),Standard Accessibility (Streetflow),NO
+Moderate Volume (5k-15k pedestrians/day),Moderate Market Rate (10-18%),Low Saturation (0-2 cafes),Restricted (Poor Walkability),NO
+Low Volume (< 5k pedestrians/day),Favorable (< 10% revenue),Low Saturation (0-2 cafes),Standard Accessibility (Streetflow),NO
+Low Volume (< 5k pedestrians/day),Favorable (< 10% revenue),Heavy Saturation (> 5 cafes),Restricted (Poor Walkability),NO
+Low Volume (< 5k pedestrians/day),Moderate Market Rate (10-18%),Low Saturation (0-2 cafes),Standard Accessibility (Streetflow),NO
+Low Volume (< 5k pedestrians/day),Prime / Premium Overhead (> 18%),Low Saturation (0-2 cafes),Restricted (Poor Walkability),NO

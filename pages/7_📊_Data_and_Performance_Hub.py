@@ -26,7 +26,7 @@ summary_rows = [
     {"#": 2, "Algorithm": "Naïve Bayes", "Task": "Whole Bean Origin Matching", "Key Metric": f"Accuracy = {metrics.get('naive_bayes', {}).get('accuracy', 0.604):.1%}", "Error": "Laplace α=1.0", "Samples": 500},
     {"#": 3, "Algorithm": "K-Nearest Neighbors", "Task": "5D Sensory Drink Recommender", "Key Metric": "Dynamic k (1-7)", "Error": "Normalized Euclidean", "Samples": 420},
     {"#": 4, "Algorithm": "Support Vector Machine", "Task": "Feedback Sentiment Analysis", "Key Metric": f"Accuracy = {metrics.get('svm', {}).get('accuracy', 0.907):.1%}", "Error": "Linear Margin", "Samples": metrics.get('svm', {}).get('samples', 3024)},
-    {"#": 5, "Algorithm": "Decision Tree (ID3)", "Task": "Site Feasibility (Yes / No)", "Key Metric": "Classes: Yes / No", "Error": f"Depth = {metrics.get('decision_tree', {}).get('tree_depth', 5)}", "Samples": metrics.get('decision_tree', {}).get('samples', 17)},
+    {"#": 5, "Algorithm": "Decision Tree (ID3)", "Task": "Site Acquisition (YES / NO)", "Key Metric": "Verdict: YES / NO", "Error": f"Depth = {metrics.get('decision_tree', {}).get('tree_depth', 6)}", "Samples": metrics.get('decision_tree', {}).get('samples', 21)},
     {"#": 6, "Algorithm": "Artificial Neural Network", "Task": "Roaster QC & Cupping Score", "Key Metric": f"R² = {metrics.get('ann', {}).get('r2_score', 0.958)}", "Error": f"RMSE = {metrics.get('ann', {}).get('rmse', 0.63)} pts", "Samples": 350}
 ]
 st.dataframe(pd.DataFrame(summary_rows), use_container_width=True, hide_index=True)

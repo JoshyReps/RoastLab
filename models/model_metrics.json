@@ -41,14 +41,14 @@
   },
   "decision_tree": {
     "algorithm": "ID3 Decision Tree (Entropy / Information Gain)",
-    "task": "Coffee Shop Location Feasibility (Yes / No)",
+    "task": "Retail Site Acquisition Feasibility (YES / NO)",
     "accuracy": 1.0,
-    "tree_depth": 5,
-    "leaves_count": 8,
-    "samples": 17,
+    "tree_depth": 6,
+    "leaves_count": 9,
+    "samples": 21,
     "classes": [
-      "No",
-      "Yes"
+      "NO",
+      "YES"
     ]
   },
   "ann": {
