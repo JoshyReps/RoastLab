@@ -6,50 +6,22 @@ import pandas as pd
 import altair as alt
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from src.common import apply_custom_theme, render_sidebar_info, load_dataset
+from src.common import apply_custom_theme, render_sidebar_info, load_dataset, load_all_metrics
 
 st.set_page_config(
-    page_title="RoastLab FlavorMatch™ • Multi-Dimensional Concierge",
-    page_icon="☕",
+    page_title="3. KNN Recommender | RoastLab",
+    page_icon="🎯",
     layout="wide"
 )
 
 apply_custom_theme()
 render_sidebar_info()
 
-# Header
-st.markdown("""
-<div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #ebd9c8; padding-bottom: 0.8rem; margin-bottom: 1.2rem;">
-    <div>
-        <h2 class='brand-title' style='margin:0;'>☕ RoastLab FlavorMatch™ Concierge</h2>
-        <span style='color: #795548; font-size: 0.95rem; font-weight: 500;'>5-Dimensional Sensory Calibration & Normalized K-Nearest Neighbor Discovery</span>
-    </div>
-    <div style="text-align: right;">
-        <span class="badge-pill badge-active">🟢 CONCIERGE ONLINE</span>
-        <span class="badge-pill badge-specialty">📏 MIN-MAX NORMALIZED</span>
-    </div>
-</div>
-""", unsafe_allow_html=True)
+st.markdown("<h2 class='brand-title'>3. K-Nearest Neighbors: 5D Sensory Drink Recommender</h2>", unsafe_allow_html=True)
+st.markdown("<p class='brand-subtitle'>Multi-Dimensional Min-Max Normalization & Normalized Euclidean Distance Neighbor Search</p>", unsafe_allow_html=True)
 
 df_menu = load_dataset("drinks_menu")
-
-# 5-Dimensional Taste Calibration Sliders
-st.markdown("##### 🎛️ Sensory Taste Profile Calibration (Scale 1.0 – 10.0)")
-
-col_t1, col_t2, col_t3 = st.columns(3)
-with col_t1:
-    sweetness_in = st.slider("🍬 Sweetness Level", 1.0, 10.0, 3.5, 0.5, help="1.0 Unsweetened / Black ➔ 10.0 Confectionery Sweet")
-    caffeine_in = st.slider("⚡ Caffeine Intensity", 1.0, 10.0, 7.5, 0.5, help="1.0 Gentle Decaf ➔ 10.0 High-Performance Triple Shot")
-
-with col_t2:
-    bitterness_in = st.slider("🔥 Bitterness / Roast Depth", 1.0, 10.0, 5.0, 0.5, help="1.0 Mild & Delicate ➔ 10.0 Intense French Dark Roast")
-    creaminess_in = st.slider("🥛 Creaminess / Dairy Body", 1.0, 10.0, 7.0, 0.5, help="1.0 Thin / Black / Tea-like ➔ 10.0 Rich Textured Microfoam")
-
-with col_t3:
-    acidity_in = st.slider("🍋 Acidity / Citrus Brightness", 1.0, 10.0, 4.0, 0.5, help="1.0 Mellow Low Acid ➔ 10.0 Vivid Crisp Citrus Notes")
-    k_val = st.slider("🎯 Number of Nearest Matches (k)", 1, 7, 3, 1, help="Adjust k to expand or contract nearest-neighbor cluster")
-
-st.markdown("<br>", unsafe_allow_html=True)
+metrics = load_all_metrics().get("knn", {})
 
 FEATURE_COLS = ["sweetness", "caffeine", "bitterness", "creaminess", "acidity"]
 FEATURE_LABELS = {
@@ -59,6 +31,57 @@ FEATURE_LABELS = {
     "creaminess": "Creaminess / Body",
     "acidity": "Acidity / Brightness"
 }
+
+col_desc, col_inputs = st.columns([1, 1])
+with col_desc:
+    st.markdown("### ☕ Business Context & Relevance")
+    st.write("""
+    Artisanal cafe menus feature dozens of complex espresso, cold brew, and specialty beverages. Guests often find it difficult 
+    to translate their cravings into beverage names (e.g. flat white vs. cortado vs. breve), but can effortlessly rate their desired sensory preferences: 
+    sweetness, caffeine intensity, roast bitterness, dairy creaminess, and citrus acidity.
+    
+    **Why K-Nearest Neighbors (KNN with Min-Max Normalization)?**
+    - Non-parametric, instance-based learning algorithm that does not assume linear boundaries or rigid decision trees.
+    - Matches a guest's multi-attribute palate against RoastLab's catalog of handcrafted signature drinks by locating the $k$ closest neighbors in 5-dimensional taste space.
+    """)
+    
+    st.markdown(r"""
+    **Mathematical Formulation:**  
+    To ensure attributes with large numerical scales do not distort distance calculations, all features are normalized to $[0, 1]$:
+    $$x_{\text{norm}} = \frac{x - x_{\min}}{x_{\max} - x_{\min}} = \frac{x - 1.0}{9.0}$$
+    
+    Proximity between the guest preference vector $\mathbf{P}$ and menu recipe $\mathbf{Q}$ is computed via **Normalized Euclidean Distance**:
+    $$d(\mathbf{P}, \mathbf{Q}) = \sqrt{\sum_{i=1}^{5} (p_{i,\text{norm}} - q_{i,\text{norm}})^2}$$
+    """)
+    
+    st.markdown(f"""
+    - **Distance Metric:** `Normalized Euclidean Distance in 5D Space`
+    - **Feature Scaling:** `Min-Max Normalization to [0.0, 1.0]`
+    - **Sensory Dimensions:** `5 Continuous Variables (Scale 1.0 - 10.0)`
+    - **Drink Menu Catalog:** `{metrics.get('menu_items_count', 14)} Handcrafted Signature Recipes`
+    - **Historical Taste Observations:** `{metrics.get('samples', 420)} Calibrated Cupping Profiles`
+    - **Neighborhood Size:** `Dynamic k (1 <= k <= 7)`
+    """)
+
+with col_inputs:
+    st.markdown("<div class='metric-card'>", unsafe_allow_html=True)
+    st.markdown("### 🎛️ Sensory Taste Profile Calibration")
+    st.caption("Adjust the sliders below to calibrate your taste preferences (1.0 to 10.0):")
+    
+    c1, c2 = st.columns(2)
+    with c1:
+        sweetness_in = st.slider("🍬 Sweetness Level", 1.0, 10.0, 3.5, 0.5, help="1.0 Unsweetened / Black -> 10.0 Confectionery Sweet")
+        caffeine_in = st.slider("⚡ Caffeine Intensity", 1.0, 10.0, 7.5, 0.5, help="1.0 Gentle Decaf -> 10.0 High-Performance Triple Shot")
+        bitterness_in = st.slider("🔥 Bitterness / Roast Depth", 1.0, 10.0, 5.0, 0.5, help="1.0 Mild & Delicate -> 10.0 Intense French Dark Roast")
+    with c2:
+        creaminess_in = st.slider("🥛 Creaminess / Dairy Body", 1.0, 10.0, 7.0, 0.5, help="1.0 Thin / Black / Tea-like -> 10.0 Rich Textured Microfoam")
+        acidity_in = st.slider("🍋 Acidity / Citrus Brightness", 1.0, 10.0, 4.0, 0.5, help="1.0 Mellow Low Acid -> 10.0 Vivid Crisp Citrus Notes")
+        k_val = st.slider("🎯 Nearest Matches (k)", 1, 7, 3, 1, help="Adjust k to expand or contract nearest-neighbor cluster")
+        
+    st.markdown("</div>", unsafe_allow_html=True)
+
+st.markdown("---")
+st.markdown("### 🏆 Top Nearest Neighbor Matches & 2D Projection Radar")
 
 if df_menu is not None:
     # 1. Min-Max Normalization: x_norm = (x - 1.0) / (10.0 - 1.0)
@@ -78,7 +101,7 @@ if df_menu is not None:
     df_calc["match_score"] = np.clip(100.0 - (dists * 35.0), 45.0, 99.5)
     df_ranked = df_calc.sort_values("norm_distance").reset_index(drop=True)
 
-    col_results, col_viz = st.columns([1.3, 1.2])
+    col_results, col_viz = st.columns([1.2, 1.3])
 
     # Left Column: Top-K Recommended Drinks
     with col_results:
@@ -202,18 +225,6 @@ if df_menu is not None:
         
         st.caption(f"Green-bordered circles represent your current **Top {k_val}** nearest neighbors in 5D space.")
         st.markdown("</div>", unsafe_allow_html=True)
-
-    # Normalization & Mathematics Information Card
-    st.markdown("<br>", unsafe_allow_html=True)
-    with st.expander("ℹ️ How Min-Max Feature Normalization & 5D Spatial Distance Work"):
-        st.markdown("""
-        - **Why Min-Max Scaling?** Unscaled distances can allow a feature with a wide spread to dominate. By normalizing each dimension:
-          $$x_{\\text{norm}} = \\frac{x - x_{\\min}}{x_{\\max} - x_{\\min}} = \\frac{x - 1}{9}$$
-          every sensory dimension (**Sweetness**, **Caffeine**, **Bitterness**, **Creaminess**, **Acidity**) contributes with equal geometric weight.
-        - **5-Dimensional Euclidean Distance:**
-          $$d(P, Q) = \\sqrt{\\sum_{i=1}^{5} (p_{i,\\text{norm}} - q_{i,\\text{norm}})^2}$$
-        - **Dynamic $k$:** Adjusting $k$ alters the neighborhood radius, letting guests discover tightly clustered matches ($k=1$) or a broader flight of recommendations ($k=5$).
-        """)
 
 else:
     st.warning("Catalog database unavailable. Please check system data connectivity.")

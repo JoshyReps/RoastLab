@@ -6,88 +6,115 @@ import pandas as pd
 import altair as alt
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from src.common import apply_custom_theme, render_sidebar_info, load_model
+from src.common import apply_custom_theme, render_sidebar_info, load_model, load_all_metrics
 
 st.set_page_config(
-    page_title="RoastLab BeanFinder™ • Whole Bean Advisory",
-    page_icon="☕",
+    page_title="2. Naive Bayes | RoastLab",
+    page_icon="🎲",
     layout="wide"
 )
 
 apply_custom_theme()
 render_sidebar_info()
 
-# Header
-st.markdown("""
-<div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #ebd9c8; padding-bottom: 0.8rem; margin-bottom: 1.2rem;">
-    <div>
-        <h2 class='brand-title' style='margin:0;'>☕ RoastLab BeanFinder™ • Whole Bean Advisory</h2>
-        <span style='color: #795548; font-size: 0.95rem; font-weight: 500;'>Retail Shelf & Whole Bean Barista Advisory Terminal • Real-Time Bayesian Origin Matching</span>
-    </div>
-    <div style="text-align: right;">
-        <span class="badge-pill badge-active">🟢 RETAIL TERMINAL ONLINE</span>
-        <span class="badge-pill badge-specialty">⚡ BAYESIAN BEAN ENGINE</span>
-    </div>
-</div>
-""", unsafe_allow_html=True)
+st.markdown("<h2 class='brand-title'>2. Naïve Bayes: Single-Origin Whole Bean Recommender</h2>", unsafe_allow_html=True)
+st.markdown("<p class='brand-subtitle'>Multinomial Bayesian Likelihood & Laplace Smoothing for Retail Shelf Bean Advisory</p>", unsafe_allow_html=True)
 
 model = load_model("naive_bayes")
+metrics = load_all_metrics().get("naive_bayes", {})
 
-# 4 Operational Sensory & Equipment Inputs
-st.markdown("##### 🛒 Customer Brew Profile & Flavor Calibration")
-c_f1, c_f2, c_f3, c_f4 = st.columns(4)
+col_desc, col_inputs = st.columns([1, 1])
+with col_desc:
+    st.markdown("### ☕ Business Context & Relevance")
+    st.write("""
+    In specialty retail cafes, customers purchasing whole bean coffee often struggle to choose among diverse single-origin offerings 
+    (e.g., Ethiopian, Colombian, Sumatra, Guatemalan, Kenyan, Brazilian). Each origin exhibits radically different bean density, 
+    organic acidity, solubility, and roast dynamics.
+    
+    **Why Naïve Bayes (Multinomial with Laplace Smoothing)?**
+    - Coffee preference depends on a combination of discrete categorical variables: **Brewing Equipment**, **Roast Spectrum Preference**, 
+      **Desired Flavor Direction**, and **Drinking Format** (black vs. with milk).
+    - Under the conditional independence assumption, the posterior probability of a customer loving bean origin $C_k$ is proportional to the prior probability multiplied by the product of individual conditional likelihoods:
+    """)
+    
+    st.markdown(r"""
+    **Mathematical Formulation:**  
+    $$P(C_k \mid \mathbf{x}) \propto P(C_k) \prod_{i=1}^{n} P(x_i \mid C_k)$$
+    
+    To prevent zero-probability lockouts when an uncommon combination is encountered (e.g., French Press + Light Roast), **Laplace Smoothing** ($\alpha = 1.0$) is applied:
+    $$\hat{P}(x_i \mid C_k) = \frac{N_{ki} + \alpha}{N_k + \alpha \cdot d}$$
+    where $N_{ki}$ is the count of feature value $x_i$ observed in class $C_k$, and $d$ is the number of distinct feature values.
+    """)
+    
+    st.markdown(f"""
+    - **Classifier Family:** `Multinomial Naïve Bayes (Categorical Feature Likelihood)`
+    - **Smoothing Parameter:** `Laplace Smoothing (alpha = 1.0)`
+    - **Single-Origin Beans:** `{len(metrics.get('beans', ['Brazilian', 'Colombian', 'Ethiopian', 'Guatemalan', 'Kenyan', 'Sumatra']))} Regional Terroirs`
+    - **Sensory & Brewing Features:** `4 Categorical Dimensions (Method, Roast, Notes, Format)`
+    - **Training Observations:** `{metrics.get('samples', 500)} Calibrated Cupping Profiles`
+    - **Model Classification Accuracy:** `{metrics.get('accuracy', 0.604):.1%}`
+    """)
+    
+with col_inputs:
+    st.markdown("<div class='metric-card'>", unsafe_allow_html=True)
+    st.markdown("### 🛒 Customer Brew Profile & Flavor Calibration")
+    st.caption("Select your home brewing setup and sensory preferences below:")
+    
+    c_f1, c_f2 = st.columns(2)
+    with c_f1:
+        brew_method = st.selectbox(
+            "☕ Brew Equipment / Method",
+            [
+                "Pour-Over (V60 / Chemex)",
+                "French Press / Immersion",
+                "Espresso Machine / Moka Pot",
+                "Cold Drip / Immersion"
+            ],
+            index=0,
+            help="Extraction dynamics dictate required bean density and soluble yield"
+        )
+        roast_pref = st.selectbox(
+            "🔥 Roast Spectrum Preference",
+            [
+                "Light Roast (Bright & Acidic)",
+                "Medium Roast (Sweet & Balanced)",
+                "Dark Roast (Smoky & Bold)"
+            ],
+            index=1,
+            help="Degree of organic acid retention vs Maillard caramelization"
+        )
+    with c_f2:
+        flavor_desired = st.selectbox(
+            "🍓 Primary Flavor Direction",
+            [
+                "Floral & Citrus",
+                "Milk Chocolate & Nutty",
+                "Dark Cacao & Earthy Spice",
+                "Winey Berry & Sweet Fruit"
+            ],
+            index=0,
+            help="Dominant flavor profile desired in the cup"
+        )
+        drinking_style = st.selectbox(
+            "🥛 Drinking Format",
+            [
+                "Drank Black / Neat",
+                "With Milk / Cream",
+                "Iced / Chilled"
+            ],
+            index=0,
+            help="Dairy cuts acidity; black extraction highlights terroir brightness"
+        )
+    
+    st.markdown(f"""
+    <div style="background:#ffffff; border-radius:6px; border:1px solid #ebd9c8; padding:0.6rem 0.8rem; margin-top:0.6rem; font-size:0.85rem; color:#5d4037;">
+        <strong>Selected Profile:</strong> <code>{brew_method.split()[0]}</code> • <code>{roast_pref.split()[0]}</code> • <code>{flavor_desired.split()[0]}</code> • <code>{drinking_style.split()[0]}</code>
+    </div>
+    """, unsafe_allow_html=True)
+    st.markdown("</div>", unsafe_allow_html=True)
 
-with c_f1:
-    brew_method = st.selectbox(
-        "☕ Brew Equipment / Method",
-        [
-            "Pour-Over (V60 / Chemex)",
-            "French Press / Immersion",
-            "Espresso Machine / Moka Pot",
-            "Cold Drip / Immersion"
-        ],
-        index=0,
-        help="Extraction dynamics dictate required bean density and soluble yield"
-    )
-
-with c_f2:
-    roast_pref = st.selectbox(
-        "🔥 Roast Spectrum Preference",
-        [
-            "Light Roast (Bright & Acidic)",
-            "Medium Roast (Sweet & Balanced)",
-            "Dark Roast (Smoky & Bold)"
-        ],
-        index=1,
-        help="Degree of organic acid retention vs Maillard caramelization"
-    )
-
-with c_f3:
-    flavor_desired = st.selectbox(
-        "🍓 Primary Flavor Direction",
-        [
-            "Floral & Citrus",
-            "Milk Chocolate & Nutty",
-            "Dark Cacao & Earthy Spice",
-            "Winey Berry & Sweet Fruit"
-        ],
-        index=0,
-        help="Dominant flavor profile desired in the cup"
-    )
-
-with c_f4:
-    drinking_style = st.selectbox(
-        "🥛 Drinking Format",
-        [
-            "Drank Black / Neat",
-            "With Milk / Cream",
-            "Iced / Chilled"
-        ],
-        index=0,
-        help="Dairy cuts acidity; black extraction highlights terroir brightness"
-    )
-
-st.markdown("<br>", unsafe_allow_html=True)
+st.markdown("---")
+st.markdown("### 📦 Recommended Bean Origin & Real-Time Posterior Probabilities")
 
 BEAN_PROFILES = {
     "Ethiopian Yirgacheffe": {
@@ -186,7 +213,7 @@ if model:
     info_top = BEAN_PROFILES.get(top_bean, BEAN_PROFILES["Ethiopian Yirgacheffe"])
     info_second = BEAN_PROFILES.get(runner_up_bean, BEAN_PROFILES["Colombian Huila Supremo"])
 
-    col_main, col_prob = st.columns([1.5, 1.1])
+    col_main, col_prob = st.columns([1.4, 1.2])
 
     # Left Column: Recommended Bean Cards
     with col_main:
